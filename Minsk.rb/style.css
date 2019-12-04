@@ -4,12 +4,12 @@ html {
 
 @font-face {
     font-family: roboto;
-    src: url('roboto.ttf');
+    src: url('fonts/roboto.ttf');
 }
 
 @font-face {
     font-family: space-mono;
-    src: url('space-mono.ttf');
+    src: url('fonts/space-mono.ttf');
 }
 
 @media (min-width: 1550px) {
@@ -26,7 +26,7 @@ html {
     }
 
     .col-2-3 {
-        width: 60%; 
+        width: 60%;
         float: left;
         position: relative;
         text-align: left;
@@ -51,7 +51,7 @@ html {
 
     .menu2 {
         font-family: space-mono;
-        
+
         transform: rotate(90deg);
         float: right;
         margin-top: 140px;
@@ -70,7 +70,7 @@ html {
         font-size: 40px;
         font-family: space-mono;
         text-align: left;
-    
+
         color: #f6f6f6;
     }
 
@@ -119,11 +119,10 @@ html {
         position: relative;
         font-family: space-mono;
         font-size: 30px;
-        float: left;
     }
 
     .details {
-        text-align: left; ;
+        text-align: left;
     }
 
     .details a {
@@ -179,7 +178,7 @@ html {
         font-size: 14px;
     }
 
-    .Schedule {   
+    .Schedule {
         margin-left: 222px;
         margin-top: 122px;
         color: #ffffff;
@@ -198,7 +197,7 @@ html {
         font-size: 18px;
         line-height: 1.35;
         color: #ffffff;
-        
+
     }
 
     .Speakers {
@@ -221,7 +220,7 @@ html {
         font-family: space-mono;
         font-size: 48px;
     }*/
-    
+
     .t2tr2td1 {
         width: 200px;
         text-align: center;
@@ -384,7 +383,7 @@ html {
         margin-top: 110px;
         margin-left: 222px;
         text-align: left;
-        
+
         font-weight: bold;
         font-size: 28px;
         font-family: space-mono;
@@ -436,7 +435,7 @@ html {
 }
 
 @media (min-width: 1200px) and (max-width: 1549px) {
-  
+
     body {
         width: 100%;
         display: inline-block;
@@ -450,7 +449,7 @@ html {
     }
 
     .col-2-3 {
-        width: 60%; 
+        width: 60%;
         float: left;
         position: relative;
         text-align: left;
@@ -493,7 +492,7 @@ html {
         font-size: 40px;
         font-family: space-mono;
         text-align: left;
-    
+
         color: #f6f6f6;
     }
 
@@ -604,7 +603,7 @@ html {
         font-size: 14px;
     }
 
-    .Schedule {   
+    .Schedule {
         margin-left: 12%;
         margin-top: 122px;
         color: #ffffff;
@@ -623,7 +622,7 @@ html {
         font-size: 18px;
         line-height: 1.35;
         color: #ffffff;
-        
+
     }
 
     .Speakers {
@@ -703,7 +702,7 @@ html {
         margin-left: 12%;
         margin-top: 160px;
         text-align: left;
-        color: #ffffff; 
+        color: #ffffff;
     }
 
     .WW1 {
@@ -749,7 +748,7 @@ html {
         font-size: 30px;
         font-family: space-mono;
     }
-    
+
     .map {
         margin-left: 160px;
     }
@@ -801,7 +800,7 @@ html {
         margin-top: 110px;
         margin-left: 12%;
         text-align: left;
-        
+
         font-weight: bold;
         font-size: 28px;
         font-family: space-mono;
@@ -853,7 +852,7 @@ html {
 }
 
 @media (min-width: 875px) and (max-width: 1199px) {
-  
+
     body {
         width: 100%;
         display: inline-block;
@@ -867,7 +866,7 @@ html {
     }
 
     .col-2-3 {
-        width: 50%; 
+        width: 50%;
         float: left;
         position: relative;
         text-align: left;
@@ -910,7 +909,7 @@ html {
         font-size: 40px;
         font-family: space-mono;
         text-align: left;
-    
+
         color: #f6f6f6;
     }
 
@@ -1020,7 +1019,7 @@ html {
         font-size: 14px;
     }
 
-    .Schedule {   
+    .Schedule {
         margin-left: 12%;
         margin-top: 122px;
         color: #ffffff;
@@ -1039,7 +1038,7 @@ html {
         font-size: 18px;
         line-height: 1.35;
         color: #ffffff;
-        
+
     }
 
     .Speakers {
@@ -1143,7 +1142,7 @@ html {
         margin-left: 9%;
         margin-top: 160px;
         text-align: left;
-        color: #ffffff; 
+        color: #ffffff;
     }
 
     .WW1 {
@@ -1189,7 +1188,7 @@ html {
         font-size: 30px;
         font-family: space-mono;
     }
-    
+
     .map {
         margin-left: 120px;
     }
@@ -1245,7 +1244,7 @@ html {
         margin-top: 110px;
         margin-left: 12%;
         text-align: left;
-        
+
         font-weight: bold;
         font-size: 28px;
         font-family: space-mono;
@@ -1298,7 +1297,7 @@ html {
 }
 
 @media (max-width: 874px) {
-  
+
     body {
         width: 100%;
         display: inline-block;
@@ -1312,7 +1311,7 @@ html {
     }
 
     .col-2-3 {
-        width: 30%; 
+        width: 30%;
         float: left;
         position: relative;
         text-align: left;
@@ -1355,9 +1354,9 @@ html {
         /*margin-left: 2%;*/
         font-size: 30px;
         font-family: space-mono;
-        text-align: left;    
+        text-align: left;
         color: #f6f6f6;
-        
+
     }
 
     .BeerUp {
@@ -1375,7 +1374,7 @@ html {
         margin-left: 1%;
         height: 20px;
     }
-    
+
     .place1 img {
         width: 25px;
         height: 25px;
@@ -1471,7 +1470,7 @@ html {
         font-size: 14px;
     }
 
-    .Schedule {   
+    .Schedule {
         margin-left: 12%;
         margin-top: 122px;
         color: #ffffff;
@@ -1490,7 +1489,7 @@ html {
         font-size: 17px;
         line-height: 1.3;
         color: #ffffff;
-        
+
     }
 
     .Speakers {
@@ -1594,7 +1593,7 @@ html {
         margin-left: 1%;
         margin-top: 160px;
         text-align: left;
-        color: #ffffff; 
+        color: #ffffff;
     }
 
     .WW1 {
@@ -1640,7 +1639,7 @@ html {
         font-size: 20px;
         font-family: space-mono;
     }
-    
+
     .map {
         margin-left: 120px;
     }
@@ -1696,7 +1695,7 @@ html {
         margin-top: 60px;
         margin-left: 1%;
         text-align: left;
-        
+
         font-weight: bold;
         font-size: 20px;
         font-family: space-mono;
@@ -1747,4 +1746,3 @@ html {
     }
 
 }
-
