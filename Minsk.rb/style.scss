@@ -1,0 +1,1707 @@
+$col1: #303030;
+$col2: #f6f6f6;
+$col3: #00a38a;
+$col4: #ffffff;
+$font1: roboto;
+$font2: space-mono;
+
+
+html {
+    text-align: center;
+}
+
+@font-face {
+    font-family: $font1;
+    src: url('fonts/$font1.ttf');
+}
+
+@font-face {
+    font-family: $font2;
+    src: url('fonts/$font2.ttf');
+}
+
+@media (min-width: 1550px) {
+
+    body {
+        width: 1440px;
+        display: inline-block;
+        background: $col1;
+    }
+
+    .menu {
+        margin-top: 10px;
+        letter-spacing: 1px;
+    }
+
+    .col-2-3 {
+        width: 60%;
+        float: left;
+        position: relative;
+        text-align: left;
+    }
+
+    .col-1-3 {
+        font-family: $font1;
+        width: 422px;
+        height: 64px;
+        margin: 20px 0px;
+        font-size: 16px;
+        line-height: 24px;
+        float: left;
+        position: relative;
+    }
+
+    .col-1-3 a {
+        text-decoration: none;
+        color:$col2;
+        margin: 0px 20px;
+    }
+
+    .menu2 {
+        font-family: $font2;
+
+        transform: rotate(90deg);
+        float: right;
+        margin-top: 140px;
+        margin-right: -15%;
+        a {
+        text-decoration: none;
+        color: $col3;
+        margin: 0px 20px;
+        }
+      }
+
+    .date {
+        margin-top: 173px; /* тут отсчет от начала страницы, дальше от предыдущих элементов */
+        margin-left: 0%;
+        font-size: 40px;
+        font-family: $font2;
+        text-align: left;
+
+        color: $col2;
+    }
+
+    .BeerUp {
+        font-size: 100px;
+        font-family: $font2;
+        text-align: left;
+        font-weight: bold;
+        margin-top: 145px;
+        color: $col2;
+    }
+
+    .place {
+        margin-top: 2%;
+        margin-left: 2%;
+        height: 38px;
+        a {
+        width: 300px;
+        text-decoration: none;
+        color: $col2;
+        font-family: $font1;
+        font-size: 30px;
+        }
+      }
+
+    .place2 {
+        color: $col2;
+        font-family: $font1;
+        font-size: 22px;
+    }
+
+    .regdetails {
+        margin-top: 4%;
+        width: 722px;
+    }
+
+    .register a {
+        float: left;
+        text-decoration: none;
+        color: $col3;
+        font-weight: bold;
+        font-style: italic;
+        outline: 5px solid $col3;
+        padding: 20px 40px;
+        position: relative;
+        font-family: $font2;
+        font-size: 30px;
+    }
+
+    .details {
+        text-align: left;
+        a {
+        text-decoration: none;
+        color: $col3;
+        position: relative;
+        bottom: -30px;
+        left: 50px;
+        font-family: $font2;
+        font-size: 20px;
+        font-weight: bold;
+        }
+    }
+
+    .ABU {
+        margin-top: 20%;
+        margin-left: 172px;
+        text-align: left;
+        /* float: left; */
+        width: 95%;
+        color: $col2;
+        position: relative;
+    }
+
+    .ABU1 {
+        font-family: $font2;
+        font-size: 44px;
+    }
+
+    .ABU2 {
+        width: 920px;
+        margin-top: 45px;
+        margin-left: 50;
+        font-family: $font1;
+        font-size: 17px;
+    }
+
+    .Sha {
+        text-align: left;
+        margin-top: 55px;
+        margin-left: 222px;
+        /*position: relative;*/
+        font-family: $font1;
+        font-size: 14px;
+        color: $col4;
+        a {
+        text-decoration: none;
+        margin-left: 20px;
+        color: $col3;
+        /*position: relative;*/
+        font-family: $font2;
+        font-size: 14px;
+        }
+    }
+
+    .Schedule {
+        margin-left: 222px;
+        margin-top: 122px;
+        color: $col4;
+        text-align: left;
+    }
+
+    .t1td1 {
+        font-family: $font2;
+        font-size: 17px;
+        color: $col4;
+    }
+
+    .t1td2 {
+        margin-left: 26px;
+        font-family: $font1;
+        font-size: 18px;
+        line-height: 1.35;
+        color: $col4;
+
+    }
+
+    .Speakers {
+        margin-left: 222px;
+        margin-top: 154px;
+        width: 920px;
+        color: $col2;
+    }
+
+    .t2tr1 {
+        font-family: $font2;
+        font-size: 36px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .t2tr2td1 {
+        width: 200px;
+        text-align: center;
+    }
+
+    .t2tr2td2 {
+        width: 200px;
+        text-align: center;
+    }
+
+    .t2tr2td3 {
+        width: 200px;
+        text-align: center;
+    }
+
+    .t2tr2td4 {
+        width: 200px;
+        text-align: center;
+    }
+
+    .t2tr3td1 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .t2tr3td2 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .t2tr3td3 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .t2tr3td4 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .MP {
+        text-align: left;
+        margin-top: 95px;
+        margin-left: 222px;
+        color: $col4;
+        font-family: $font2;
+        font-size: 18px;
+        a {
+        margin-left: 40%;
+        text-decoration: none;
+        color: $col3;
+        }
+    }
+
+    .WW {
+        /*width: 980px;
+        height: 400px;*/
+        margin-left: 222px;
+        margin-top: 160px;
+        text-align: left;
+        color: $col4; /* не работает для вложенных классо */
+    }
+
+    .WW1 {
+        margin-top: -60px;
+        font-weight: bold;
+        font-family: $font2;
+        font-size: 36px;
+        color: $col4;
+    }
+
+    .WW2 {
+        margin-top: 37px;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: $font2;
+        color: $col4;
+    }
+
+    .WW3 {
+        margin-top: 12px;
+        font-size: 30px;
+        font-family: $font2;
+        color: $col4;
+    }
+
+    .WW4 {
+        margin-top: 18px;
+        font-size: 18px;
+        font-family: $font1;
+        color: $col4;
+
+    }
+
+    .WW5 a {
+        float: left;
+        margin-top: 20px;
+        text-decoration: none;
+        color: $col3;
+        font-weight: bold;
+        font-style: italic;
+        outline: 5px solid $col3;
+        padding: 20px 40px;
+        font-size: 30px;
+        font-family: $font2;
+    }
+    .map {
+        margin-left: 160px;
+    }
+
+    .Weare {
+        margin-top: 500px;
+        text-align: left;
+        color: $col4;
+        width: 1200px;
+    }
+
+    .Weare1 {
+        margin-left: 172px;
+        font-weight: bold;
+        font-size: 64px;
+        font-family: $font2;
+    }
+
+    .Weare2 {
+        margin-left: 222px;
+        font-size: 17px;
+        font-family: $font1;
+    }
+
+    .ESVYcount {
+        margin-top: 50px;
+        margin-left: 222px;
+        color: $col4;
+        text-align: left;
+    }
+
+    .ESVY1 {
+        text-align: left;
+        color: $col4;
+        font-weight: bold;
+        font-size: 68px;
+        font-family: $font2;
+    }
+
+    .ESVY2 {
+        margin-top: -20px;
+        text-align: left;
+        color: $col4;
+        font-size: 30px;
+        font-family: $font1;
+    }
+
+    .OnFb {
+        margin-top: 110px;
+        margin-left: 222px;
+        text-align: left;
+
+        font-weight: bold;
+        font-size: 28px;
+        font-family: $font2;
+        a {
+        text-decoration: none;
+        color: $col3;
+        }
+    }
+
+    .Friends {
+        margin-top: 150px;
+        margin-left: 172px;
+        text-align: left;
+        height: 60px;
+        color: $col4;
+        font-weight: bold;
+        font-size: 64px;
+        font-family: $font2;
+        a {
+          /*margin-top: -70px;*/
+          margin-right: 60px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+    }
+
+    .FF {
+        margin-left: 50px;
+    }
+
+    .Contact {
+        margin-top: 280px;
+        margin-left: 172px;
+        text-align: left;
+        color: $col4;
+        font-weight: bold;
+        font-size: 64px;
+        font-family: $font2;
+    }
+
+    .input {
+        text-align: center;
+        margin-top: 10px;
+        background: $col1;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1549px) {
+
+    body {
+        width: 100%;
+        display: inline-block;
+        background: $col1;
+    }
+
+    .menu {
+        margin-top: 10px;
+        margin-left: 2%;
+        letter-spacing: 1px;
+    }
+
+    .col-2-3 {
+        width: 60%;
+        float: left;
+        position: relative;
+        text-align: left;
+    }
+
+    .col-1-3 {
+        font-family: $font1;
+        width: 422px;
+        height: 64px;
+        margin: 20px 0px;
+        font-size: 16px;
+        line-height: 24px;
+        float: left;
+        position: relative;
+        a {
+        text-decoration: none;
+        color:$col2;
+        margin: 0px 20px;
+        }
+    }
+
+    .menu2 {
+        font-family: $font2;
+        transform: rotate(90deg);
+        float: right;
+        margin-top: 140px;
+        margin-right: -150px;
+        a {
+        text-decoration: none;
+        color: $col3;
+        margin: 0px 20px;
+        }
+    }
+
+    .date {
+        margin-top: 173px;
+        margin-left: 2%;
+        font-size: 40px;
+        font-family: $font2;
+        text-align: left;
+
+        color: $col2;
+    }
+
+    .BeerUp {
+        font-size: 100px;
+        font-family: $font2;
+        text-align: left;
+        font-weight: bold;
+        margin-left: 2%;
+        margin-top: 145px;
+        color: $col2;
+    }
+
+    .place {
+        margin-top: 2%;
+        margin-left: 2%;
+        height: 38px;
+    }
+
+    .place1 a {
+        width: 300px;
+        text-decoration: none;
+        color: $col2;
+        font-family: $font1;
+        font-size: 30px;
+    }
+
+    .place2 {
+        color: $col2;
+        font-family: $font1;
+        font-size: 22px;
+    }
+
+    .regdetails {
+        margin-top: 4%;
+        margin-left: 2%;
+        width: 722px;
+    }
+
+    .register a {
+        float: left;
+        text-decoration: none;
+        color: $col3;
+        font-weight: bold;
+        font-style: italic;
+        outline: 5px solid $col3;
+        padding: 20px 40px;
+        position: relative;
+        font-family: $font2;
+        font-size: 30px;
+        float: left;
+    }
+
+    .details {
+        text-align: left;
+        a {
+        text-decoration: none;
+        color: $col3;
+        position: relative;
+        bottom: -30px;
+        left: 50px;
+        font-family: $font2;
+        font-size: 20px;
+        font-weight: bold;
+        }
+    }
+
+    .ABU {
+        margin-top: 20%;
+        margin-left: 9%;
+        text-align: left;
+        /* float: left; */
+        width: 100%;
+        color: $col2;
+        position: relative;
+    }
+
+    .ABU1 {
+        font-family: $font2;
+        font-size: 44px;
+    }
+
+    .ABU2 {
+        width: 920px;
+        margin-top: 45px;
+        margin-left: 3%;
+        font-family: $font1;
+        font-size: 17px;
+    }
+
+    .Sha {
+        text-align: left;
+        margin-top: 55px;
+        margin-left: 12%;
+        /*position: relative;*/
+        font-family: $font1;
+        font-size: 14px;
+        color: $col4;
+        a {
+        text-decoration: none;
+        margin-left: 20px;
+        color: $col3;
+        /*position: relative;*/
+        font-family: $font2;
+        font-size: 14px;
+        }
+    }
+
+    .Schedule {
+        margin-left: 12%;
+        margin-top: 122px;
+        color: $col4;
+        text-align: left;
+    }
+
+    .t1td1 {
+        font-family: $font2;
+        font-size: 17px;
+        color: $col4;
+    }
+
+    .t1td2 {
+        margin-left: 26px;
+        font-family: $font1;
+        font-size: 18px;
+        line-height: 1.35;
+        color: $col4;
+
+    }
+
+    .Speakers {
+        margin-left: 12%;
+        margin-top: 154px;
+        width: 920px;
+        color: $col2;
+    }
+
+    .t2tr1 {
+        font-family: $font2;
+        font-size: 36px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .t2tr2td1 {
+        width: 200px;
+        text-align: center;
+    }
+
+    .t2tr2td2 {
+        width: 200px;
+        text-align: center;
+    }
+
+    .t2tr2td3 {
+        width: 200px;
+        text-align: center;
+    }
+
+    .t2tr2td4 {
+        width: 200px;
+        text-align: center;
+    }
+
+    .t2tr3td1 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .t2tr3td2 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .t2tr3td3 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .t2tr3td4 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .MP {
+        text-align: left;
+        margin-top: 95px;
+        margin-left: 12%;
+        color: $col4;
+        font-family: $font2;
+        font-size: 18px;
+        a {
+        margin-left: 40%;
+        text-decoration: none;
+        color: $col3;
+        }
+    }
+
+    .WW {
+        margin-left: 12%;
+        margin-top: 160px;
+        text-align: left;
+        color: $col4;
+    }
+
+    .WW1 {
+        margin-top: -60px;
+        font-weight: bold;
+        font-family: $font2;
+        font-size: 36px;
+        color: $col4;
+    }
+
+    .WW2 {
+        margin-top: 37px;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: $font2;
+        color: $col4;
+    }
+
+    .WW3 {
+        margin-top: 12px;
+        font-size: 30px;
+        font-family: $font2;
+        color: $col4;
+    }
+
+    .WW4 {
+        margin-top: 18px;
+        font-size: 18px;
+        font-family: $font1;
+        color: $col4;
+
+    }
+
+    .WW5 a {
+        float: left;
+        margin-top: 20px;
+        text-decoration: none;
+        color: $col3;
+        font-weight: bold;
+        font-style: italic;
+        outline: 5px solid $col3;
+        padding: 20px 40px;
+        font-size: 30px;
+        font-family: $font2;
+    }
+
+    .map {
+        margin-left: 160px;
+    }
+
+    .Weare {
+        margin-top: 500px;
+        text-align: left;
+        color: $col4;
+        width: 1200px; /*если зафиксировать ширину этого класса - то margin-left будет абсолютным, а не относительным */
+    }
+
+    .Weare1 {
+        margin-left: 9%;
+        font-weight: bold;
+        font-size: 64px;
+        font-family: $font2;
+    }
+
+    .Weare2 {
+        margin-left: 12%;
+        font-size: 17px;
+        font-family: $font1;
+    }
+
+    .ESVYcount {
+        margin-top: 50px;
+        margin-left: 12%;
+        color: $col4;
+        text-align: left;
+    }
+
+    .ESVY1 {
+        text-align: left;
+        color: $col4;
+        font-weight: bold;
+        font-size: 68px;
+        font-family: $font2;
+    }
+
+    .ESVY2 {
+        margin-top: -20px;
+        text-align: left;
+        color: $col4;
+        font-size: 30px;
+        font-family: $font1;
+    }
+
+    .OnFb {
+        margin-top: 110px;
+        margin-left: 12%;
+        text-align: left;
+
+        font-weight: bold;
+        font-size: 28px;
+        font-family: $font2;
+        a {
+        text-decoration: none;
+        color: $col3;
+        }
+    }
+
+    .Friends {
+        margin-top: 150px;
+        margin-left: 12%;
+        text-align: left;
+        height: 60px;
+        color: $col4;
+        font-weight: bold;
+        font-size: 64px;
+        font-family: $font2;
+        a {
+        margin-right: 40px;
+        display: inline-block;
+        vertical-align: middle;
+        }
+    }
+
+    .FF {
+        margin-left: 0px;
+    }
+
+    .Contact {
+        margin-top: 280px;
+        margin-left: 172px;
+        text-align: left;
+        color: $col4;
+        font-weight: bold;
+        font-size: 64px;
+        font-family: $font2;
+    }
+
+    .input {
+        text-align: center;
+        margin-top: 10px;
+        background: $col1;
+    }
+
+}
+
+@media (min-width: 875px) and (max-width: 1199px) {
+
+    body {
+        width: 100%;
+        display: inline-block;
+        background: $col1;
+    }
+
+    .menu {
+        margin-top: 10px;
+        margin-left: 2%;
+        letter-spacing: 1px;
+    }
+
+    .col-2-3 {
+        width: 50%;
+        float: left;
+        position: relative;
+        text-align: left;
+    }
+
+    .col-1-3 {
+        font-family: $font1;
+        width: 422px;
+        height: 64px;
+        margin: 20px 0px;
+        font-size: 16px;
+        line-height: 24px;
+        float: left;
+        position: relative;
+        a {
+        text-decoration: none;
+        color:$col2;
+        margin: 0px 20px;
+        }
+    }
+
+    .menu2 {
+        font-family: $font2;
+        transform: rotate(90deg);
+        float: right;
+        margin-top: 140px;
+        margin-right: -150px;
+        a {
+        text-decoration: none;
+        color: $col3;
+        margin: 0px 20px;
+        }
+    }
+
+    .date {
+        margin-top: 173px;
+        margin-left: 2%;
+        font-size: 40px;
+        font-family: $font2;
+        text-align: left;
+
+        color: $col2;
+    }
+
+    .BeerUp {
+        font-size: 70px;
+        font-family: $font2;
+        text-align: left;
+        font-weight: bold;
+        margin-left: 2%;
+        margin-top: 145px;
+        color: $col2;
+    }
+
+    .place {
+        margin-top: 2%;
+        margin-left: 2%;
+        height: 38px;
+    }
+
+    .place1 a {
+        width: 300px;
+        text-decoration: none;
+        color: $col2;
+        font-family: $font1;
+        font-size: 30px;
+    }
+
+    .place2 {
+        color: $col2;
+        font-family: $font1;
+        font-size: 22px;
+    }
+
+    .regdetails {
+        margin-top: 4%;
+        margin-left: 2%;
+        width: 722px;
+    }
+
+    .register a {
+        float: left;
+        text-decoration: none;
+        color: $col3;
+        font-weight: bold;
+        font-style: italic;
+        outline: 5px solid $col3;
+        padding: 20px 40px;
+        position: relative;
+        font-family: $font2;
+        font-size: 30px;
+        float: left;
+    }
+
+    .details {
+        text-align: left;
+        a {
+        text-decoration: none;
+        color: $col3;
+        position: relative;
+        bottom: -30px;
+        left: 50px;
+        font-family: $font2;
+        font-size: 20px;
+        font-weight: bold;
+        }
+    }
+
+    .ABU {
+        margin-top: 20%;
+        margin-left: 9%;
+        text-align: left;
+        width: 100%;
+        color: $col2;
+        position: relative;
+    }
+
+    .ABU1 {
+        font-family: $font2;
+        font-size: 44px;
+    }
+
+    .ABU2 {
+        width: 700px;
+        margin-top: 45px;
+        margin-left: 3%;
+        font-family: $font1;
+        font-size: 17px;
+    }
+
+    .Sha {
+        text-align: left;
+        margin-top: 55px;
+        margin-left: 12%;
+        /*position: relative;*/
+        font-family: $font1;
+        font-size: 14px;
+        color: $col4;
+        a {
+        text-decoration: none;
+        margin-left: 20px;
+        color: $col3;
+        /*position: relative;*/
+        font-family: $font2;
+        font-size: 14px;
+        }
+    }
+
+    .Schedule {
+        margin-left: 12%;
+        margin-top: 122px;
+        color: $col4;
+        text-align: left;
+    }
+
+    .t1td1 {
+        font-family: $font2;
+        font-size: 17px;
+        color: $col4;
+    }
+
+    .t1td2 {
+        margin-left: 26px;
+        font-family: $font1;
+        font-size: 18px;
+        line-height: 1.35;
+        color: $col4;
+
+    }
+
+    .Speakers {
+        margin-left: 12%;
+        margin-top: 154px;
+        width: 700px;
+        color: $col2;
+    }
+
+    .t2tr1 {
+        font-family: $font2;
+        font-size: 36px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .t2tr2td1 {
+        width: 170px;
+        height: 170px;
+        text-align: center;
+        img {
+        width: 100%;
+        height: 100%;
+        }
+    }
+
+    .t2tr2td2 {
+        width: 170px;
+        height: 170px;
+        text-align: center;
+        img {
+        width: 100%;
+        height: 100%;
+        }
+    }
+
+    .t2tr2td3 {
+        width: 170px;
+        height: 170px;
+        text-align: center;
+        img {
+        width: 100%;
+        height: 100%;
+        }
+    }
+
+    .t2tr2td4 {
+        width: 170px;
+        height: 170px;
+        text-align: center;
+        img {
+        width: 100%;
+        height: 100%;
+        }
+    }
+
+    .t2tr3td1 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .t2tr3td2 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .t2tr3td3 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .t2tr3td4 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .MP {
+        text-align: left;
+        margin-top: 95px;
+        margin-left: 12%;
+        color: $col4;
+        font-family: $font2;
+        font-size: 18px;
+        a {
+        margin-left: 40%;
+        text-decoration: none;
+        color: $col3;
+        }
+    }
+
+    .WW {
+        margin-left: 9%;
+        margin-top: 160px;
+        text-align: left;
+        color: $col4;
+    }
+
+    .WW1 {
+        margin-top: -60px;
+        font-weight: bold;
+        font-family: $font2;
+        font-size: 36px;
+        color: $col4;
+    }
+
+    .WW2 {
+        margin-top: 37px;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: $font2;
+        color: $col4;
+    }
+
+    .WW3 {
+        margin-top: 12px;
+        font-size: 30px;
+        font-family: $font2;
+        color: $col4;
+    }
+
+    .WW4 {
+        margin-top: 18px;
+        font-size: 18px;
+        font-family: $font1;
+        color: $col4;
+
+    }
+
+    .WW5 a {
+        float: left;
+        margin-top: 20px;
+        text-decoration: none;
+        color: $col3;
+        font-weight: bold;
+        font-style: italic;
+        outline: 5px solid $col3;
+        padding: 20px 40px;
+        font-size: 30px;
+        font-family: $font2;
+    }
+
+    .map {
+        margin-left: 120px;
+        img{
+        width: 100%;
+        }
+    }
+
+    .Weare {
+        margin-top: 20%;
+        text-align: left;
+        color: $col4;
+        width: 800; /*если зафиксировать ширину этого класса - то margin-left будет абсолютным, а не относительным */
+    }
+
+    .Weare1 {
+        margin-left: 9%;
+        font-weight: bold;
+        font-size: 64px;
+        font-family: $font2;
+    }
+
+    .Weare2 {
+        margin-left: 12%;
+        font-size: 17px;
+        font-family: $font1;
+    }
+
+    .ESVYcount {
+        margin-top: 50px;
+        margin-left: 12%;
+        color: $col4;
+        text-align: left;
+    }
+
+    .ESVY1 {
+        text-align: left;
+        color: $col4;
+        font-weight: bold;
+        font-size: 68px;
+        font-family: $font2;
+    }
+
+    .ESVY2 {
+        margin-top: -20px;
+        text-align: left;
+        color: $col4;
+        font-size: 30px;
+        font-family: $font1;
+    }
+
+    .OnFb {
+        margin-top: 110px;
+        margin-left: 12%;
+        text-align: left;
+
+        font-weight: bold;
+        font-size: 28px;
+        font-family: $font2;
+        a {
+        text-decoration: none;
+        color: $col3;
+        }
+    }
+
+    .Friends {
+        margin-top: 150px;
+        margin-left: 12%;
+        text-align: left;
+        height: 60px;
+        color: $col4;
+        font-weight: bold;
+        font-size: 64px;
+        font-family: $font2;
+        a {
+        margin-right: 40px;
+        display: inline-block;
+        vertical-align: middle;
+        align-content: center;
+        }
+    }
+
+    .FF {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .Contact {
+        margin-top: 280px;
+        margin-left: 12%;
+        text-align: left;
+        color: $col4;
+        font-weight: bold;
+        font-size: 64px;
+        font-family: $font2;
+    }
+
+    .input {
+        text-align: center;
+        margin-top: 10px;
+        background: $col1;
+    }
+
+}
+
+@media (max-width: 874px) {
+
+    body {
+        width: 100%;
+        display: inline-block;
+        background: $col1;
+    }
+
+    .menu {
+        margin-top: 10px;
+        margin-left: 2%;
+        letter-spacing: 1px;
+    }
+
+    .col-2-3 {
+        width: 30%;
+        float: left;
+        position: relative;
+        text-align: left;
+    }
+
+    .col-1-3 {
+        font-family: $font1;
+        width: 422px;
+        height: 64px;
+        margin: 20px 0px;
+        font-size: 16px;
+        line-height: 24px;
+        float: left;
+        position: relative;
+        a {
+        text-decoration: none;
+        color:$col2;
+        margin: 0px 20px;
+        }
+    }
+
+    .menu2 {
+        font-family: $font2;
+        transform: rotate(90deg);
+        float: right;
+        margin-top: 140px;
+        margin-right: -150px;
+        a {
+        text-decoration: none;
+        color: $col3;
+        margin: 0px 20px;
+        }
+    }
+
+    .date {
+        position: relative;
+        margin-top: 150px;
+        /*margin-left: 2%;*/
+        font-size: 30px;
+        font-family: $font2;
+        text-align: left;
+        color: $col2;
+
+    }
+
+    .BeerUp {
+        font-size: 50px;
+        font-family: $font2;
+        text-align: left;
+        font-weight: bold;
+        margin-left: 2%;
+        margin-top: 145px;
+        color: $col2;
+    }
+
+    .place {
+        margin-top: 1%;
+        margin-left: 1%;
+        height: 20px;
+        img {
+        width: 25px;
+        height: 25px;
+        }
+    }
+
+    .place1 a {
+        width: 100%;
+        text-decoration: none;
+        color: $col2;
+        font-family: $font1;
+        font-size: 20px;
+    }
+
+    .place2 {
+        color: $col2;
+        font-family: $font1;
+        font-size: 18px;
+    }
+
+    .regdetails {
+        margin-top: 4%;
+        margin-left: 1%;
+        width: 722px;
+    }
+
+    .register a {
+        float: left;
+        text-decoration: none;
+        color: $col3;
+        font-weight: bold;
+        font-style: italic;
+        outline: 3px solid $col3;
+        padding: 1px 20px;
+        position: relative;
+        font-family: $font2;
+        font-size: 20px;
+        float: left;
+    }
+
+    .details {
+        text-align: left;
+        a {
+        text-decoration: none;
+        color: $col3;
+        position: relative;
+        bottom: -15px;
+        left: 25px;
+        font-family: $font2;
+        font-size: 10px;
+        font-weight: bold;
+        }
+    }
+
+    .ABU {
+        margin-top: 20%;
+        margin-left: 1%;
+        text-align: left;
+        width: 100%;
+        color: $col2;
+        position: relative;
+    }
+
+    .ABU1 {
+        font-family: $font2;
+        font-size: 35px;
+    }
+
+    .ABU2 {
+        width: auto;
+        margin-top: 45px;
+        margin-left: 3%;
+        font-family: $font1;
+        font-size: 17px;
+    }
+
+    .Sha {
+        text-align: left;
+        margin-top: 55px;
+        margin-left: 12%;
+        /*position: relative;*/
+        font-family: $font1;
+        font-size: 14px;
+        color: $col4;
+        a {
+        text-decoration: none;
+        margin-left: 20px;
+        color: $col3;
+        /*position: relative;*/
+        font-family: $font2;
+        font-size: 14px;
+        }
+    }
+
+    .Schedule {
+        margin-left: 12%;
+        margin-top: 122px;
+        color: $col4;
+        text-align: left;
+    }
+
+    .t1td1 {
+        font-family: $font2;
+        font-size: 17px;
+        color: $col4;
+    }
+
+    .t1td2 {
+        margin-left: 26px;
+        font-family: $font1;
+        font-size: 17px;
+        line-height: 1.3;
+        color: $col4;
+
+    }
+
+    .Speakers {
+        margin-left: 1%;
+        margin-top: 154px;
+        width: auto;
+        color: $col2;
+    }
+
+    .t2tr1 {
+        font-family: $font2;
+        font-size: 36px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .t2tr2td1 {
+        width: auto;
+        height: auto;
+        text-align: center;
+        img {
+        width: 100%;
+        height: 100%;
+        }
+    }
+
+    .t2tr2td2 {
+        width: auto;
+        height: auto;
+        text-align: center;
+        img {
+        width: 100%;
+        height: 100%;
+        }
+    }
+
+    .t2tr2td3 {
+        width: auto;
+        height: auto;
+        text-align: center;
+        img {
+        width: 100%;
+        height: 100%;
+        }
+    }
+
+    .t2tr2td4 {
+        width: auto;
+        height: auto;
+        text-align: center;
+        img {
+        width: 100%;
+        height: 100%;
+        }
+    }
+
+    .t2tr3td1 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .t2tr3td2 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .t2tr3td3 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .t2tr3td4 {
+        width: 100%;
+        text-align: center;
+        color: $col4;
+    }
+
+    .MP {
+        text-align: left;
+        margin-top: 95px;
+        margin-left: 12%;
+        color: $col4;
+        font-family: $font2;
+        font-size: 18px;
+        a {
+        margin-left: 40%;
+        text-decoration: none;
+        color: $col3;
+        }
+    }
+
+    .WW {
+        margin-left: 1%;
+        margin-top: 160px;
+        text-align: left;
+        color: $col4;
+    }
+
+    .WW1 {
+        margin-top: -60px;
+        font-weight: bold;
+        font-family: $font2;
+        font-size: 25px;
+        color: $col4;
+    }
+
+    .WW2 {
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: $font2;
+        color: $col4;
+    }
+
+    .WW3 {
+        margin-top: 12px;
+        font-size: 20px;
+        font-family: $font2;
+        color: $col4;
+    }
+
+    .WW4 {
+        margin-top: 13px;
+        font-size: 16px;
+        font-family: $font1;
+        color: $col4;
+        a {
+        float: left;
+        margin-top: 20px;
+        text-decoration: none;
+        color: $col3;
+        font-weight: bold;
+        font-style: italic;
+        outline: 3px solid $col3;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-family: $font2;
+        }
+    }
+
+    .map {
+        margin-left: 120px;
+        img{
+        width: 100%;
+        }
+    }
+
+    .Weare {
+        margin-top: 20%;
+        text-align: left;
+        color: $col4;
+        width: auto; /*если зафиксировать ширину этого класса - то margin-left будет абсолютным, а не относительным */
+    }
+
+    .Weare1 {
+        margin-left: 1%;
+        font-weight: bold;
+        font-size: 32px;
+        font-family: $font2;
+    }
+
+    .Weare2 {
+        margin-left: 11%;
+        font-size: 15px;
+        font-family: $font1;
+    }
+
+    .ESVYcount {
+        margin-top: 50px;
+        margin-left: 1%;
+        color: $col4;
+        text-align: left;
+    }
+
+    .ESVY1 {
+        text-align: left;
+        color: $col4;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: $font2;
+    }
+
+    .ESVY2 {
+        margin-top: -20px;
+        text-align: left;
+        color: $col4;
+        font-size: 20px;
+        font-family: $font1;
+    }
+
+    .OnFb {
+        margin-top: 60px;
+        margin-left: 1%;
+        text-align: left;
+
+        font-weight: bold;
+        font-size: 20px;
+        font-family: $font2;
+        a {
+        text-decoration: none;
+        color: $col3;
+        }
+    }
+
+    .Friends {
+        margin-top: 100px;
+        margin-left: 1%;
+        text-align: left;
+        height: 60px;
+        color: $col4;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: $font2;
+        a {
+        margin-right: 40px;
+        display: inline-block;
+        vertical-align: middle;
+        align-content: center;
+        }
+    }
+
+    .FF {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .Contact {
+        margin-top: 180px;
+        margin-left: 1%;
+        text-align: left;
+        color: $col4;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: $font2;
+    }
+
+    .input {
+        text-align: center;
+        margin-top: 10px;
+        background: $col1;
+    }
+
+}
