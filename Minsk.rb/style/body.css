@@ -1,0 +1,15 @@
+@media (min-width: 1550px) {
+    body {
+        width: 1440px;
+        display: inline-block;
+        background: colors.$col1;
+    }
+}
+
+@media (max-width: 1549px) {
+    body {
+        width: 100%;
+        display: inline-block;
+        background: colors.$col1;
+    }
+}

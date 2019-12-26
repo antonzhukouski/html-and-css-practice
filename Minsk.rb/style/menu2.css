@@ -1,0 +1,12 @@
+.menu2 {
+        font-family: fonts.$font2;
+        transform: rotate(90deg);
+        float: right;
+        margin-top: 140px;
+        margin-right: -15%;
+        a {
+        text-decoration: none;
+        color: colors.$col3;
+        margin: 0px 20px;
+        }
+      }

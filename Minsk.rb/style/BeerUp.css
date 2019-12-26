@@ -1,0 +1,35 @@
+@media (min-width: 1550px) {
+
+    .BeerUp {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1549px) {
+ 
+    .BeerUp {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 875px) and (max-width: 1199px) {
+
+    .BeerUp {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 874px) {
+
+    .BeerUp {
+        font-size: 50px;
+    }
+}
+
+.BeerUp {
+    font-family: fonts.$font2;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 145px;
+    color: colors.$col2;
+}

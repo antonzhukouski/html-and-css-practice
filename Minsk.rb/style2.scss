@@ -5,44 +5,15 @@ html {
     text-align: center;
 }
 
-@import "js/body.js";
-@import "js/menu.js";
+@import "style/body.css";
+@import "style/menu.css";
+@import "style/menu2.css";
+@import "style/date.css";
+
 
   
 
 @media (min-width: 1550px) {
-    .menu2 {
-        font-family: fonts.$font2;
-
-        transform: rotate(90deg);
-        float: right;
-        margin-top: 140px;
-        margin-right: -15%;
-        a {
-        text-decoration: none;
-        color: colors.$col3;
-        margin: 0px 20px;
-        }
-      }
-
-    .date {
-        margin-top: 173px; /* тут отсчет от начала страницы, дальше от предыдущих элементов */
-        margin-left: 0%;
-        font-size: 40px;
-        font-family: fonts.$font2;
-        text-align: left;
-
-        color: colors.$col2;
-    }
-
-    .BeerUp {
-        font-size: 100px;
-        font-family: fonts.$font2;
-        text-align: left;
-        font-weight: bold;
-        margin-top: 145px;
-        color: colors.$col2;
-    }
 
     .place {
         margin-top: 2%;
@@ -377,39 +348,6 @@ html {
 }
 
 @media (min-width: 1200px) and (max-width: 1549px) {
-
-    .menu2 {
-        font-family: fonts.$font2;
-        transform: rotate(90deg);
-        float: right;
-        margin-top: 140px;
-        margin-right: -150px;
-        a {
-        text-decoration: none;
-        color: colors.$col3;
-        margin: 0px 20px;
-        }
-    }
-
-    .date {
-        margin-top: 173px;
-        margin-left: 2%;
-        font-size: 40px;
-        font-family: fonts.$font2;
-        text-align: left;
-
-        color: colors.$col2;
-    }
-
-    .BeerUp {
-        font-size: 100px;
-        font-family: fonts.$font2;
-        text-align: left;
-        font-weight: bold;
-        margin-left: 2%;
-        margin-top: 145px;
-        color: colors.$col2;
-    }
 
     .place {
         margin-top: 2%;
@@ -748,40 +686,6 @@ html {
 }
 
 @media (min-width: 875px) and (max-width: 1199px) {
-
-    .menu2 {
-        font-family: fonts.$font2;
-        transform: rotate(90deg);
-        float: right;
-        margin-top: 140px;
-        margin-right: -150px;
-        a {
-        text-decoration: none;
-        color: colors.$col3;
-        margin: 0px 20px;
-        }
-    }
-
-    .date {
-        margin-top: 173px;
-        margin-left: 2%;
-        font-size: 40px;
-        font-family: fonts.$font2;
-        text-align: left;
-
-        color: colors.$col2;
-    }
-
-    .BeerUp {
-        font-size: 70px;
-        font-family: fonts.$font2;
-        text-align: left;
-        font-weight: bold;
-        margin-left: 2%;
-        margin-top: 145px;
-        color: colors.$col2;
-    }
-
     .place {
         margin-top: 2%;
         margin-left: 2%;
@@ -1144,39 +1048,6 @@ html {
 }
 
 @media (max-width: 874px) {
-
-    .menu2 {
-        font-family: fonts.$font2;
-        transform: rotate(90deg);
-        float: right;
-        margin-top: 140px;
-        margin-right: -150px;
-        a {
-        text-decoration: none;
-        color: colors.$col3;
-        margin: 0px 20px;
-        }
-    }
-
-    .date {
-        position: relative;
-        margin-top: 150px;
-        font-size: 30px;
-        font-family: fonts.$font2;
-        text-align: left;
-        color: colors.$col2;
-
-    }
-
-    .BeerUp {
-        font-size: 50px;
-        font-family: fonts.$font2;
-        text-align: left;
-        font-weight: bold;
-        margin-left: 2%;
-        margin-top: 145px;
-        color: colors.$col2;
-    }
 
     .place {
         margin-top: 1%;
