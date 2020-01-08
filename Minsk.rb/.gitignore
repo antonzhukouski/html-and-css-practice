@@ -81,3 +81,7 @@ static/src/stylesheets/pasteup/.npmrc
 *.crt
 *.key
 .vscode/settings.json
+
+# Compiled sources
+
+src/style.css
