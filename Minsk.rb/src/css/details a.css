@@ -1,0 +1,10 @@
+.details a {
+  text-decoration: none;
+  color: #00a38a;
+  position: relative;
+  bottom: -30px;
+  left: 50px;
+  font-family: space-mono;
+  font-size: 20px;
+  font-weight: bold;
+}

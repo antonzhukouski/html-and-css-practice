@@ -1,0 +1,12 @@
+.WW5 a {
+  float: left;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #00a38a;
+  font-weight: bold;
+  font-style: italic;
+  outline: 5px solid #00a38a;
+  padding: 20px 40px;
+  font-size: 30px;
+  font-family: space-mono;
+}
