@@ -1,24 +1,24 @@
-@use 'fonts/fonts';
-@use 'colors';
+@import 'fonts/fonts';
+@import 'css/colors';
 
 html {
-    text-align: center;
+  text-align: center;
 }
 
-@import "home/anton/html-and-practice/Minsk.rb/src/js/body.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/menu.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/menu2.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/date.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/BeerUp.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/regdetails.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/ABU.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/Sha.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/Schedule.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/Speakers.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/MP.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/WW.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/Weare.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/ESVYcount.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/OnFb.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/Friends.js";
-@import "home/anton/html-and-practice/Minsk.rb/src/js/Contact.js";
+@import "css/body";
+@import "css/menu";
+@import "css/menu2";
+// @import "css/date";
+// @import "css/BeerUp";
+// @import "css/regdetails";
+// @import "css/ABU";
+// @import "css/Sha";
+// @import "css/Schedule";
+// @import "css/Speakers";
+// @import "css/MP";
+// @import "css/WW";
+// @import "css/Weare";
+// @import "css/ESVYcount";
+// @import "css/OnFb";
+// @import "css/Friends";
+// @import "css/Contact";

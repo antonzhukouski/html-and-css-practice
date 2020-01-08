@@ -85,3 +85,4 @@ static/src/stylesheets/pasteup/.npmrc
 # Compiled sources
 
 src/style.css
+dist
