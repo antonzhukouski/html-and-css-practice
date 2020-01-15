@@ -1,0 +1,96 @@
+@media (min-width: 1550px) {
+
+  .place {
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 38px;
+  }
+
+  .place1 a {
+    width: 300px;
+    text-decoration: none;
+    color: $col2;
+    font-family: $font1;
+    font-size: 30px;
+  }
+
+  .place2 {
+    color: $col2;
+    font-family: $font1;
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1549px) {
+
+  .place {
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 38px;
+  }
+
+  .place1 a {
+    width: 300px;
+    text-decoration: none;
+    color: $col2;
+    font-family: $font1;
+    font-size: 30px;
+  }
+
+  .place2 {
+    color: $col2;
+    font-family: $font1;
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 875px) and (max-width: 1199px) {
+
+  .place {
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 38px;
+  }
+
+  .place1 a {
+    width: 300px;
+    text-decoration: none;
+    color: $col2;
+    font-family: $font1;
+    font-size: 30px;
+  }
+
+  .place2 {
+    color: $col2;
+    font-family: $font1;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 874px) {
+
+  .place {
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 20px;
+  }
+
+  .place1 img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .place1 a {
+    width: 100%;
+    text-decoration: none;
+    color: $col2;
+    font-family: $font1;
+    font-size: 20px;
+  }
+
+  .place2 {
+    color: $col2;
+    font-family: $font1;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,91 @@
+@media (min-width: 1550px) {
+
+  .Weare {
+    margin-top: 500px;
+    text-align: left;
+    color: $col4;
+    width: 1200px;
+  }
+
+  .Weare1 {
+    margin-left: 172px;
+    font-weight: bold;
+    font-size: 64px;
+    font-family: $font2;
+  }
+
+  .Weare2 {
+    margin-left: 222px;
+    font-size: 17px;
+    font-family: $font1;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1549px) {
+
+  .Weare {
+    margin-top: 500px;
+    text-align: left;
+    color: $col4;
+    width: 1200px;
+  }
+
+  .Weare1 {
+    margin-left: 9%;
+    font-weight: bold;
+    font-size: 64px;
+    font-family: $font2;
+  }
+
+  .Weare2 {
+    margin-left: 12%;
+    font-size: 17px;
+    font-family: $font1;
+  }
+}
+
+@media (min-width: 875px) and (max-width: 1199px) {
+
+  .Weare {
+    margin-top: 20%;
+    text-align: left;
+    color: $col4;
+    width: 800;
+  }
+
+  .Weare1 {
+    margin-left: 9%;
+    font-weight: bold;
+    font-size: 64px;
+    font-family: $font2;
+  }
+
+  .Weare2 {
+    margin-left: 12%;
+    font-size: 17px;
+    font-family: $font1;
+  }
+}
+
+@media (max-width: 874px) {
+
+  .Weare {
+    margin-top: 20%;
+    text-align: left;
+    color: $col4;
+    width: auto;
+  }
+
+  .Weare1 {
+    margin-left: 1%;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: $font2;
+  }
+
+  .Weare2 {
+    margin-left: 11%;
+    font-size: 15px;
+    font-family: $font1;
+  }
+}

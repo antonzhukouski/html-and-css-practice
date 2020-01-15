@@ -1,0 +1,103 @@
+@media (min-width: 1550px) {
+
+  .ESVYcount {
+    margin-top: 50px;
+    margin-left: 222px;
+    color: $col4;
+    text-align: left;
+  }
+
+  .ESVY1 {
+    text-align: left;
+    color: $col4;
+    font-weight: bold;
+    font-size: 68px;
+    font-family: $font2;
+  }
+
+  .ESVY2 {
+    margin-top: -20px;
+    text-align: left;
+    color: $col4;
+    font-size: 30px;
+    font-family: $font1;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1549px) {
+
+  .ESVYcount {
+    margin-top: 50px;
+    margin-left: 12%;
+    color: $col4;
+    text-align: left;
+  }
+
+  .ESVY1 {
+    text-align: left;
+    color: $col4;
+    font-weight: bold;
+    font-size: 68px;
+    font-family: $font2;
+  }
+
+  .ESVY2 {
+    margin-top: -20px;
+    text-align: left;
+    color: $col4;
+    font-size: 30px;
+    font-family: $font1;
+  }
+}
+
+@media (min-width: 875px) and (max-width: 1199px) {
+
+  .ESVYcount {
+    margin-top: 50px;
+    margin-left: 12%;
+    color: $col4;
+    text-align: left;
+  }
+
+  .ESVY1 {
+    text-align: left;
+    color: $col4;
+    font-weight: bold;
+    font-size: 68px;
+    font-family: $font2;
+  }
+
+  .ESVY2 {
+    margin-top: -20px;
+    text-align: left;
+    color: $col4;
+    font-size: 30px;
+    font-family: $font1;
+  }
+}
+
+@media (max-width: 874px) {
+
+  .ESVYcount {
+    margin-top: 50px;
+    margin-left: 1%;
+    color: $col4;
+    text-align: left;
+  }
+
+  .ESVY1 {
+    text-align: left;
+    color: $col4;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: $font2;
+  }
+
+  .ESVY2 {
+    margin-top: -20px;
+    text-align: left;
+    color: $col4;
+    font-size: 20px;
+    font-family: $font1;
+  }
+}

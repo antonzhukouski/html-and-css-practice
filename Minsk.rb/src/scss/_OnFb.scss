@@ -1,0 +1,67 @@
+@media (min-width: 1550px) {
+
+  .OnFb {
+    margin-top: 110px;
+    margin-left: 222px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: $font2;
+  }
+
+  .OnFb a {
+    text-decoration: none;
+    color: $col3;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1549px) {
+
+  .OnFb {
+    margin-top: 110px;
+    margin-left: 12%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: $font2;
+  }
+
+  .OnFb a {
+    text-decoration: none;
+    color: $col3;
+  }
+}
+
+@media (min-width: 875px) and (max-width: 1199px) {
+
+  .OnFb {
+    margin-top: 110px;
+    margin-left: 12%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: $font2;
+  }
+
+  .OnFb a {
+    text-decoration: none;
+    color: $col3;
+  }
+}
+
+@media (max-width: 874px) {
+
+  .OnFb {
+    margin-top: 60px;
+    margin-left: 1%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: $font2;
+  }
+
+  .OnFb a {
+    text-decoration: none;
+    color: $col3;
+  }
+}

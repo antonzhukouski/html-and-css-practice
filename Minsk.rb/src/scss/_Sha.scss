@@ -1,0 +1,79 @@
+@media (min-width: 1550px) {
+
+  .Sha {
+    text-align: left;
+    margin-top: 55px;
+    margin-left: 222px;
+    font-family: $font1;
+    font-size: 14px;
+    color: $col4;
+  }
+
+  .Sha a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: $col3;
+    font-family: $font2;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1549px) {
+
+  .Sha {
+    text-align: left;
+    margin-top: 55px;
+    margin-left: 12%;
+    font-family: $font1;
+    font-size: 14px;
+    color: $col4;
+  }
+
+  .Sha a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: $col3;
+    font-family: $font2;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 875px) and (max-width: 1199px) {
+
+  .Sha {
+    text-align: left;
+    margin-top: 55px;
+    margin-left: 12%;
+    font-family: $font1;
+    font-size: 14px;
+    color: $col4;
+  }
+
+  .Sha a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: $col3;
+    font-family: $font2;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 874px) {
+
+  .Sha {
+    text-align: left;
+    margin-top: 55px;
+    margin-left: 12%;
+    font-family: $font1;
+    font-size: 14px;
+    color: $col4;
+  }
+
+  .Sha a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: $col3;
+    font-family: $font2;
+    font-size: 14px;
+  }
+}

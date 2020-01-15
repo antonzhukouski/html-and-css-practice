@@ -1,0 +1,99 @@
+@media (min-width: 1550px) {
+
+  .ABU {
+    margin-top: 20%;
+    margin-left: 172px;
+    text-align: left;
+    width: 95%;
+    color: $col2;
+    position: relative;
+  }
+
+  .ABU1 {
+    font-family: $font2;
+    font-size: 44px;
+  }
+
+  .ABU2 {
+    width: 920px;
+    margin-top: 45px;
+    margin-left: 50;
+    font-family: $font1;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1549px) {
+
+  .ABU {
+    margin-top: 20%;
+    margin-left: 9%;
+    text-align: left;
+    width: 100%;
+    color: $col2;
+    position: relative;
+  }
+
+  .ABU1 {
+    font-family: $font2;
+    font-size: 44px;
+  }
+
+  .ABU2 {
+    width: 920px;
+    margin-top: 45px;
+    margin-left: 3%;
+    font-family: $font1;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 875px) and (max-width: 1199px) {
+
+  .ABU {
+    margin-top: 20%;
+    margin-left: 9%;
+    text-align: left;
+    width: 100%;
+    color: $col2;
+    position: relative;
+  }
+
+  .ABU1 {
+    font-family: $font2;
+    font-size: 44px;
+  }
+
+  .ABU2 {
+    width: 700px;
+    margin-top: 45px;
+    margin-left: 3%;
+    font-family: $font1;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 874px) {
+
+  .ABU {
+    margin-top: 20%;
+    margin-left: 1%;
+    text-align: left;
+    width: 100%;
+    color: $col2;
+    position: relative;
+  }
+
+  .ABU1 {
+    font-family: $font2;
+    font-size: 35px;
+  }
+
+  .ABU2 {
+    width: auto;
+    margin-top: 45px;
+    margin-left: 3%;
+    font-family: $font1;
+    font-size: 17px;
+  }
+}

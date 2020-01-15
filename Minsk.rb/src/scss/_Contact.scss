@@ -1,0 +1,76 @@
+@media (min-width: 1550px) {
+
+  .Contact {
+    margin-top: 280px;
+    margin-left: 172px;
+    text-align: left;
+    color: $col4;
+    font-weight: bold;
+    font-size: 64px;
+    font-family: $font2;
+  }
+
+  .input {
+    text-align: center;
+    margin-top: 10px;
+    background: $col1;
+  }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1549px) {
+
+  .Contact {
+    margin-top: 280px;
+    margin-left: 172px;
+    text-align: left;
+    color: $col4;
+    font-weight: bold;
+    font-size: 64px;
+    font-family: $font2;
+  }
+
+  .input {
+    text-align: center;
+    margin-top: 10px;
+    background: $col1;
+  }
+}
+
+@media (min-width: 875px) and (max-width: 1199px) {
+
+  .Contact {
+    margin-top: 280px;
+    margin-left: 12%;
+    text-align: left;
+    color: $col4;
+    font-weight: bold;
+    font-size: 64px;
+    font-family: $font2;
+  }
+
+  .input {
+    text-align: center;
+    margin-top: 10px;
+    background: $col1;
+  }
+}
+
+@media (max-width: 874px) {
+
+  .Contact {
+    margin-top: 180px;
+    margin-left: 1%;
+    text-align: left;
+    color: $col4;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: $font2;
+  }
+
+  .input {
+    text-align: center;
+    margin-top: 10px;
+    background: $col1;
+  }
+}

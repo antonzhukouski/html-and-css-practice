@@ -23,13 +23,13 @@ gulp.task("scss", function() {
         .pipe(gulp.dest("dist/"));
 });
 
-gulp.task("scripts", function() {
+/*gulp.task("scripts", function() {
     return gulp.src("src/js/*.js")
         .pipe(concat('scripts.js'))
         .pipe(uglify())
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest("dist/js"));
-});
+});*/
 
 gulp.task("watch", function() {
     gulp.watch("src/*.html", ["html"]);

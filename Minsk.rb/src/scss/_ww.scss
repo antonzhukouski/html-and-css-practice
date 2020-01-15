@@ -1,0 +1,235 @@
+@media (min-width: 1550px) {
+
+  .WW {
+    margin-left: 222px;
+    margin-top: 160px;
+    text-align: left;
+    color: $col4;
+  }
+
+  .WW1 {
+    margin-top: -60px;
+    font-weight: bold;
+    font-family: $font2;
+    font-size: 36px;
+    color: $col4;
+  }
+
+  .WW2 {
+    margin-top: 37px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: $font2;
+    color: $col4;
+  }
+
+  .WW3 {
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: $font2;
+    color: $col4;
+  }
+
+  .WW4 {
+    margin-top: 18px;
+    font-size: 18px;
+    font-family: $font1;
+    color: $col4;
+  }
+
+  .WW5 a {
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+    color: $col3;
+    font-weight: bold;
+    font-style: italic;
+    outline: 5px solid $col3;
+    padding: 20px 40px;
+    font-size: 30px;
+    font-family: $font2;
+  }
+
+  .map {
+    margin-left: 160px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1549px) {
+
+  .WW {
+    margin-left: 12%;
+    margin-top: 160px;
+    text-align: left;
+    color: $col4;
+  }
+
+  .WW1 {
+    margin-top: -60px;
+    font-weight: bold;
+    font-family: $font2;
+    font-size: 36px;
+    color: $col4;
+  }
+
+  .WW2 {
+    margin-top: 37px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: $font2;
+    color: $col4;
+  }
+
+  .WW3 {
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: $font2;
+    color: $col4;
+  }
+
+  .WW4 {
+    margin-top: 18px;
+    font-size: 18px;
+    font-family: $font1;
+    color: $col4;
+  }
+
+  .WW5 a {
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+    color: $col3;
+    font-weight: bold;
+    font-style: italic;
+    outline: 5px solid $col3;
+    padding: 20px 40px;
+    font-size: 30px;
+    font-family: $font2;
+  }
+
+  .map {
+    margin-left: 160px;
+  }
+}
+
+@media (min-width: 875px) and (max-width: 1199px) {
+
+  .WW {
+    margin-left: 9%;
+    margin-top: 160px;
+    text-align: left;
+    color: $col4;
+  }
+
+  .WW1 {
+    margin-top: -60px;
+    font-weight: bold;
+    font-family: $font2;
+    font-size: 36px;
+    color: $col4;
+  }
+
+  .WW2 {
+    margin-top: 37px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: $font2;
+    color: $col4;
+  }
+
+  .WW3 {
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: $font2;
+    color: $col4;
+  }
+
+  .WW4 {
+    margin-top: 18px;
+    font-size: 18px;
+    font-family: $font1;
+    color: $col4;
+  }
+
+  .WW5 a {
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+    color: $col3;
+    font-weight: bold;
+    font-style: italic;
+    outline: 5px solid $col3;
+    padding: 20px 40px;
+    font-size: 30px;
+    font-family: $font2;
+  }
+
+  .map {
+    margin-left: 120px;
+  }
+
+  .map img{
+    width: 100%;
+  }
+}
+
+@media (max-width: 874px) {
+
+  .WW {
+    margin-left: 1%;
+    margin-top: 160px;
+    text-align: left;
+    color: $col4;
+  }
+
+  .WW1 {
+    margin-top: -60px;
+    font-weight: bold;
+    font-family: $font2;
+    font-size: 25px;
+    color: $col4;
+  }
+
+  .WW2 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: $font2;
+    color: $col4;
+  }
+
+  .WW3 {
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: $font2;
+    color: $col4;
+  }
+
+  .WW4 {
+    margin-top: 13px;
+    font-size: 16px;
+    font-family: $font1;
+    color: $col4;
+  }
+
+  .WW5 a {
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+    color: $col3;
+    font-weight: bold;
+    font-style: italic;
+    outline: 3px solid $col3;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: $font2;
+  }
+
+  .map {
+    margin-left: 120px;
+  }
+
+  .map img{
+    width: 100%;
+  }
+}

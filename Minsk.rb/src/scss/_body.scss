@@ -1,0 +1,35 @@
+@media (min-width: 1550px) {
+
+  .body {
+    width: 1440px;
+    display: inline-block;
+    background: $col1;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1549px) {
+  
+  body {
+      width: 100%;
+      display: inline-block;
+      background: $col1;
+  }
+}
+
+@media (min-width: 875px) and (max-width: 1199px) {
+  
+  body {
+      width: 100%;
+      display: inline-block;
+      background: $col1;
+  }
+}
+
+@media (max-width: 874px) {
+
+  body {
+      width: 100%;
+      display: inline-block;
+      background: $col1;
+  }
+}
