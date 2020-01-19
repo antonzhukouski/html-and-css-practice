@@ -1,9 +1,11 @@
+.body {
+  display: inline-block;
+  background: $col1;
+}
 @media (min-width: 1550px) {
 
   .body {
     width: 1440px;
-    display: inline-block;
-    background: $col1;
   }
 }
 
@@ -11,8 +13,6 @@
   
   body {
       width: 100%;
-      display: inline-block;
-      background: $col1;
   }
 }
 
@@ -20,8 +20,6 @@
   
   body {
       width: 100%;
-      display: inline-block;
-      background: $col1;
   }
 }
 
@@ -29,7 +27,5 @@
 
   body {
       width: 100%;
-      display: inline-block;
-      background: $col1;
   }
 }

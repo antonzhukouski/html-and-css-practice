@@ -1,67 +1,40 @@
+.menu2 {
+  font-family: $font2;
+  transform: rotate(90deg);
+  float: right;
+  margin-top: 140px;
+}
+
+.menu2 a {
+  text-decoration: none;
+  color: $col3;
+  margin: 0px 20px;
+}
+
 @media (min-width: 1550px) {
 
   .menu2 {
-    font-family: $font2;
-    transform: rotate(90deg);
-    float: right;
-    margin-top: 140px;
     margin-right: -15%;
-  }
-
-  .menu2 a {
-    text-decoration: none;
-    color: $col3;
-    margin: 0px 20px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1549px) {
 
   .menu2 {
-    font-family: $font2;
-    transform: rotate(90deg);
-    float: right;
-    margin-top: 140px;
     margin-right: -150px;
-  }
-  
-  .menu2 a {
-    text-decoration: none;
-    color: $col3;
-    margin: 0px 20px;
   }
 }
 
 @media (min-width: 875px) and (max-width: 1199px) {
 
   .menu2 {
-    font-family: $font2;
-    transform: rotate(90deg);
-    float: right;
-    margin-top: 140px;
     margin-right: -150px;
-  }
-
-  .menu2 a {
-    text-decoration: none;
-    color: $col3;
-    margin: 0px 20px;
   }
 }
 
 @media (max-width: 874px) {
 
   .menu2 {
-    font-family: $font2;
-    transform: rotate(90deg);
-    float: right;
-    margin-top: 140px;
     margin-right: -150px;
-  }
-
-  .menu2 a {
-    text-decoration: none;
-    color: $col3;
-    margin: 0px 20px;
   }
 }

@@ -1,12 +1,15 @@
+.date {
+  font-family: $font2;
+  text-align: left;
+  color: $col2;
+}
+
 @media (min-width: 1550px) {
 
   .date {
     margin-top: 173px;
     margin-left: 0%;
     font-size: 40px;
-    font-family: $font2;
-    text-align: left;
-    color: $col2;
   }
 }
 
@@ -16,9 +19,6 @@
     margin-top: 173px;
     margin-left: 2%;
     font-size: 40px;
-    font-family: $font2;
-    text-align: left;
-    color: $col2;
   }
 }
 
@@ -28,20 +28,14 @@
     margin-top: 173px;
     margin-left: 2%;
     font-size: 40px;
-    font-family: $font2;
-    text-align: left;
-    color: $col2;
   }
 }
 
 @media (max-width: 874px) {
 
   .date {
-    position: relative;
     margin-top: 150px;
+    position: relative;
     font-size: 30px;
-    font-family: $font2;
-    text-align: left;
-    color: $col2;
   }
 }

@@ -1,24 +1,30 @@
+.Schedule {
+  margin-top: 122px;
+  color: $col4;
+  text-align: left;
+}
+
+.t1td1 {
+  font-family: $font2;
+  font-size: 17px;
+  color: $col4;
+}
+
+.t1td2 {
+  margin-left: 26px;
+  font-family: $font1;
+  color: $col4;
+}
+
 @media (min-width: 1550px) {
 
   .Schedule {
     margin-left: 222px;
-    margin-top: 122px;
-    color: $col4;
-    text-align: left;
-  }
-
-  .t1td1 {
-    font-family: $font2;
-    font-size: 17px;
-    color: $col4;
   }
 
   .t1td2 {
-    margin-left: 26px;
-    font-family: $font1;
     font-size: 18px;
     line-height: 1.35;
-    color: $col4;
   }
 }
 
@@ -26,23 +32,11 @@
 
   .Schedule {
     margin-left: 12%;
-    margin-top: 122px;
-    color: $col4;
-    text-align: left;
-  }
-
-  .t1td1 {
-    font-family: $font2;
-    font-size: 17px;
-    color: $col4;
   }
 
   .t1td2 {
-    margin-left: 26px;
-    font-family: $font1;
     font-size: 18px;
     line-height: 1.35;
-    color: $col4;
   }
 }
 
@@ -50,23 +44,11 @@
 
   .Schedule {
     margin-left: 12%;
-    margin-top: 122px;
-    color: $col4;
-    text-align: left;
-  }
-
-  .t1td1 {
-    font-family: $font2;
-    font-size: 17px;
-    color: $col4;
   }
 
   .t1td2 {
-    margin-left: 26px;
-    font-family: $font1;
     font-size: 18px;
     line-height: 1.35;
-    color: $col4;
   }
 }
 
@@ -74,22 +56,10 @@
 
   .Schedule {
     margin-left: 12%;
-    margin-top: 122px;
-    color: $col4;
-    text-align: left;
-  }
-
-  .t1td1 {
-    font-family: $font2;
-    font-size: 17px;
-    color: $col4;
   }
 
   .t1td2 {
-    margin-left: 26px;
-    font-family: $font1;
     font-size: 17px;
     line-height: 1.3;
-    color: $col4;
   }
 }

@@ -1,20 +1,26 @@
+.Friends {
+  text-align: left;
+  height: 60px;
+  color: $col4;
+  font-weight: bold;
+  font-family: $font2;
+}
+
+.Friends a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 @media (min-width: 1550px) {
 
   .Friends {
     margin-top: 150px;
     margin-left: 172px;
-    text-align: left;
-    height: 60px;
-    color: $col4;
-    font-weight: bold;
     font-size: 64px;
-    font-family: $font2;
   }
 
   .Friends a {
     margin-right: 60px;
-    display: inline-block;
-    vertical-align: middle;
 }
 
   .FF {
@@ -27,18 +33,11 @@
   .Friends {
     margin-top: 150px;
     margin-left: 12%;
-    text-align: left;
-    height: 60px;
-    color: $col4;
-    font-weight: bold;
     font-size: 64px;
-    font-family: $font2;
   }
 
   .Friends a {
     margin-right: 40px;
-    display: inline-block;
-    vertical-align: middle;
   }
 
   .FF {
@@ -51,18 +50,11 @@
   .Friends {
     margin-top: 150px;
     margin-left: 12%;
-    text-align: left;
-    height: 60px;
-    color: $col4;
-    font-weight: bold;
     font-size: 64px;
-    font-family: $font2;
   }
 
   .Friends a {
     margin-right: 40px;
-    display: inline-block;
-    vertical-align: middle;
     align-content: center;
   }
 
@@ -77,18 +69,11 @@
   .Friends {
     margin-top: 100px;
     margin-left: 1%;
-    text-align: left;
-    height: 60px;
-    color: $col4;
-    font-weight: bold;
     font-size: 40px;
-    font-family: $font2;
   }
 
   .Friends a {
     margin-right: 40px;
-    display: inline-block;
-    vertical-align: middle;
     align-content: center;
   }
 

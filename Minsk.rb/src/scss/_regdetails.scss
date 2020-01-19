@@ -1,149 +1,104 @@
+.regdetails {
+  margin-top: 4%;
+  width: 722px;
+}
+
+.register a {
+  float: left;
+  text-decoration: none;
+  color: $col3;
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  font-family: $font2;
+}
+
+.details {
+  text-align: left;
+}
+
+.details a {
+  text-decoration: none;
+  color: $col3;
+  position: relative;
+  bottom: -30px;
+  left: 50px;
+  font-family: $font2;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 @media (min-width: 1550px) {
 
-  .regdetails {
-    margin-top: 4%;
-    width: 722px;
-  }
-
   .register a {
-    float: left;
-    text-decoration: none;
-    color: $col3;
-    font-weight: bold;
-    font-style: italic;
     outline: 5px solid $col3;
     padding: 20px 40px;
-    position: relative;
-    font-family: $font2;
     font-size: 30px;
   }
 
-  .details {
-    text-align: left;
-  }
-
   .details a {
-    text-decoration: none;
-    color: $col3;
-    position: relative;
     bottom: -30px;
     left: 50px;
-    font-family: $font2;
     font-size: 20px;
-    font-weight: bold;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1549px) {
 
   .regdetails {
-    margin-top: 4%;
     margin-left: 2%;
-    width: 722px;
   }
 
   .register a {
-    float: left;
-    text-decoration: none;
-    color: $col3;
-    font-weight: bold;
-    font-style: italic;
     outline: 5px solid $col3;
     padding: 20px 40px;
-    position: relative;
-    font-family: $font2;
     font-size: 30px;
     float: left;
   }
 
-  .details {
-    text-align: left; ;
-  }
-
   .details a {
-    text-decoration: none;
-    color: $col3;
-    position: relative;
     bottom: -30px;
     left: 50px;
-    font-family: $font2;
     font-size: 20px;
-    font-weight: bold;
   }
 }
 
 @media (min-width: 875px) and (max-width: 1199px) {
 
   .regdetails {
-    margin-top: 4%;
     margin-left: 2%;
-    width: 722px;
   }
 
   .register a {
-    float: left;
-    text-decoration: none;
-    color: $col3;
-    font-weight: bold;
-    font-style: italic;
     outline: 5px solid $col3;
     padding: 20px 40px;
-    position: relative;
-    font-family: $font2;
     font-size: 30px;
     float: left;
   }
 
-  .details {
-    text-align: left; ;
-  }
-
   .details a {
-    text-decoration: none;
-    color: $col3;
-    position: relative;
     bottom: -30px;
     left: 50px;
-    font-family: $font2;
     font-size: 20px;
-    font-weight: bold;
   }
 }
 
 @media (max-width: 874px) {
 
   .regdetails {
-    margin-top: 4%;
     margin-left: 1%;
-    width: 722px;
   }
 
   .register a {
-    float: left;
-    text-decoration: none;
-    color: $col3;
-    font-weight: bold;
-    font-style: italic;
     outline: 3px solid $col3;
     padding: 1px 20px;
-    position: relative;
-    font-family: $font2;
     font-size: 20px;
     float: left;
   }
 
-  .details {
-    text-align: left; ;
-  }
-
   .details a {
-    text-decoration: none;
-    color: $col3;
-    position: relative;
     bottom: -15px;
     left: 25px;
-    font-family: $font2;
     font-size: 10px;
-    font-weight: bold;
   }
 }

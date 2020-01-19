@@ -1,3 +1,14 @@
+.place1 a {
+  text-decoration: none;
+  color: $col2;
+  font-family: $font1;
+}
+
+.place2 {
+  color: $col2;
+  font-family: $font1;
+}
+
 @media (min-width: 1550px) {
 
   .place {
@@ -8,15 +19,10 @@
 
   .place1 a {
     width: 300px;
-    text-decoration: none;
-    color: $col2;
-    font-family: $font1;
     font-size: 30px;
   }
 
   .place2 {
-    color: $col2;
-    font-family: $font1;
     font-size: 22px;
   }
 }
@@ -31,15 +37,10 @@
 
   .place1 a {
     width: 300px;
-    text-decoration: none;
-    color: $col2;
-    font-family: $font1;
     font-size: 30px;
   }
 
   .place2 {
-    color: $col2;
-    font-family: $font1;
     font-size: 22px;
   }
 }
@@ -54,15 +55,10 @@
 
   .place1 a {
     width: 300px;
-    text-decoration: none;
-    color: $col2;
-    font-family: $font1;
     font-size: 30px;
   }
 
   .place2 {
-    color: $col2;
-    font-family: $font1;
     font-size: 22px;
   }
 }
@@ -82,15 +78,10 @@
 
   .place1 a {
     width: 100%;
-    text-decoration: none;
-    color: $col2;
-    font-family: $font1;
     font-size: 20px;
   }
 
   .place2 {
-    color: $col2;
-    font-family: $font1;
     font-size: 18px;
   }
 }
