@@ -1,46 +1,43 @@
-.OnFb {
+.share {
   text-align: left;
-  font-weight: bold;
-  font-family: $font2;
+  margin-top: 55px;
+  font-family: $font1;
+  font-size: 14px;
+  color: $col4;
 }
 
-.OnFb a {
+.share a {
   text-decoration: none;
+  margin-left: 20px;
   color: $col3;
+  font-family: $font2;
+  font-size: 14px;
 }
 
 @media (min-width: 1550px) {
 
-  .OnFb {
-    margin-top: 110px;
+  .share {
     margin-left: 222px;
-    font-size: 28px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1549px) {
 
-  .OnFb {
-    margin-top: 110px;
+  .share {
     margin-left: 12%;
-    font-size: 28px;
   }
 }
 
 @media (min-width: 875px) and (max-width: 1199px) {
 
-  .OnFb {
-    margin-top: 110px;
+  .share {
     margin-left: 12%;
-    font-size: 28px;
   }
 }
 
 @media (max-width: 874px) {
 
-  .OnFb {
-    margin-top: 60px;
-    margin-left: 1%;
-    font-size: 20px;
+  .share {
+    margin-left: 12%;
   }
 }

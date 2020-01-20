@@ -1,4 +1,4 @@
-.MP {
+.mediapartners {
   text-align: left;
   margin-top: 95px;
   color: $col4;
@@ -6,7 +6,7 @@
   font-size: 18px;
 }
 
-.MP a {
+.mediapartners a {
   margin-left: 40%;
   text-decoration: none;
   color: $col3;
@@ -14,28 +14,28 @@
 
 @media (min-width: 1550px) {
 
-  .MP {
+  .mediapartners {
     margin-left: 222px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1549px) {
 
-  .MP {
+  .mediapartners {
     margin-left: 12%;
   }
 }
 
 @media (min-width: 875px) and (max-width: 1199px) {
 
-  .MP {
+  .mediapartners {
     margin-left: 12%;
   }
 }
 
 @media (max-width: 874px) {
 
-  .MP {
+  .mediapartners {
     margin-left: 12%;
   }
 }

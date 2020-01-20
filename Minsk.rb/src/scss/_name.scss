@@ -1,4 +1,4 @@
-.BeerUp {
+.name {
   font-family: $font2;
   text-align: left;
   font-weight: bold;
@@ -8,14 +8,14 @@
 
 @media (min-width: 1550px) {
 
-  .BeerUp {
+  .name {
     font-size: 100px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1549px) {
 
-  .BeerUp {
+  .name {
     font-size: 100px;
     margin-left: 2%;
   }
@@ -23,7 +23,7 @@
 
 @media (min-width: 875px) and (max-width: 1199px) {
 
-  .BeerUp {
+  .name {
     font-size: 70px;
     margin-left: 2%;
   }
@@ -31,7 +31,7 @@
 
 @media (max-width: 874px) {
 
-  .BeerUp {
+  .name {
     font-size: 50px;
     margin-left: 2%;
   }

@@ -1,11 +1,11 @@
-.menu2 {
+.social {
   font-family: $font2;
   transform: rotate(90deg);
   float: right;
   margin-top: 140px;
 }
 
-.menu2 a {
+.social a {
   text-decoration: none;
   color: $col3;
   margin: 0px 20px;
@@ -13,28 +13,28 @@
 
 @media (min-width: 1550px) {
 
-  .menu2 {
+  .social {
     margin-right: -15%;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1549px) {
 
-  .menu2 {
+  .social {
     margin-right: -150px;
   }
 }
 
 @media (min-width: 875px) and (max-width: 1199px) {
 
-  .menu2 {
+  .social {
     margin-right: -150px;
   }
 }
 
 @media (max-width: 874px) {
 
-  .menu2 {
+  .social {
     margin-right: -150px;
   }
 }

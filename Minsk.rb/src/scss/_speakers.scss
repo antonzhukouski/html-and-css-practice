@@ -1,50 +1,50 @@
-.Speakers {
+.speakers {
   margin-top: 154px;
   color: $col2;
 }
 
-.t2tr1 {
+&__heading {
   font-family: $font2;
   font-size: 36px;
   text-align: left;
   font-weight: bold;
 }
 
-.t2tr2td1 {
+&__sergyenko-photo {
   text-align: center;
 }
 
-.t2tr2td2 {
+&__smirnova-photo {
   text-align: center;
 }
 
-.t2tr2td3 {
+&__suhodolov-photo {
   text-align: center;
 }
 
-.t2tr2td4 {
+&__lomau-photo {
   text-align: center;
 }
 
-.t2tr3td1 {
+&__sergyenko {
   width: 100%;
   text-align: center;
   color: $col4;
 }
 
-.t2tr3td2 {
+&__smirnova {
   width: 100%;
   text-align: center;
   color: $col4;
 }
 
-.t2tr3td3 {
+&__suhodolov {
   width: 100%;
   text-align: center;
   color: $col4;
 }
 
-.t2tr3td4 {
+&__lomau {
   width: 100%;
   text-align: center;
   color: $col4;
@@ -52,28 +52,28 @@
 
 @media (min-width: 1550px) {
 
-  .Speakers {
+  .speakers {
     margin-left: 222px;
     width: 920px;
   }
 
-  .t2tr2td1 {
+  &__sergyenko-photo {
     width: 200px;
   }
 
-  .t2tr2td2 {
+  &__smirnova-photo {
     width: 200px;
   }
 
-  .t2tr2td3 {
+  &__suhodolov-photo {
     width: 200px;
   }
 
-  .t2tr2td4 {
+  &__lomau-photo {
     width: 200px;
   }
 
-  .t2tr3td1 {
+  &__sergyenko {
     width: 100%;
     text-align: center;
     color: $col4;
@@ -82,71 +82,71 @@
 
 @media (min-width: 1200px) and (max-width: 1549px) {
 
-  .Speakers {
+  .speakers {
     margin-left: 12%;
     width: 920px;
   }
 
-  .t2tr2td1 {
+  &__sergyenko-photo {
     width: 200px;
   }
 
-  .t2tr2td2 {
+  &__smirnova-photo {
     width: 200px;
   }
 
-  .t2tr2td3 {
+  &__suhodolov-photo {
     width: 200px;
   }
 
-  .t2tr2td4 {
+  &__lomau-photo {
     width: 200px;
   }
 }
 
 @media (min-width: 875px) and (max-width: 1199px) {
 
-  .Speakers {
+  .speakers {
     margin-left: 12%;
     width: 700px;
   }
 
-  .t2tr2td1 {
+  &__sergyenko-photo {
     width: 170px;
     height: 170px;
   }
 
-  .t2tr2td1 img {
+  &__sergyenko-photo img {
     width: 100%;
     height: 100%;
   }
 
-  .t2tr2td2 {
+  &__smirnova-photo {
     width: 170px;
     height: 170px;
   }
 
-  .t2tr2td2 img {
+  &__smirnova-photo img {
     width: 100%;
     height: 100%;
   }
 
-  .t2tr2td3 {
+  &__suhodolov-photo {
     width: 170px;
     height: 170px;
   }
 
-  .t2tr2td3 img {
+  &__suhodolov-photo img {
     width: 100%;
     height: 100%;
   }
 
-  .t2tr2td4 {
+  &__lomau-photo {
     width: 170px;
     height: 170px;
   }
 
-  .t2tr2td4 img {
+  &__lomau-photo img {
     width: 100%;
     height: 100%;
   }
@@ -154,50 +154,50 @@
 
 @media (max-width: 874px) {
 
-  .Speakers {
+  .speakers {
     margin-left: 1%;
     width: auto;
   }
 
-  .t2tr2td1 {
+  &__sergyenko-photo {
     width: auto;
     height: auto;
   }
 
-  .t2tr2td1 img {
+  &__sergyenko-photo img {
     width: 100%;
     height: 100%;
   }
 
-  .t2tr2td2 {
+  &__smirnova-photo {
     width: auto;
     height: auto;
     text-align: center;
   }
 
-  .t2tr2td2 img {
+  &__smirnova-photo img {
     width: 100%;
     height: 100%;
   }
 
-  .t2tr2td3 {
+  &__suhodolov-photo {
     width: auto;
     height: auto;
     text-align: center;
   }
 
-  .t2tr2td3 img {
+  &__suhodolov-photo img {
     width: 100%;
     height: 100%;
   }
 
-  .t2tr2td4 {
+  &__lomau-photo {
     width: auto;
     height: auto;
     text-align: center;
   }
 
-  .t2tr2td4 img {
+  &__lomau-photo img {
     width: 100%;
     height: 100%;
   }

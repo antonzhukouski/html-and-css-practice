@@ -1,9 +1,9 @@
-.regdetails {
+.registration {
   margin-top: 4%;
   width: 722px;
 }
 
-.register a {
+&__registration a {
   float: left;
   text-decoration: none;
   color: $col3;
@@ -13,11 +13,11 @@
   font-family: $font2;
 }
 
-.details {
+&__details {
   text-align: left;
 }
 
-.details a {
+&__details a {
   text-decoration: none;
   color: $col3;
   position: relative;
@@ -30,13 +30,13 @@
 
 @media (min-width: 1550px) {
 
-  .register a {
+  &__registration a {
     outline: 5px solid $col3;
     padding: 20px 40px;
     font-size: 30px;
   }
 
-  .details a {
+  &__details a {
     bottom: -30px;
     left: 50px;
     font-size: 20px;
@@ -45,18 +45,18 @@
 
 @media (min-width: 1200px) and (max-width: 1549px) {
 
-  .regdetails {
+  .registration {
     margin-left: 2%;
   }
 
-  .register a {
+  &__registration a {
     outline: 5px solid $col3;
     padding: 20px 40px;
     font-size: 30px;
     float: left;
   }
 
-  .details a {
+  &__details a {
     bottom: -30px;
     left: 50px;
     font-size: 20px;
@@ -65,18 +65,18 @@
 
 @media (min-width: 875px) and (max-width: 1199px) {
 
-  .regdetails {
+  .registration {
     margin-left: 2%;
   }
 
-  .register a {
+  &__registration a {
     outline: 5px solid $col3;
     padding: 20px 40px;
     font-size: 30px;
     float: left;
   }
 
-  .details a {
+  &__details a {
     bottom: -30px;
     left: 50px;
     font-size: 20px;
@@ -85,18 +85,18 @@
 
 @media (max-width: 874px) {
 
-  .regdetails {
+  .registration {
     margin-left: 1%;
   }
 
-  .register a {
+  &__registration a {
     outline: 3px solid $col3;
     padding: 1px 20px;
     font-size: 20px;
     float: left;
   }
 
-  .details a {
+  &__details a {
     bottom: -15px;
     left: 25px;
     font-size: 10px;

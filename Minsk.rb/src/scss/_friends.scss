@@ -1,4 +1,4 @@
-.Friends {
+.friends {
   text-align: left;
   height: 60px;
   color: $col4;
@@ -6,59 +6,59 @@
   font-family: $font2;
 }
 
-.Friends a {
+.friends a {
   display: inline-block;
   vertical-align: middle;
 }
 
 @media (min-width: 1550px) {
 
-  .Friends {
+  .friends {
     margin-top: 150px;
     margin-left: 172px;
     font-size: 64px;
   }
 
-  .Friends a {
+  .friends a {
     margin-right: 60px;
 }
 
-  .FF {
+  &__links {
     margin-left: 50px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1549px) {
 
-  .Friends {
+  .friends {
     margin-top: 150px;
     margin-left: 12%;
     font-size: 64px;
   }
 
-  .Friends a {
+  .friends a {
     margin-right: 40px;
   }
 
-  .FF {
+  &__links {
     margin-left: 0px;
   }
 }
 
 @media (min-width: 875px) and (max-width: 1199px) {
 
-  .Friends {
+  .friends {
     margin-top: 150px;
     margin-left: 12%;
     font-size: 64px;
   }
 
-  .Friends a {
+  .friends a {
     margin-right: 40px;
     align-content: center;
   }
 
-  .FF {
+  &__links {
     margin-left: 0px;
     text-align: center;
   }
@@ -66,18 +66,18 @@
 
 @media (max-width: 874px) {
 
-  .Friends {
+  .friends {
     margin-top: 100px;
     margin-left: 1%;
     font-size: 40px;
   }
 
-  .Friends a {
+  .friends a {
     margin-right: 40px;
     align-content: center;
   }
 
-  .FF {
+  &__links {
     margin-left: 0px;
     text-align: center;
   }

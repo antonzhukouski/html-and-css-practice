@@ -1,4 +1,4 @@
-.ESVYcount {
+counters {
   margin-top: 50px;
   color: $col4;
   text-align: left;
@@ -20,7 +20,7 @@
 
 @media (min-width: 1550px) {
 
-  .ESVYcount {
+  counters {
     margin-left: 222px;
   }
 
@@ -35,7 +35,7 @@
 
 @media (min-width: 1200px) and (max-width: 1549px) {
 
-  .ESVYcount {
+  counters {
     margin-left: 12%;
   }
 
@@ -50,7 +50,7 @@
 
 @media (min-width: 875px) and (max-width: 1199px) {
 
-  .ESVYcount {
+  counters {
     margin-left: 12%;
   }
 
@@ -65,7 +65,7 @@
 
 @media (max-width: 874px) {
 
-  .ESVYcount {
+  counters {
     margin-left: 1%;
   }
 

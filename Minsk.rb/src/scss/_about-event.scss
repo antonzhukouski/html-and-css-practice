@@ -1,15 +1,15 @@
-.ABU {
+.about-event {
   margin-top: 20%;
   text-align: left;
   color: $col2;
   position: relative;
 }
 
-.ABU1 {
+&__heading {
   font-family: $font2;
 }
 
-.ABU2 {
+&__text {
   margin-top: 45px;
   font-family: $font1;
   font-size: 17px;
@@ -17,16 +17,16 @@
 
 @media (min-width: 1550px) {
 
-  .ABU {
+  .about-event {
     margin-left: 172px;
     width: 95%;
   }
 
-  .ABU1 {
+  &__heading {
     font-size: 44px;
   }
 
-  .ABU2 {
+  &__text {
     width: 920px;
     margin-left: 50;
   }
@@ -34,16 +34,16 @@
 
 @media (min-width: 1200px) and (max-width: 1549px) {
 
-  .ABU {
+  .about-event {
     margin-left: 9%;
     width: 100%;
   }
 
-  .ABU1 {
+  &__heading {
     font-size: 44px;
   }
 
-  .ABU2 {
+  &__text {
     width: 920px;
     margin-left: 3%;
   }
@@ -51,16 +51,16 @@
 
 @media (min-width: 875px) and (max-width: 1199px) {
 
-  .ABU {
+  .about-event {
     margin-left: 9%;
     width: 100%;
   }
 
-  .ABU1 {
+  &__heading {
     font-size: 44px;
   }
 
-  .ABU2 {
+  &__text {
     width: 700px;
     margin-left: 3%;
   }
@@ -68,16 +68,16 @@
 
 @media (max-width: 874px) {
 
-  .ABU {
+  .about-event {
     margin-left: 1%;
     width: 100%;
   }
 
-  .ABU1 {
+  &__heading {
     font-size: 35px;
   }
 
-  .ABU2 {
+  &__text {
     width: auto;
     margin-left: 3%;
   }
