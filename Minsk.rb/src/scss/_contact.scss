@@ -20,7 +20,23 @@
     font-family: $font2;
   }
 
+  .form-input [placeholder] {
+    width: 640px;
+  }
+  
+  .form-input-name [placeholder] {
+    height: 60px;
+  }
+  
+  .form-input-e-mail [placeholder] {
+    height: 60px;
+  }
+  
+  .form-input-message [placeholder] {
+    height: 240px;
+  }
 }
+
 
 @media (min-width: 1200px) and (max-width: 1549px) {
 
