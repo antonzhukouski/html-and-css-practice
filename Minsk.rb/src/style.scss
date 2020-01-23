@@ -1,25 +1,25 @@
-@import 'fonts/fonts';
-@import 'css/colors';
 
 html {
   text-align: center;
 }
 
-@import "css/body";
-@import "css/menu";
-@import "css/menu2";
-@import "css/date";
-@import "css/BeerUp";
-@import "css/place";
-@import "css/regdetails";
-@import "css/ABU";
-@import "css/Sha";
-@import "css/Schedule";
-@import "css/Speakers";
-@import "css/MP";
-@import "css/WW";
-@import "css/Weare";
-@import "css/ESVYcount";
-@import "css/OnFb";
-@import "css/Friends";
-@import "css/Contact";
+@import 'fonts/fonts';
+@import 'scss/colors';
+@import "scss/body";
+@import "scss/head";
+@import "scss/social";
+@import "scss/date";
+@import "scss/name";
+@import "scss/place";
+@import "scss/registration";
+@import "scss/about-event";
+@import "scss/share";
+@import "scss/schedule";
+@import "scss/speakers";
+@import "scss/mediapartners";
+@import "scss/time-place";
+@import "scss/about-us";
+@import "scss/counters";
+@import "scss/facebook-link";
+@import "scss/friends";
+@import "scss/contact";
