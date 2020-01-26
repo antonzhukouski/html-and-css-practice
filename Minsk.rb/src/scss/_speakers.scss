@@ -1,204 +1,176 @@
 .speakers {
   margin-top: 154px;
   color: $col2;
-}
-
-&__heading {
-  font-family: $font2;
-  font-size: 36px;
-  text-align: left;
-  font-weight: bold;
-}
-
-&__sergyenko-photo {
-  text-align: center;
-}
-
-&__smirnova-photo {
-  text-align: center;
-}
-
-&__suhodolov-photo {
-  text-align: center;
-}
-
-&__lomau-photo {
-  text-align: center;
-}
-
-&__sergyenko {
-  width: 100%;
-  text-align: center;
-  color: $col4;
-}
-
-&__smirnova {
-  width: 100%;
-  text-align: center;
-  color: $col4;
-}
-
-&__suhodolov {
-  width: 100%;
-  text-align: center;
-  color: $col4;
-}
-
-&__lomau {
-  width: 100%;
-  text-align: center;
-  color: $col4;
-}
-
-@media (min-width: 1550px) {
-
-  .speakers {
+  @media (min-width: 1550px) {
     margin-left: 222px;
     width: 920px;
   }
-
-  &__sergyenko-photo {
-    width: 200px;
+  @media (min-width: 1200px) and (max-width: 1549px) {
+    margin-left: 12%;
+    width: 920px;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    margin-left: 12%;
+    width: 700px;
+  }
+  @media (max-width: 874px) {
+    margin-left: 1%;
+    width: auto;
   }
 
+  &__heading {
+    font-family: $font2;
+    font-size: 36px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  &__sergyenko-photo {
+    text-align: center;
+    @media (min-width: 1550px) {
+      width: 200px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      width: 200px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      width: 170px;
+      height: 170px;
+    }
+    @media (max-width: 874px) {
+      width: auto;
+      height: auto;
+    }
+  }
+
+  &__sergyenko-photo img {
+    @media (min-width: 875px) and (max-width: 1199px) {
+      width: 100%;
+      height: 100%;
+    }
+    @media (max-width: 874px) {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+
   &__smirnova-photo {
-    width: 200px;
+    text-align: center;
+    @media (min-width: 1550px) {
+      width: 200px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      width: 200px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      width: 170px;
+      height: 170px;
+    }
+    @media (max-width: 874px) {
+      width: auto;
+      height: auto;
+      text-align: center;
+    }
+  }
+
+  &__smirnova-photo img {
+    @media (min-width: 875px) and (max-width: 1199px) {
+      width: 100%;
+      height: 100%;
+    }
+    @media (max-width: 874px) {
+      width: 100%;
+      height: 100%;
+    }
   }
 
   &__suhodolov-photo {
-    width: 200px;
+    text-align: center;
+    @media (min-width: 1550px) {
+      width: 200px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      width: 200px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      width: 170px;
+      height: 170px;
+    }
+    @media (max-width: 874px) {
+      width: auto;
+      height: auto;
+      text-align: center;
+    }
+  }
+
+  &__suhodolov-photo img {
+    @media (min-width: 875px) and (max-width: 1199px) {
+      width: 100%;
+      height: 100%;
+    }
+    @media (max-width: 874px) {
+      width: 100%;
+      height: 100%;
+    }
   }
 
   &__lomau-photo {
-    width: 200px;
+    text-align: center;
+    @media (min-width: 1550px) {
+      width: 200px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      width: 200px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      width: 170px;
+      height: 170px;
+    }
+    @media (max-width: 874px) {
+      width: auto;
+      height: auto;
+      text-align: center;
+    }
+  }
+
+  &__lomau-photo img {
+    @media (min-width: 875px) and (max-width: 1199px) {
+      width: 100%;
+      height: 100%;
+    }
+    @media (max-width: 874px) {
+      width: 100%;
+      height: 100%;
+    }
   }
 
   &__sergyenko {
     width: 100%;
     text-align: center;
     color: $col4;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1549px) {
-
-  .speakers {
-    margin-left: 12%;
-    width: 920px;
+    @media (min-width: 1550px) {
+      width: 100%;
+      text-align: center;
+      color: $col4;
+    }
   }
 
-  &__sergyenko-photo {
-    width: 200px;
-  }
-
-  &__smirnova-photo {
-    width: 200px;
-  }
-
-  &__suhodolov-photo {
-    width: 200px;
-  }
-
-  &__lomau-photo {
-    width: 200px;
-  }
-}
-
-@media (min-width: 875px) and (max-width: 1199px) {
-
-  .speakers {
-    margin-left: 12%;
-    width: 700px;
-  }
-
-  &__sergyenko-photo {
-    width: 170px;
-    height: 170px;
-  }
-
-  &__sergyenko-photo img {
+  &__smirnova {
     width: 100%;
-    height: 100%;
-  }
-
-  &__smirnova-photo {
-    width: 170px;
-    height: 170px;
-  }
-
-  &__smirnova-photo img {
-    width: 100%;
-    height: 100%;
-  }
-
-  &__suhodolov-photo {
-    width: 170px;
-    height: 170px;
-  }
-
-  &__suhodolov-photo img {
-    width: 100%;
-    height: 100%;
-  }
-
-  &__lomau-photo {
-    width: 170px;
-    height: 170px;
-  }
-
-  &__lomau-photo img {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-@media (max-width: 874px) {
-
-  .speakers {
-    margin-left: 1%;
-    width: auto;
-  }
-
-  &__sergyenko-photo {
-    width: auto;
-    height: auto;
-  }
-
-  &__sergyenko-photo img {
-    width: 100%;
-    height: 100%;
-  }
-
-  &__smirnova-photo {
-    width: auto;
-    height: auto;
     text-align: center;
+    color: $col4;
   }
 
-  &__smirnova-photo img {
+  &__suhodolov {
     width: 100%;
-    height: 100%;
-  }
-
-  &__suhodolov-photo {
-    width: auto;
-    height: auto;
     text-align: center;
+    color: $col4;
   }
 
-  &__suhodolov-photo img {
+  &__lomau {
     width: 100%;
-    height: 100%;
-  }
-
-  &__lomau-photo {
-    width: auto;
-    height: auto;
     text-align: center;
-  }
-
-  &__lomau-photo img {
-    width: 100%;
-    height: 100%;
+    color: $col4;
   }
 }

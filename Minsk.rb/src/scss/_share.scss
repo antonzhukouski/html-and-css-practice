@@ -4,6 +4,18 @@
   font-family: $font1;
   font-size: 14px;
   color: $col4;
+  @media (min-width: 1550px) {
+    margin-left: 222px;
+  }
+  @media (min-width: 1200px) and (max-width: 1549px) {
+    margin-left: 12%;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    margin-left: 12%;
+  }
+  @media (max-width: 874px) {
+    margin-left: 12%;
+  }
 }
 
 .share a {
@@ -12,32 +24,4 @@
   color: $col3;
   font-family: $font2;
   font-size: 14px;
-}
-
-@media (min-width: 1550px) {
-
-  .share {
-    margin-left: 222px;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1549px) {
-
-  .share {
-    margin-left: 12%;
-  }
-}
-
-@media (min-width: 875px) and (max-width: 1199px) {
-
-  .share {
-    margin-left: 12%;
-  }
-}
-
-@media (max-width: 874px) {
-
-  .share {
-    margin-left: 12%;
-  }
 }

@@ -1,87 +1,68 @@
-&__link a {
-  text-decoration: none;
-  color: $col2;
-  font-family: $font1;
-}
-
-&__adress {
-  color: $col2;
-  font-family: $font1;
-}
-
-@media (min-width: 1550px) {
-
-  .place {
+.place {
+  @media (min-width: 1550px) {
     margin-top: 2%;
     margin-left: 2%;
     height: 38px;
   }
-
-  &__link a {
-    width: 300px;
-    font-size: 30px;
-  }
-
-  &__adress {
-    font-size: 22px;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1549px) {
-
-  .place {
+  @media (min-width: 1200px) and (max-width: 1549px) {
     margin-top: 2%;
     margin-left: 2%;
     height: 38px;
   }
-
-  &__link a {
-    width: 300px;
-    font-size: 30px;
-  }
-
-  &__adress {
-    font-size: 22px;
-  }
-}
-
-@media (min-width: 875px) and (max-width: 1199px) {
-
-  .place {
+  @media (min-width: 875px) and (max-width: 1199px) {
     margin-top: 2%;
     margin-left: 2%;
     height: 38px;
   }
-
-  &__link a {
-    width: 300px;
-    font-size: 30px;
-  }
-
-  &__adress {
-    font-size: 22px;
-  }
-}
-
-@media (max-width: 874px) {
-
-  .place {
+  @media (max-width: 874px) {
     margin-top: 1%;
     margin-left: 1%;
     height: 20px;
   }
 
-  &__link img {
-    width: 25px;
-    height: 25px;
+  &__link a {
+    text-decoration: none;
+    color: $col2;
+    font-family: $font1;
+    @media (min-width: 1550px) {
+      width: 300px;
+      font-size: 30px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      width: 300px;
+      font-size: 30px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      width: 300px;
+      font-size: 30px;
+    }
+    @media (max-width: 874px) {
+      width: 100%;
+      font-size: 20px;
+    }
   }
 
-  &__link a {
-    width: 100%;
-    font-size: 20px;
+  &__link img {
+    @media (max-width: 874px) {
+      width: 25px;
+      height: 25px;
+    }
   }
 
   &__adress {
-    font-size: 18px;
+    color: $col2;
+    font-family: $font1;
+    @media (min-width: 1550px) {
+      font-size: 22px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      font-size: 22px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      font-size: 22px;
+    }
+    @media (max-width: 874px) {
+      font-size: 18px;
+    }
   }
 }

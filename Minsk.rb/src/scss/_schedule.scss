@@ -2,64 +2,44 @@
   margin-top: 122px;
   color: $col4;
   text-align: left;
-}
-
-&__time {
-  font-family: $font2;
-  font-size: 17px;
-  color: $col4;
-}
-
-&__event {
-  margin-left: 26px;
-  font-family: $font1;
-  color: $col4;
-}
-
-@media (min-width: 1550px) {
-
-  .schedule {
+  @media (min-width: 1550px) {
     margin-left: 222px;
   }
-
-  &__event {
-    font-size: 18px;
-    line-height: 1.35;
+  @media (min-width: 1200px) and (max-width: 1549px) {
+    margin-left: 12%;
   }
-}
-
-@media (min-width: 1200px) and (max-width: 1549px) {
-
-  .schedule {
+  @media (min-width: 875px) and (max-width: 1199px) {
+    margin-left: 12%;
+  }
+  @media (max-width: 874px) {
     margin-left: 12%;
   }
 
-  &__event {
-    font-size: 18px;
-    line-height: 1.35;
-  }
-}
-
-@media (min-width: 875px) and (max-width: 1199px) {
-
-  .schedule {
-    margin-left: 12%;
-  }
-
-  &__event {
-    font-size: 18px;
-    line-height: 1.35;
-  }
-}
-
-@media (max-width: 874px) {
-
-  .schedule {
-    margin-left: 12%;
-  }
-
-  &__event {
+  &__time {
+    font-family: $font2;
     font-size: 17px;
-    line-height: 1.3;
+    color: $col4;
+  }
+
+  &__event {
+    margin-left: 26px;
+    font-family: $font1;
+    color: $col4;
+    @media (min-width: 1550px) {
+      font-size: 18px;
+      line-height: 1.35;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      font-size: 18px;
+      line-height: 1.35;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      font-size: 18px;
+      line-height: 1.35;
+    }
+    @media (max-width: 874px) {
+      font-size: 17px;
+      line-height: 1.3;
+    }
   }
 }

@@ -2,45 +2,29 @@
   text-align: left;
   font-weight: bold;
   font-family: $font2;
+  @media (min-width: 1550px) {
+    margin-top: 110px;
+    margin-left: 222px;
+    font-size: 28px;
+  }
+  @media (min-width: 1200px) and (max-width: 1549px) {
+    margin-top: 110px;
+    margin-left: 12%;
+    font-size: 28px;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    margin-top: 110px;
+    margin-left: 12%;
+    font-size: 28px;
+  }
+  @media (max-width: 874px) {
+    margin-top: 60px;
+    margin-left: 1%;
+    font-size: 20px;
+  }
 }
 
 .facebook-link a {
   text-decoration: none;
   color: $col3;
-}
-
-@media (min-width: 1550px) {
-
-  .facebook-link {
-    margin-top: 110px;
-    margin-left: 222px;
-    font-size: 28px;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1549px) {
-
-  .facebook-link {
-    margin-top: 110px;
-    margin-left: 12%;
-    font-size: 28px;
-  }
-}
-
-@media (min-width: 875px) and (max-width: 1199px) {
-
-  .facebook-link {
-    margin-top: 110px;
-    margin-left: 12%;
-    font-size: 28px;
-  }
-}
-
-@media (max-width: 874px) {
-
-  .facebook-link {
-    margin-top: 60px;
-    margin-left: 1%;
-    font-size: 20px;
-  }
 }

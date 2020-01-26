@@ -2,38 +2,22 @@
   font-family: $font2;
   text-align: left;
   color: $col2;
-}
-
-@media (min-width: 1550px) {
-
-  .date {
+  @media (min-width: 1550px) {
     margin-top: 173px;
     margin-left: 0%;
     font-size: 40px;
   }
-}
-
-@media (min-width: 1200px) and (max-width: 1549px) {
-
-  .date {
+  @media (min-width: 1200px) and (max-width: 1549px) {
     margin-top: 173px;
     margin-left: 2%;
     font-size: 40px;
   }
-}
-
-@media (min-width: 875px) and (max-width: 1199px) {
-
-  .date {
+  @media (min-width: 875px) and (max-width: 1199px) {
     margin-top: 173px;
     margin-left: 2%;
     font-size: 40px;
   }
-}
-
-@media (max-width: 874px) {
-
-  .date {
+  @media (max-width: 874px) {
     margin-top: 150px;
     position: relative;
     font-size: 30px;

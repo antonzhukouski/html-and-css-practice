@@ -4,34 +4,18 @@
   font-weight: bold;
   margin-top: 145px;
   color: $col2;
-}
-
-@media (min-width: 1550px) {
-
-  .name {
+  @media (min-width: 1550px) {
     font-size: 100px;
   }
-}
-
-@media (min-width: 1200px) and (max-width: 1549px) {
-
-  .name {
+  @media (min-width: 1200px) and (max-width: 1549px) {
     font-size: 100px;
     margin-left: 2%;
   }
-}
-
-@media (min-width: 875px) and (max-width: 1199px) {
-
-  .name {
+  @media (min-width: 875px) and (max-width: 1199px) {
     font-size: 70px;
     margin-left: 2%;
   }
-}
-
-@media (max-width: 874px) {
-
-  .name {
+  @media (max-width: 874px) {
     font-size: 50px;
     margin-left: 2%;
   }

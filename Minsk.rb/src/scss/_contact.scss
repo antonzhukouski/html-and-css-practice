@@ -1,6 +1,21 @@
-@media (min-width: 1550px) {
+.form-input [placeholder] {
+  width: 640px;
+}
 
-  .contact {
+.form-input-name [placeholder] {
+  height: 60px;
+}
+
+.form-input-e-mail [placeholder] {
+  height: 60px;
+}
+
+.form-input-message [placeholder] {
+  height: 240px;
+}
+
+.contact {
+  @media (min-width: 1550px) {
     margin-top: 280px;
     margin-left: 172px;
     text-align: left;
@@ -9,38 +24,7 @@
     font-size: 64px;
     font-family: $font2;
   }
-
-  &__form-input {
-    text-align: center;
-    margin-top: 10px;
-    background: $col1;
-    float: left;
-    font-size: 24px;
-    margin-left: 20%;
-    font-family: $font2;
-  }
-
-  .form-input [placeholder] {
-    width: 640px;
-  }
-  
-  .form-input-name [placeholder] {
-    height: 60px;
-  }
-  
-  .form-input-e-mail [placeholder] {
-    height: 60px;
-  }
-  
-  .form-input-message [placeholder] {
-    height: 240px;
-  }
-}
-
-
-@media (min-width: 1200px) and (max-width: 1549px) {
-
-  .contact {
+  @media (min-width: 1200px) and (max-width: 1549px) {
     margin-top: 280px;
     margin-left: 172px;
     text-align: left;
@@ -49,21 +33,7 @@
     font-size: 64px;
     font-family: $font2;
   }
-
-  &__form-input {
-    text-align: center;
-    margin-top: 10px;
-    background: $col1;
-    float: left;
-    font-size: 24px;
-    margin-left: 20%;
-    font-family: $font2;
-  }
-}
-
-@media (min-width: 875px) and (max-width: 1199px) {
-
-  .contact {
+  @media (min-width: 875px) and (max-width: 1199px) {
     margin-top: 280px;
     margin-left: 12%;
     text-align: left;
@@ -72,21 +42,7 @@
     font-size: 64px;
     font-family: $font2;
   }
-
-  &__form-input {
-    text-align: center;
-    margin-top: 10px;
-    background: $col1;
-    float: left;
-    font-size: 24px;
-    margin-left: 20%;
-    font-family: $font2;
-  }
-}
-
-@media (max-width: 874px) {
-
-  .contact {
+  @media (max-width: 874px) {
     margin-top: 180px;
     margin-left: 1%;
     text-align: left;
@@ -97,12 +53,41 @@
   }
 
   &__form-input {
-    text-align: center;
-    margin-top: 10px;
-    background: $col1;
-    float: left;
-    font-size: 24px;
-    margin-left: 20%;
-    font-family: $font2;
+    @media (min-width: 1550px) {
+      text-align: center;
+      margin-top: 10px;
+      background: $col1;
+      float: left;
+      font-size: 24px;
+      margin-left: 20%;
+      font-family: $font2;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      text-align: center;
+      margin-top: 10px;
+      background: $col1;
+      float: left;
+      font-size: 24px;
+      margin-left: 20%;
+      font-family: $font2;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      text-align: center;
+      margin-top: 10px;
+      background: $col1;
+      float: left;
+      font-size: 24px;
+      margin-left: 20%;
+      font-family: $font2;
+    }
+    @media (max-width: 874px) {
+      text-align: center;
+      margin-top: 10px;
+      background: $col1;
+      float: left;
+      font-size: 24px;
+      margin-left: 20%;
+      font-family: $font2;
+    }
   }
 }

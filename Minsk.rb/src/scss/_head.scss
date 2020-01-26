@@ -1,67 +1,48 @@
 .head {
   margin-top: 10px;
   letter-spacing: 1px;
-}
-
-&__logo {
-  float: left;
-  position: relative;
-  text-align: left;
-}
-
-&__menu {
-  font-family: $font1;
-  width: 422px;
-  height: 64px;
-  margin: 20px 0px;
-  font-size: 16px;
-  line-height: 24px;
-  float: left;
-  position: relative;
-}
-
-&__menu a {
-  text-decoration: none;
-  color:$col2;
-  margin: 0px 20px;
-}
-
-@media (min-width: 1550px) {
-
-  &__logo {
-    width: 60%;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1549px) {
-  
-  .head {
+  @media (min-width: 1200px) and (max-width: 1549px) {
     margin-left: 2%;
-}
-
-  &__logo {
-    width: 60%;
   }
-}
-
-@media (min-width: 875px) and (max-width: 1199px) {
-
-  .head {
+  @media (min-width: 875px) and (max-width: 1199px) {
+    margin-left: 2%;
+  }
+  @media (max-width: 874px) {
     margin-left: 2%;
   }
 
-  &__logo {
-    width: 50%;
-  }
-}
+    &__logo {
+      float: left;
+      position: relative;
+      text-align: left;
+      @media (min-width: 1550px) {
+        width: 60%;
+      }
+      @media (min-width: 1200px) and (max-width: 1549px) {
+        width: 60%;
+      }
+      @media (min-width: 875px) and (max-width: 1199px) {
+        width: 90%;
+      }
+      @media (max-width: 874px) {
+        width: 30%;
+      }
+    }
 
-@media (max-width: 874px) {
+    &__menu {
+      font-family: $font1;
+      width: 422px;
+      height: 64px;
+      margin: 20px 0px;
+      font-size: 16px;
+      line-height: 24px;
+      float: left;
+      position: relative;
+    }
 
-  .head {
-    margin-left: 2%;
-  }
-
-  &__logo {
-    width: 30%;
-  }
+    &__menu a {
+      text-decoration: none;
+      color:$col2;
+      margin: 0px 20px;
+    }
 }
