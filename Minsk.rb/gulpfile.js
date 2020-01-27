@@ -23,19 +23,8 @@ gulp.task("scss", function() {
         .pipe(gulp.dest("dist/"));
 });
 
-/*gulp.task("scripts", function() {
-    return gulp.src("src/js/*.js")
-        .pipe(concat('scripts.js'))
-        .pipe(uglify())
-        .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest("dist/js"));
-});*/
-
 gulp.task("watch", function() {
     gulp.watch("src/*.html", ["html"]);
     gulp.watch("src/js/*.js", ["scripts"]);
     gulp.watch("src/scss/*.scss", ["scss"]);
-    // gulp.watch("src/images#<{(|.+(jpg|jpeg|png|gif)", ["imgs"]);
 });
-
-// gulp.task("default", ["html", "scss", "scripts", "watch"]);
