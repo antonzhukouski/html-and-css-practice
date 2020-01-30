@@ -15,18 +15,6 @@
       float: left;
       position: relative;
       text-align: left;
-      @media (min-width: 1550px) {
-        width: 60%;
-      }
-      @media (min-width: 1200px) and (max-width: 1549px) {
-        width: 60%;
-      }
-      @media (min-width: 875px) and (max-width: 1199px) {
-        width: 90%;
-      }
-      @media (max-width: 874px) {
-        width: 30%;
-      }
     }
 
     &__menu {

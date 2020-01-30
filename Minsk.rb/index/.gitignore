@@ -1,10 +1,6 @@
 artifacts.zip
 /dist
 /coverage
-/node_modules
-/.gulp-scss-cache
-/.sass-cache
-/.vscode
 
 # Generated CMP data
 static/src/javascripts/projects/commercial/modules/cmp/vendorlist.js
