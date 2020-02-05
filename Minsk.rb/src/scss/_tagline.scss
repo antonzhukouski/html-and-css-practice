@@ -1,0 +1,12 @@
+.tagline {
+  font-family: $font2;
+  color: $col4;
+  font-weight: bold;
+  margin-top: 40px;
+  @media (min-width: 1000px) {
+    font-size: 113px;
+  }
+  @media (max-width: 999px) {
+    font-size: 60px;
+  }
+}

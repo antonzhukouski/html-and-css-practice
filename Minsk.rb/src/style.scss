@@ -3,7 +3,7 @@ html {
   text-align: center;
 }
 
-@import 'fonts/fonts';
+@import 'scss/fonts';
 @import 'scss/colors';
 @import "scss/body";
 @import "scss/head";
@@ -23,3 +23,12 @@ html {
 @import "scss/facebook-link";
 @import "scss/friends";
 @import "scss/contact";
+@import 'scss/fonts';
+@import 'scss/colors';
+@import 'scss/body';
+@import 'scss/navigation-menu';
+@import 'scss/social-event';
+@import 'scss/description';
+@import 'scss/media';
+@import 'scss/tagline';
+@import 'scss/footer';

@@ -1,0 +1,151 @@
+.media {
+  margin-top: 65px;
+  display: flex;
+  @media (min-width: 1200px) {
+    padding: 0 100px;
+    flex-wrap: wrap;
+  }
+  @media (min-width: 1057px) and (max-width: 1199px) {
+    padding: 0 50px;
+  }
+  @media (min-width: 875px) and (max-width: 1056px) {
+    flex-direction: column;
+    padding: 0 50px;
+  }
+  @media (max-width: 874px) {
+    flex-direction: column;
+  }
+
+  &__menu {
+    color: $col4;
+    font-size: 24px;
+    font-family: $font2;
+    display: flex;
+    @media (min-width: 1057px) {
+      height: 180px;
+      text-align: left;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    @media (max-width: 1056px) {
+      height: 80px;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
+  &__speakers {
+    display: flex;
+    font-family: $font2;
+    @media (min-width: 1057px) {
+      flex-direction: column;
+      margin-left: 92px;
+    }
+    @media (max-width: 1056px) {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.SS {
+  display: flex;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    color: $col4;
+    margin-left: 42px;
+    margin-top: 10px;
+  }
+
+  &__container-name {
+    font-family: $font2;
+    font-size: 18px;
+    height: 30px;
+    text-align: left;
+  }
+  &__container-theme {
+    font-family: $font2;
+    font-size: 22px;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+.AS {
+  display: flex;
+  margin-top: 40px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    color: $col4;
+    margin-left: 42px;
+    margin-top: 10px;
+  }
+
+  &__container-name {
+    font-family: $font2;
+    font-size: 18px;
+    height: 30px;
+    text-align: left;
+  }
+  &__container-theme {
+    font-family: $font2;
+    font-size: 22px;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+.KS {
+  display: flex;
+  margin-top: 40px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    color: $col4;
+    margin-left: 42px;
+    margin-top: 10px;
+  }
+
+  &__container-name {
+    font-family: $font2;
+    font-size: 18px;
+    height: 30px;
+    text-align: left;
+  }
+  &__container-theme {
+    font-family: $font2;
+    font-size: 22px;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+.AL {
+  display: flex;
+  margin-top: 40px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    color: $col4;
+    margin-left: 42px;
+    margin-top: 10px;
+  }
+
+  &__container-name {
+    font-family: $font2;
+    font-size: 18px;
+    height: 30px;
+    text-align: left;
+  }
+  &__container-theme {
+    font-family: $font2;
+    font-size: 22px;
+    align-items: flex-start;
+    text-align: left;
+  }
+}

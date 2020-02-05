@@ -1,0 +1,31 @@
+.social-event {
+  font-family: $font2;
+  @media (min-width: 1550px) {
+    right: -70px;
+    transform: rotate(90deg);
+    position: fixed;
+    top: 245px;
+  }
+  @media (min-width:1200px) and (max-width: 1549px) {
+    right: -100px;
+    transform: rotate(90deg);
+    position: fixed;
+    top: 245px;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    right: -140px;
+    transform: rotate(90deg);
+    position: fixed;
+    top: 245px;
+  }
+  @media (max-width: 874px) {
+    text-align: right;
+    margin-top: 10px;
+  }
+}
+
+.social-event a {
+  text-decoration: none;
+  color: $col3;
+  margin: 0px 20px;
+}

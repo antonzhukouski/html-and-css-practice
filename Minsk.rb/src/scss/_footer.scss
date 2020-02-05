@@ -1,0 +1,24 @@
+.footer {
+  font-family: $font2;
+  color: $col4;
+  margin-top: 100px;
+  @media (min-width: 1550px) {
+    transform: rotate(90deg);
+    position: absolute;
+    right: 23px;
+  }
+  @media (min-width:1200px) and (max-width: 1549px) {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -8px;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    transform: rotate(90deg);
+    position: absolute;
+    right: 48px;
+  }
+  @media (max-width: 874px) {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
