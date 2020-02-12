@@ -1,52 +1,85 @@
 .place {
   @media (min-width: 1550px) {
     margin-top: 2%;
-    margin-left: 2%;
     height: 38px;
   }
   @media (min-width: 1200px) and (max-width: 1549px) {
     margin-top: 2%;
-    margin-left: 2%;
     height: 38px;
   }
   @media (min-width: 875px) and (max-width: 1199px) {
     margin-top: 2%;
-    margin-left: 2%;
     height: 38px;
   }
   @media (max-width: 874px) {
     margin-top: 1%;
-    margin-left: 1%;
     height: 20px;
+  }
+
+  /*&__link table {
+    @media (min-width: 1550px) {
+      margin-left: 172px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      margin-left: 9%;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      margin-left: 9%;
+    }
+    @media (max-width: 874px) {
+      margin-left: 1%;
+    }
+  }*/
+
+  &__link {
+    width: 190px;
+    height: 20px;;
   }
 
   &__link a {
     text-decoration: none;
     color: $col2;
     font-family: $font1;
-    @media (min-width: 1550px) {
+    font-size: 24px;
+    /*@media (min-width: 1550) {
+      height: 20px;50px)
       width: 300px;
       font-size: 30px;
+      margin-left: 172px;
     }
     @media (min-width: 1200px) and (max-width: 1549px) {
       width: 300px;
       font-size: 30px;
+      margin-left: 9%;
     }
     @media (min-width: 875px) and (max-width: 1199px) {
-      width: 300px;
+      width: 100%;
       font-size: 30px;
+      margin-left: 9%;
     }
     @media (max-width: 874px) {
       width: 100%;
       font-size: 20px;
-    }
+      margin-left: 1%;
+    }*/
   }
 
   &__link img {
+    height: 25px;
+    /*@media (min-width: 1550px) {
+      margin-left: 172px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      margin-left: 9%;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      margin-left: 9%;
+    }
     @media (max-width: 874px) {
       width: 25px;
       height: 25px;
-    }
+      margin-left: 1%;
+    }*/
   }
 
   &__adress {

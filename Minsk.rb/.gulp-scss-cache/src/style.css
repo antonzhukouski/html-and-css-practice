@@ -3,10 +3,10 @@ html {
 
 @font-face {
   font-family: roboto;
-  src: url("../fonts/roboto.ttf"); }
+  src: url("../src/fonts/roboto.ttf"); }
 @font-face {
   font-family: space-mono;
-  src: url("../fonts/space-mono.ttf"); }
+  src: url("../src/fonts/space-mono.ttf"); }
 body {
   display: inline-block;
   background: #303030; }
@@ -26,27 +26,30 @@ body {
 .head {
   margin-top: 10px;
   letter-spacing: 1px; }
+  @media (min-width: 1550px) {
+    .head {
+      margin-left: 172px; } }
   @media (min-width: 1200px) and (max-width: 1549px) {
     .head {
-      margin-left: 2%; } }
+      margin-left: 9%; } }
   @media (min-width: 875px) and (max-width: 1199px) {
     .head {
-      margin-left: 2%; } }
+      margin-left: 9%; } }
   @media (max-width: 874px) {
     .head {
-      margin-left: 2%; } }
+      margin-left: 1%; } }
   .head__logo {
     float: left;
     position: relative;
     text-align: left; }
   .head__menu {
     font-family: roboto;
-    width: 422px;
+    width: 432px;
     height: 64px;
     margin: 20px 0px;
     font-size: 16px;
     line-height: 24px;
-    float: left;
+    float: right;
     position: relative; }
   .head__menu a {
     text-decoration: none;
@@ -55,21 +58,10 @@ body {
 
 .social {
   font-family: space-mono;
-  transform: rotate(90deg);
-  float: right;
-  margin-top: 140px; }
-  @media (min-width: 1550px) {
-    .social {
-      margin-right: -15%; } }
-  @media (min-width: 1200px) and (max-width: 1549px) {
-    .social {
-      margin-right: -150px; } }
-  @media (min-width: 875px) and (max-width: 1199px) {
-    .social {
-      margin-right: -150px; } }
-  @media (max-width: 874px) {
-    .social {
-      margin-right: -150px; } }
+  writing-mode: vertical-lr;
+  position: absolute;
+  right: 15px;
+  margin-top: 100px; }
 
 .social a {
   text-decoration: none;
@@ -83,23 +75,24 @@ body {
   @media (min-width: 1550px) {
     .date {
       margin-top: 173px;
-      margin-left: 0%;
+      margin-left: 172px;
       font-size: 40px; } }
   @media (min-width: 1200px) and (max-width: 1549px) {
     .date {
       margin-top: 173px;
-      margin-left: 2%;
+      margin-left: 9%;
       font-size: 40px; } }
   @media (min-width: 875px) and (max-width: 1199px) {
     .date {
       margin-top: 173px;
-      margin-left: 2%;
+      margin-left: 9%;
       font-size: 40px; } }
   @media (max-width: 874px) {
     .date {
       margin-top: 150px;
       position: relative;
-      font-size: 30px; } }
+      font-size: 30px;
+      margin-left: 1%; } }
 
 .name {
   font-family: space-mono;
@@ -109,79 +102,112 @@ body {
   color: #f6f6f6; }
   @media (min-width: 1550px) {
     .name {
-      font-size: 100px; } }
+      font-size: 100px;
+      margin-left: 172px; } }
   @media (min-width: 1200px) and (max-width: 1549px) {
     .name {
       font-size: 100px;
-      margin-left: 2%; } }
+      margin-left: 9%; } }
   @media (min-width: 875px) and (max-width: 1199px) {
     .name {
       font-size: 70px;
-      margin-left: 2%; } }
+      margin-left: 9%; } }
   @media (max-width: 874px) {
     .name {
       font-size: 50px;
-      margin-left: 2%; } }
+      margin-left: 1%; } }
 
-@media (min-width: 1550px) {
-  .place {
-    margin-top: 2%;
-    margin-left: 2%;
-    height: 38px; } }
-@media (min-width: 1200px) and (max-width: 1549px) {
-  .place {
-    margin-top: 2%;
-    margin-left: 2%;
-    height: 38px; } }
-@media (min-width: 875px) and (max-width: 1199px) {
-  .place {
-    margin-top: 2%;
-    margin-left: 2%;
-    height: 38px; } }
-@media (max-width: 874px) {
-  .place {
-    margin-top: 1%;
-    margin-left: 1%;
-    height: 20px; } }
-.place__link a {
-  text-decoration: none;
-  color: #f6f6f6;
-  font-family: roboto; }
+.place {
+  /*&__link table {
+    @media (min-width: 1550px) {
+      margin-left: 172px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      margin-left: 9%;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      margin-left: 9%;
+    }
+    @media (max-width: 874px) {
+      margin-left: 1%;
+    }
+  }*/ }
   @media (min-width: 1550px) {
-    .place__link a {
-      width: 300px;
-      font-size: 30px; } }
+    .place {
+      margin-top: 2%;
+      height: 38px; } }
   @media (min-width: 1200px) and (max-width: 1549px) {
-    .place__link a {
-      width: 300px;
-      font-size: 30px; } }
+    .place {
+      margin-top: 2%;
+      height: 38px; } }
   @media (min-width: 875px) and (max-width: 1199px) {
-    .place__link a {
-      width: 300px;
-      font-size: 30px; } }
+    .place {
+      margin-top: 2%;
+      height: 38px; } }
   @media (max-width: 874px) {
-    .place__link a {
+    .place {
+      margin-top: 1%;
+      height: 20px; } }
+  .place__link {
+    width: 190px;
+    height: 20px; }
+  .place__link a {
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: roboto;
+    font-size: 24px;
+    /*@media (min-width: 1550) {
+      height: 20px;50px)
+      width: 300px;
+      font-size: 30px;
+      margin-left: 172px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      width: 300px;
+      font-size: 30px;
+      margin-left: 9%;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
       width: 100%;
-      font-size: 20px; } }
-@media (max-width: 874px) {
+      font-size: 30px;
+      margin-left: 9%;
+    }
+    @media (max-width: 874px) {
+      width: 100%;
+      font-size: 20px;
+      margin-left: 1%;
+    }*/ }
   .place__link img {
-    width: 25px;
-    height: 25px; } }
-.place__adress {
-  color: #f6f6f6;
-  font-family: roboto; }
-  @media (min-width: 1550px) {
-    .place__adress {
-      font-size: 22px; } }
-  @media (min-width: 1200px) and (max-width: 1549px) {
-    .place__adress {
-      font-size: 22px; } }
-  @media (min-width: 875px) and (max-width: 1199px) {
-    .place__adress {
-      font-size: 22px; } }
-  @media (max-width: 874px) {
-    .place__adress {
-      font-size: 18px; } }
+    height: 25px;
+    /*@media (min-width: 1550px) {
+      margin-left: 172px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      margin-left: 9%;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      margin-left: 9%;
+    }
+    @media (max-width: 874px) {
+      width: 25px;
+      height: 25px;
+      margin-left: 1%;
+    }*/ }
+  .place__adress {
+    color: #f6f6f6;
+    font-family: roboto; }
+    @media (min-width: 1550px) {
+      .place__adress {
+        font-size: 22px; } }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      .place__adress {
+        font-size: 22px; } }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      .place__adress {
+        font-size: 22px; } }
+    @media (max-width: 874px) {
+      .place__adress {
+        font-size: 18px; } }
 
 .registration {
   margin-top: 4%;
@@ -1069,10 +1095,10 @@ body {
 
 @font-face {
   font-family: roboto;
-  src: url("../fonts/roboto.ttf"); }
+  src: url("../src/fonts/roboto.ttf"); }
 @font-face {
   font-family: space-mono;
-  src: url("../fonts/space-mono.ttf"); }
+  src: url("../src/fonts/space-mono.ttf"); }
 body {
   display: inline-block;
   background: #303030; }

@@ -4,22 +4,23 @@
   color: $col2;
   @media (min-width: 1550px) {
     margin-top: 173px;
-    margin-left: 0%;
+    margin-left: 172px;
     font-size: 40px;
   }
   @media (min-width: 1200px) and (max-width: 1549px) {
     margin-top: 173px;
-    margin-left: 2%;
+    margin-left: 9%;
     font-size: 40px;
   }
   @media (min-width: 875px) and (max-width: 1199px) {
     margin-top: 173px;
-    margin-left: 2%;
+    margin-left: 9%;
     font-size: 40px;
   }
   @media (max-width: 874px) {
     margin-top: 150px;
     position: relative;
     font-size: 30px;
+    margin-left: 1%;
   }
 }

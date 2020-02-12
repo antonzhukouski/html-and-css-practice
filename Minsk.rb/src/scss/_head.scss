@@ -1,14 +1,17 @@
 .head {
   margin-top: 10px;
   letter-spacing: 1px;
+  @media (min-width: 1550px) {
+    margin-left: 172px;
+  }
   @media (min-width: 1200px) and (max-width: 1549px) {
-    margin-left: 2%;
+    margin-left: 9%;
   }
   @media (min-width: 875px) and (max-width: 1199px) {
-    margin-left: 2%;
+    margin-left: 9%;
   }
   @media (max-width: 874px) {
-    margin-left: 2%;
+    margin-left: 1%;
   }
 
     &__logo {
@@ -19,12 +22,12 @@
 
     &__menu {
       font-family: $font1;
-      width: 422px;
+      width: 432px;
       height: 64px;
       margin: 20px 0px;
       font-size: 16px;
       line-height: 24px;
-      float: left;
+      float: right;
       position: relative;
     }
 
