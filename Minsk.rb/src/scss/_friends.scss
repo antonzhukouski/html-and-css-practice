@@ -28,6 +28,7 @@
 .friends a {
   display: inline-block;
   vertical-align: middle;
+  text-decoration: none;
   @media (min-width: 1550px) {
     margin-right: 60px;
   }
@@ -45,6 +46,7 @@
 }
 
   &__links {
+    text-decoration: none;
     @media (min-width: 1550px) {
       margin-left: 50px;
     }

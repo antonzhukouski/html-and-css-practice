@@ -1,11 +1,14 @@
 .registration {
   margin-top: 4%;
   width: 722px;
+  @media (min-width: 1550px) {
+    margin-left: 172px;
+  }
   @media (min-width: 1200px) and (max-width: 1549px) {
-    margin-left: 2%;
+    margin-left: 9%;
   }
   @media (min-width: 875px) and (max-width: 1199px) {
-    margin-left: 2%;
+    margin-left: 9%;
   }
   @media (max-width: 874px) {
     margin-left: 1%;
