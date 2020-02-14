@@ -1014,40 +1014,47 @@ body {
 .contact__form-input-message [placeholder] {
   height: 240px;
   width: 600px; }
+.contact__form-input textarea {
+  background-color: #303030;
+  font-size: 22px;
+  color: #ffffff; }
+.contact__form-input button {
+  background-color: #00a38a;
+  width: 600px;
+  height: 60px;
+  font-family: space-mono;
+  color: #303030;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: bold;
+  outline: none;
+  border: 0px; }
 @media (min-width: 1550px) {
   .contact__form-input {
     text-align: center;
     margin-top: 10px;
-    background: #303030;
     float: left;
-    font-size: 24px;
     margin-left: 20%;
     font-family: space-mono; } }
 @media (min-width: 1200px) and (max-width: 1549px) {
   .contact__form-input {
     text-align: center;
     margin-top: 10px;
-    background: #303030;
     float: left;
-    font-size: 24px;
     margin-left: 20%;
     font-family: space-mono; } }
 @media (min-width: 875px) and (max-width: 1199px) {
   .contact__form-input {
     text-align: center;
     margin-top: 10px;
-    background: #303030;
     float: left;
-    font-size: 24px;
     margin-left: 10%;
     font-family: space-mono; } }
 @media (max-width: 874px) {
   .contact__form-input {
     text-align: center;
     margin-top: 10px;
-    background: #303030;
     float: left;
-    font-size: 24px;
     margin-left: 2%;
     font-family: space-mono; } }
 
@@ -1154,7 +1161,8 @@ body {
   .description__text {
     font-size: 17px;
     text-align: left;
-    color: #ffffff; }
+    color: #ffffff;
+    font-family: roboto; }
     @media (min-width: 1200px) {
       .description__text {
         flex-basis: 700px; } }
@@ -1326,26 +1334,6 @@ body {
   writing-mode: vertical-lr;
   position: absolute;
   right: 10px;
-  bottom: -900px;
-  /*margin-top: 100px;
-  @media (min-width: 1550px) {
-    transform: rotate(90deg);
-    position: absolute;
-    right: 23px;
-  }
-  @media (min-width:1200px) and (max-width: 1549px) {
-    transform: rotate(90deg);
-    position: absolute;
-    right: -8px;
-  }
-  @media (min-width: 875px) and (max-width: 1199px) {
-    transform: rotate(90deg);
-    position: absolute;
-    right: 48px;
-  }
-  @media (max-width: 874px) {
-    text-align: center;
-    margin-top: 10px;
-  }*/ }
+  bottom: -900px; }
 
 /*# sourceMappingURL=style.css.map */
