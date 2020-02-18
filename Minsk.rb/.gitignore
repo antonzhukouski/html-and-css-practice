@@ -5,6 +5,7 @@ artifacts.zip
 .gulp-scss-cache
 /.gulp-scss-cache
 /.gulp-scss-cache/src/style.css
+/.gulp-scss-cache/src/style.css.map
 /.sass-cache
 .*cache
 /.*cache
