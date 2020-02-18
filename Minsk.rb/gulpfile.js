@@ -23,6 +23,11 @@ gulp.task("scss", function() {
         .pipe(gulp.dest("dist/"));
 });
 
+gulp.task('clearCache', function() {
+    gulp.src('./lib/*.js')
+    .pipe(cache.clear());
+  });
+
 gulp.task("watch", function() {
     gulp.watch("src/*.html", ["html"]);
     gulp.watch("src/js/*.js", ["scripts"]);

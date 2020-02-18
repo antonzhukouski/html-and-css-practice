@@ -47,10 +47,11 @@
   }
 }
 
-.SS {
+.speaker-container {
   display: flex;
+  margin-bottom: 40px;
 
-  &__container {
+  &__text {
     display: flex;
     flex-direction: column;
     color: $col4;
@@ -58,91 +59,13 @@
     margin-top: 10px;
   }
 
-  &__container-name {
+  &__text-name {
     font-family: $font2;
     font-size: 18px;
     height: 30px;
     text-align: left;
   }
-  &__container-theme {
-    font-family: $font2;
-    font-size: 22px;
-    align-items: flex-start;
-    text-align: left;
-  }
-}
-
-.AS {
-  display: flex;
-  margin-top: 40px;
-
-  &__container {
-    display: flex;
-    flex-direction: column;
-    color: $col4;
-    margin-left: 42px;
-    margin-top: 10px;
-  }
-
-  &__container-name {
-    font-family: $font2;
-    font-size: 18px;
-    height: 30px;
-    text-align: left;
-  }
-  &__container-theme {
-    font-family: $font2;
-    font-size: 22px;
-    align-items: flex-start;
-    text-align: left;
-  }
-}
-
-.KS {
-  display: flex;
-  margin-top: 40px;
-
-  &__container {
-    display: flex;
-    flex-direction: column;
-    color: $col4;
-    margin-left: 42px;
-    margin-top: 10px;
-  }
-
-  &__container-name {
-    font-family: $font2;
-    font-size: 18px;
-    height: 30px;
-    text-align: left;
-  }
-  &__container-theme {
-    font-family: $font2;
-    font-size: 22px;
-    align-items: flex-start;
-    text-align: left;
-  }
-}
-
-.AL {
-  display: flex;
-  margin-top: 40px;
-
-  &__container {
-    display: flex;
-    flex-direction: column;
-    color: $col4;
-    margin-left: 42px;
-    margin-top: 10px;
-  }
-
-  &__container-name {
-    font-family: $font2;
-    font-size: 18px;
-    height: 30px;
-    text-align: left;
-  }
-  &__container-theme {
+  &__text-theme {
     font-family: $font2;
     font-size: 22px;
     align-items: flex-start;
