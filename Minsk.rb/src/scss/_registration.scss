@@ -1,0 +1,84 @@
+.registration {
+  margin-top: 4%;
+  width: 722px;
+  @media (min-width: 1550px) {
+    margin-left: 172px;
+  }
+  @media (min-width: 1200px) and (max-width: 1549px) {
+    margin-left: 9%;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    margin-left: 9%;
+  }
+  @media (max-width: 874px) {
+    margin-left: 1%;
+  }
+
+  &__registration a {
+    float: left;
+    text-decoration: none;
+    color: $col3;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    font-family: $font2;
+    @media (min-width: 1550px) {
+      outline: 5px solid $col3;
+      padding: 20px 40px;
+      font-size: 30px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      outline: 5px solid $col3;
+      padding: 20px 40px;
+      font-size: 30px;
+      float: left;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      outline: 5px solid $col3;
+      padding: 20px 40px;
+      font-size: 30px;
+      float: left;
+    }
+    @media (max-width: 874px) {
+      outline: 3px solid $col3;
+      padding: 1px 20px;
+      font-size: 20px;
+      float: left;
+    }
+  }
+
+  &__details {
+    text-align: left;
+  }
+
+  &__details a {
+    text-decoration: none;
+    color: $col3;
+    position: relative;
+    bottom: -30px;
+    left: 50px;
+    font-family: $font2;
+    font-size: 20px;
+    font-weight: bold;
+    @media (min-width: 1550px) {
+      bottom: -30px;
+      left: 50px;
+      font-size: 20px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      bottom: -30px;
+      left: 50px;
+      font-size: 20px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      bottom: -30px;
+      left: 50px;
+      font-size: 20px;
+    }
+    @media (max-width: 874px) {
+      bottom: -15px;
+      left: 25px;
+      font-size: 10px;
+    }
+  }
+}

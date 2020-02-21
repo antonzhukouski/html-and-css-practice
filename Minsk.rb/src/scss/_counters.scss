@@ -1,0 +1,169 @@
+.count {
+  margin-top: 50px;
+  color: $col4;
+  text-align: left;
+  @media (min-width: 1550px) {
+    margin-left: 222px;
+  }
+  @media (min-width: 1200px) and (max-width: 1549px) {
+    margin-left: 12%;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    margin-left: 12%;
+  }
+  @media (max-width: 874px) {
+      margin-left: 1%;
+  }
+
+  &__events-counter {
+    text-align: left;
+    color: $col4;
+    font-weight: bold;
+    font-family: $font2;
+    @media (min-width: 1550px) {
+      font-size: 68px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      font-size: 68px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      font-size: 68px;
+    }
+    @media (max-width: 874px) {
+      font-size: 40px;
+    }
+  }
+
+  &__speakers-counter {
+    text-align: left;
+    color: $col4;
+    font-weight: bold;
+    font-family: $font2;
+    @media (min-width: 1550px) {
+      font-size: 68px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      font-size: 68px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      font-size: 68px;
+    }
+    @media (max-width: 874px) {
+      font-size: 40px;
+    }
+  }
+
+  &__visitors-counter {
+    text-align: left;
+    color: $col4;
+    font-weight: bold;
+    font-family: $font2;
+    @media (min-width: 1550px) {
+      font-size: 68px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      font-size: 68px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      font-size: 68px;
+    }
+    @media (max-width: 874px) {
+      font-size: 40px;
+    }
+  }
+
+  &__years-counter {
+    text-align: left;
+    color: $col4;
+    font-weight: bold;
+    font-family: $font2;
+    @media (min-width: 1550px) {
+      font-size: 68px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      font-size: 68px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      font-size: 68px;
+    }
+    @media (max-width: 874px) {
+      font-size: 40px;
+    }
+  }
+
+  &__events {
+    margin-top: -20px;
+    text-align: left;
+    color: $col4;
+    font-family: $font1;
+    @media (min-width: 1550px) {
+      font-size: 30px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      font-size: 30px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      font-size: 30px;
+    }
+    @media (max-width: 874px) {
+      font-size: 20px;
+    }
+  }
+
+  &__speakers {
+    margin-top: -20px;
+    text-align: left;
+    color: $col4;
+    font-family: $font1;
+    @media (min-width: 1550px) {
+      font-size: 30px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      font-size: 30px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      font-size: 30px;
+    }
+    @media (max-width: 874px) {
+      font-size: 20px;
+    }
+  }
+
+  &__visitors {
+    margin-top: -20px;
+    text-align: left;
+    color: $col4;
+    font-family: $font1;
+    @media (min-width: 1550px) {
+      font-size: 30px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      font-size: 30px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      font-size: 30px;
+    }
+    @media (max-width: 874px) {
+      font-size: 20px;
+    }
+  }
+
+  &__years {
+    margin-top: -20px;
+    text-align: left;
+    color: $col4;
+    font-family: $font1;
+    @media (min-width: 1550px) {
+      font-size: 30px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      font-size: 30px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      font-size: 30px;
+    }
+    @media (max-width: 874px) {
+      font-size: 20px;
+    }
+  }
+}

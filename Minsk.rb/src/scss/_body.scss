@@ -1,0 +1,16 @@
+body {
+  display: inline-block;
+  background: $col1;
+  @media (min-width: 1550px) {
+    width: 1440px;
+  }
+  @media (min-width: 1200px) and (max-width: 1549px) {
+    width: 100%;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    width: 100%;
+  }
+  @media (max-width: 874px) {
+    width: 100%;
+  }
+}
