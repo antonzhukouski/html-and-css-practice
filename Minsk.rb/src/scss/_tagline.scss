@@ -3,10 +3,25 @@
   color: $col4;
   font-weight: bold;
   margin-top: 40px;
+  position: relative;
   @media (min-width: 1000px) {
     font-size: 113px;
   }
   @media (max-width: 999px) {
     font-size: 60px;
   }
+<<<<<<< HEAD
+
+  &__footer {
+    font-family: $font2;
+    font-size: 13px;
+    color: $col4;
+    writing-mode: vertical-lr;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+  }
 }
+=======
+}
+>>>>>>> master

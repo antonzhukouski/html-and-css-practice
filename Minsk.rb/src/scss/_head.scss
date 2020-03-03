@@ -14,26 +14,35 @@
     margin-left: 1%;
   }
 
-    &__logo {
-      float: left;
-      position: relative;
-      text-align: left;
-    }
+  &__logo {
+    float: left;
+    position: relative;
+    text-align: left;
+  }
 
-    &__menu {
-      font-family: $font1;
-      width: 432px;
-      height: 64px;
-      margin: 20px 0px;
-      font-size: 16px;
-      line-height: 24px;
-      float: right;
-      position: relative;
-    }
+  &__menu {
+    font-family: $font1;
+    width: 432px;
+    height: 64px;
+    margin: 20px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    float: right;
+    position: relative;
+  }
 
+<<<<<<< HEAD
+  &__menu a {
+    text-decoration: none;
+    color:$col2;
+    margin: 0px 20px;
+  }
+}
+=======
     &__menu a {
       text-decoration: none;
       color:$col2;
       margin: 0px 20px;
     }
 }
+>>>>>>> master

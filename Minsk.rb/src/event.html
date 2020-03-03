@@ -2,6 +2,7 @@
   <head>
     <title>Minsk.rb</title>
     <link rel="stylesheet" type="text/css" href="../dist/style.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -45,78 +46,84 @@
       </div>
     </div>
 
-    <div class="media">
-      <div class="media__menu">
-        <div> SPEAKERS </div>
-        <div> VIDEOS </div>
-        <div> PHOTOS </div>
-      </div>
-
-      <div class="media__speakers">
-        <div class="SS">
-          <div class="SS__photo">
-            <img src="images/Sergey Sergyenko.png">
+    <div id="tabs" class="media">
+        <div class="media-menu">
+          <a href="#" class="media-menu__link is-active"> Speakers </a>
+          <a href="#" class="media-menu__link"> Photos </a>
+          <a href="#" class="media-menu__link"> Videos </a>
+        </div>
+        <div class="media-containers">
+          <div class="media-container is-active">
+            <div class="speaker-container">
+              <div class="speaker-container__photo">
+                <img src="images/Sergey Sergyenko.png">
+              </div>
+              <div class="speaker-container__text">
+                <div class="speaker-container__text-name">
+                  Sergey Sergyenko
+                </div>
+                <div class="speaker-container__text-theme">
+                  <p><b> When the whole world is your database </b></p>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-container">
+              <div class="speaker-container__photo">
+                <img src="images/Alexandrea Smirnova.png">
+              </div>
+              <div class="speaker-container__text">
+                <div class="speaker-container__text-name">
+                  Alexandra Smirnova
+                </div>
+                <div class="speaker-container__text-theme">
+                  <p><b> Real-Time Error Alerting & Debugging Tools: Rollbar </b></p>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-container">
+              <div class="speaker-container__photo">
+                <img src="images/Kirill Suhodolov.png">
+              </div>
+              <div class="speaker-container__text">
+                <div class="speaker-container__text-name">
+                  Kirill Suhodolov
+                </div>
+                <div class="speaker-container__text-theme">
+                  <p><b> We build bots. For real </b></p>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-container">
+              <div class="speaker-container__photo">
+                <img src="images/Aliaksandr Lomau.png">
+              </div>
+                <div class="speaker-container__text">
+                <div class="speaker-container__text-name">
+                  Aliaksandr Lomau
+                </div>
+                <div class="speaker-container__text-theme">
+                  <p><b> Contract programming in Ruby </b></p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="SS__container">
-            <div class="SS__container-name">
-              Sergey Sergyenko
-            </div>
-            <div class="SS__container-theme">
-              <p><b> When the whole world is your database </b></p>
-            </div>
+          <div class="media-container">
+            Photos
+          </div>
+          <div class="media-container">
+            Videos
           </div>
         </div>
-
-        <div class="AS">
-          <div class="AS__photo">
-            <img src="images/Alexandrea Smirnova.png">
-          </div>
-          <div class="AS__container">
-            <div class="AS__container-name">
-              Alexandra Smirnova
-            </div>
-            <div class="AS__container-theme">
-              <p><b> Real-Time Error Alerting & Debugging Tools: Rollbar </b></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="KS">
-          <div class="KS__photo">
-            <img src="images/Kirill Suhodolov.png">
-          </div>
-          <div class="KS__container">
-            <div class="KS__container-name">
-              Kirill Suhodolov
-            </div>
-            <div class="KS__container-theme">
-              <p><b> We build bots. For real </b></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="AL">
-          <div class="AL__photo">
-            <img src="images/Aliaksandr Lomau.png">
-          </div>
-            <div class="AL__container">
-            <div class="AL__container-name">
-              Aliaksandr Lomau
-            </div>
-            <div class="AL__container-theme">
-              <p><b> Contract programming in Ruby </b></p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
     <div class="tagline">
       We are Minsk.rb
+      <div class="tagline__footer">
+        2016-2017 Minsk.rb
+      </div>
     </div>
 
-    <div class="footer">
-      2016-2017 Minsk.rb
-    </div>
+    <script src='js/event.js'></script>
+
   </body>
 </html>

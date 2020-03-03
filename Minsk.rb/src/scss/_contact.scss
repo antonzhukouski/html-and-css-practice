@@ -36,41 +36,41 @@
     font-family: $font2;
   }
 
-&__form-input-name [placeholder] {
-  height: 60px;
-  width: 600px;
-}
+  &__form-input-name [placeholder] {
+    height: 60px;
+    width: 600px;
+  }
 
-&__form-input-e-mail [placeholder] {
-  height: 60px;
-  width: 600px;
-}
+  &__form-input-e-mail [placeholder] {
+    height: 60px;
+    width: 600px;
+  }
 
-&__form-input-message [placeholder] {
-  height: 240px;
-  width: 600px;
-}
+  &__form-input-message [placeholder] {
+    height: 240px;
+    width: 600px;
+  }
 
-&__form-input textarea {
-  background-color: $col1;
-  font-size: 22px;
-  color: $col4;
-}
+  &__form-input textarea {
+    background-color: $col1;
+    font-size: 22px;
+    color: $col4;
+  }
 
-&__form-input button {
-  background-color: $col3;
-  width: 600px;
-  height: 60px;
-  font-family: $font2;
-  color: $col1;
-  font-size: 28px;
-  font-style: italic;
-  font-weight: bold;
-  outline: none;
-  border: 0px;
-}
+  &__form-input button {
+    background-color: $col3;
+    width: 600px;
+    height: 60px;
+    font-family: $font2;
+    color: $col1;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: bold;
+    outline: none;
+    border: 0px;
+  }
 
-&__form-input {
+  &__form-input {
     @media (min-width: 1550px) {
       text-align: center;
       margin-top: 10px;

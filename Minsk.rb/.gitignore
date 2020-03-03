@@ -2,8 +2,13 @@ artifacts.zip
 /dist
 /coverage
 /node_modules
+.gulp-scss-cache
 /.gulp-scss-cache
+/.gulp-scss-cache/src/style.css
+/.gulp-scss-cache/src/style.css.map
 /.sass-cache
+.*cache
+/.*cache
 /.vscode
 
 # Generated CMP data
