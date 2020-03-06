@@ -17,7 +17,7 @@
   }
 }
 
-.media-menu {
+.medialink {
   display: flex;
   color: $col4;
   font-size: 24px;
@@ -34,17 +34,17 @@
   }
 }
 
-.media-menu a {
+.medialink a {
   text-decoration: none;
   color: $col4;
 }
 
-.media-container {
+.tabcontent {
   display: none;
 }
 
-.media-container.is-active {
-  display: block;
+.tabcontent a.active {
+  display: flex;
 }
 
 .speaker-container {
@@ -71,4 +71,8 @@
     align-items: flex-start;
     text-align: left;
   }
+}
+
+.gallery img {
+  margin: 62px;
 }

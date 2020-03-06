@@ -1,52 +1,26 @@
-(function() {
+$(".medialink").on("click",function openLink(act, tabName) {
+  var i, tabcontent, medialink;
 
-  'use strict';
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  
+  medialink = document.getElementsByClassName("medialink");
+  for (i = 0; i < medialink.length; i++) {
+    medialink[i].className = medialink[i].className.replace(" active", "");
+  }
 
-  $(document).ready(function() {
-    alert("jquery Version "+ jQuery.fn.jquery);
-  });
+  document.getElementById(tabName).style.display = "block";
+  act.currentTarget.className += " active";
+});
 
-  var tabs = function(options) {
-    var el = document.querySelector(options.el);
-    var tabNavigationLinks = el.querySelectorAll(options.tabNavigationLinks);
-    var tabContentContainers = el.querySelectorAll(options.tabContentContainers);
-    var activeIndex = 0;
-    var initCalled = false;
-    
-    var init = function() {
-      if (!initCalled) {
-        initCalled = true;
-        el.classList.remove('no-js');
-
-        for (var i = 0; i < tabNavigationLinks.length; i++) {
-          var link = tabNavigationLinks[i];
-          handleClick(link, i);
-        }
-      }
-    };
-
-    var handleClick = function(link, index) {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        goToTab(index);
-      });
-    };
-
-    var goToTab = function(index) {
-      if (index !== activeIndex && index >= 0 && index <= tabNavigationLinks.length) {
-        tabNavigationLinks[activeIndex].classList.remove('is-active');
-        tabNavigationLinks[index].classList.add('is-active');
-        tabContentContainers[activeIndex].classList.remove('is-active');
-        tabContentContainers[index].classList.add('is-active');
-        activeIndex = index;
-      }
-    };
-
-    return{
-      init: init,
-      goToTab: goToTab
-    };
-  };
-
-  window.tabs=tabs;
-})();
+$(document).ready(function(){
+  $("a.photo").fancybox({
+    transitionIn: 'elastic',
+    transitionOut: 'elastic',
+    speedIn: 200,
+    speedOut: 200,
+    hideOnOverlayClick: false,
+  })
+});
