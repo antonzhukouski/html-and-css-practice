@@ -3,13 +3,14 @@
     <title>Minsk.rb</title>
     <link rel="stylesheet" type="text/css" href="../dist/style.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	  <script src="../node_modules/galleria/dist/galleria.min.js"></script>
   </head>
 
   <body>
     <div class="navigation-menu">
       <div class="navigation-menu__logo">
-        <a href="minsk.rb"> <img src="images/logo.svg" vspace="5" hspace="5"> </a>
+        <a href="minsk.rb"> <img src="../src/images/logo.svg" vspace="5" hspace="5"> </a>
       </div>
       <div class="navigation-menu__menu">
         <a href="Minsk.rb/Events"> Events </a>
@@ -48,16 +49,17 @@
     </div>
 
     <div class="media">
-        <div id='tabs' class="mediamenu">
-          <a href="#" class="medialink" onclick="openLink(act, 'Speakers')"> Speakers </a>
-          <a href="#" class="medialink" onclick="openLink(act, 'Photos')"> Photos </a>
-          <a href="#" class="medialink" onclick="openLink(act, 'Videos')"> Videos </a>
-        </div>
-        <!-- <div class="tabcontent"> -->
-          <div id="Speakers" class="tabcontent">
+      <div class="mediamenu">
+        <span class="medialink-source"> Speakers </span>
+        <span class="medialink-source"> Photos </span>
+        <span class="medialink-source"> Videos </span>
+      </div>
+      <div class="tabcontent">
+        <div class="medialink-target">
+          <div class="speakers-event">
             <div class="speaker-container">
               <div class="speaker-container__photo">
-                <img src="images/Sergey Sergyenko.png">
+                <img src="../src/images/Sergey Sergyenko.png">
               </div>
               <div class="speaker-container__text">
                 <div class="speaker-container__text-name">
@@ -70,7 +72,7 @@
             </div>
             <div class="speaker-container">
               <div class="speaker-container__photo">
-                <img src="images/Alexandrea Smirnova.png">
+                <img src="../src/images/Alexandra Smirnova.png">
               </div>
               <div class="speaker-container__text">
                 <div class="speaker-container__text-name">
@@ -83,7 +85,7 @@
             </div>
             <div class="speaker-container">
               <div class="speaker-container__photo">
-                <img src="images/Kirill Suhodolov.png">
+                <img src="../src/images/Kirill Suhodolov.png">
               </div>
               <div class="speaker-container__text">
                 <div class="speaker-container__text-name">
@@ -96,7 +98,7 @@
             </div>
             <div class="speaker-container">
               <div class="speaker-container__photo">
-                <img src="images/Aliaksandr Lomau.png">
+                <img src="../src/images/Aliaksandr Lomau.png">
               </div>
                 <div class="speaker-container__text">
                 <div class="speaker-container__text-name">
@@ -108,23 +110,24 @@
               </div>
             </div>
           </div>
-          <div id="Photos" class="tabcontent">
-            <div class="gallery">
-              <a rel="gallery" class="photo" href="images/Event photo big 1.png.png" title="Photo 1"> <img src="images/Event photo.png"> </a>
-              <a rel="gallery" class="photo" href="images/Event photo big 2.png.png" title="Photo 2"> <img src="images/Event photo.png"> </a>
-              <a rel="gallery" class="photo" href="images/Event photo big 3.png.png" title="Photo 3"> <img src="images/Event photo.png"> </a>
-              <a rel="gallery" class="photo" href="images/Event photo big 1.png.png" title="Photo 4"> <img src="images/Event photo.png"> </a>
-              <a rel="gallery" class="photo" href="images/Event photo big 2.png.png" title="Photo 5"> <img src="images/Event photo.png"> </a>
-              <a rel="gallery" class="photo" href="images/Event photo big 3.png.png" title="Photo 6"> <img src="images/Event photo.png"> </a>
-              <a rel="gallery" class="photo" href="images/Event photo big 1.png.png" title="Photo 7"> <img src="images/Event photo.png"> </a>
-              <a rel="gallery" class="photo" href="images/Event photo big 2.png.png" title="Photo 8"> <img src="images/Event photo.png"> </a>
-            </div>
-          </div>
-          <div id="Videos" class="tabcontent">
-            Videos
-          </div>
         </div>
-    <!-- </div> -->
+        <div class="medialink-target">
+            <div class="gallery">
+              <a href="../src/images/Event photo big 1.png" title="Photo 1"> <img src="../src/images/Event photo.png"> </a>
+              <a href="../src/images/Event photo big 2.png" title="Photo 2"> <img src="../src/images/Event photo.png"> </a>
+              <a href="../src/images/Event photo big 3.png" title="Photo 3"> <img src="../src/images/Event photo.png"> </a>
+              <a href="../src/images/Event photo big 1.png" title="Photo 4"> <img src="../src/images/Event photo.png"> </a>
+              <a href="../src/images/Event photo big 2.png" title="Photo 5"> <img src="../src/images/Event photo.png"> </a>
+              <a href="../src/images/Event photo big 3.png" title="Photo 6"> <img src="../src/images/Event photo.png"> </a>
+              <a href="../src/images/Event photo big 1.png" title="Photo 7"> <img src="../src/images/Event photo.png"> </a>
+              <a href="../src/images/Event photo big 2.png" title="Photo 8"> <img src="../src/images/Event photo.png"> </a>
+            </div>
+        </div>
+        <div class="medialink-target">
+          Videos
+        </div>
+      </div>
+    </div>
 
     <div class="tagline">
       We are Minsk.rb
@@ -133,7 +136,7 @@
       </div>
     </div>
 
-    <script src='js/event.js'></script>
+    <script src='../src/js/event.js'></script>
 
   </body>
 </html>

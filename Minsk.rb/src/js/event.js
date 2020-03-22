@@ -1,26 +1,33 @@
-$(".medialink").on("click",function openLink(act, tabName) {
-  var i, tabcontent, medialink;
-
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
+var tab = {
+  init : function () {
+    tab.nav = document.getElementsByClassName("medialink-source");
+    tab.txt = document.getElementsByClassName("medialink-target");
   
-  medialink = document.getElementsByClassName("medialink");
-  for (i = 0; i < medialink.length; i++) {
-    medialink[i].className = medialink[i].className.replace(" active", "");
+      for (var i=0; i<tab.nav.length; i++) {
+        tab.nav[i].dataset.pos = i;
+        tab.nav[i].addEventListener("click", tab.switch);
+      }
+      
+      tab.nav[0].classList.add("show");
+      tab.txt[0].classList.add("show");
+  },
+
+  switch : function () {
+    for (var t of tab.nav) {
+      t.classList.remove("show");
+    }
+    for (var t of tab.txt) {
+      t.classList.remove("show");
+    }
+    
+    tab.nav[this.dataset.pos].classList.add("show");
+    tab.txt[this.dataset.pos].classList.add("show");
   }
+};
 
-  document.getElementById(tabName).style.display = "block";
-  act.currentTarget.className += " active";
-});
+(function() {
+  Galleria.loadTheme('../node_modules/galleria/dist/themes/classic/galleria.classic.min.js');
+  Galleria.run('.gallery');
+    }());
 
-$(document).ready(function(){
-  $("a.photo").fancybox({
-    transitionIn: 'elastic',
-    transitionOut: 'elastic',
-    speedIn: 200,
-    speedOut: 200,
-    hideOnOverlayClick: false,
-  })
-});
+window.addEventListener("load", tab.init);

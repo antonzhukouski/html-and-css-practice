@@ -3,7 +3,7 @@
   display: flex;
   @media (min-width: 1200px) {
     padding: 0 100px;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
   }
   @media (min-width: 1057px) and (max-width: 1199px) {
     padding: 0 50px;
@@ -17,7 +17,7 @@
   }
 }
 
-.medialink {
+.mediamenu span.medialink-source {
   display: flex;
   color: $col4;
   font-size: 24px;
@@ -34,16 +34,29 @@
   }
 }
 
-.medialink a {
+.mediamenu span.medialink-source a {
   text-decoration: none;
   color: $col4;
 }
 
-.tabcontent {
+.mediamenu span.active {
+  background: red($color: #000000);
+}
+
+.tabcontent{
+  margin-left: 60px;
+}
+
+.speakers-event {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabcontent div.medialink-target {
   display: none;
 }
 
-.tabcontent a.active {
+.tabcontent div.show {
   display: flex;
 }
 
@@ -73,6 +86,30 @@
   }
 }
 
+
+.gallery {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  background: $col1;
+  @media (min-width: 1200px) {
+    width: 850px;
+    }
+  @media (min-width: 1057px) and (max-width: 1199px) {
+    width: 750px;
+  }
+  @media (min-width: 875px) and (max-width: 1056px) {
+    width: 95%;
+  }
+  @media (max-width: 874px) {
+    width: 95%;
+  }
+}
+
 .gallery img {
-  margin: 62px;
+  margin: 7px;
+}
+
+.gallery a {
+  text-decoration: none;
 }
