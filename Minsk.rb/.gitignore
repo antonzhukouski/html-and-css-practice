@@ -10,7 +10,8 @@ artifacts.zip
 /.sass-cache
 .*cache
 /.*cache
-/.vscode
+.vscode
+../.vscode
 
 package.json
 package-lock.json
