@@ -7,7 +7,6 @@ var tab = {
         tab.nav[i].dataset.pos = i;
         tab.nav[i].addEventListener("click", tab.switch);
       }
-      
       tab.nav[0].classList.add("show");
       tab.txt[0].classList.add("show");
   },
@@ -19,7 +18,6 @@ var tab = {
     for (var t of tab.txt) {
       t.classList.remove("show");
     }
-    
     tab.nav[this.dataset.pos].classList.add("show");
     tab.txt[this.dataset.pos].classList.add("show");
   }
