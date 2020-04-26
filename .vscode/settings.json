@@ -4,5 +4,7 @@
     "files.eol": "\n",
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
     "diffEditor.ignoreTrimWhitespace": false
 }
