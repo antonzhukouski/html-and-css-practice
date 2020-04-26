@@ -1,5 +1,7 @@
 {
     "css.completion.completePropertyWithSemicolon": false,
     "files.trimFinalNewlines": true,
-    "scss.completion.completePropertyWithSemicolon": false
+    "scss.completion.completePropertyWithSemicolon": false,
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true
 }
