@@ -1,0 +1,19 @@
+.navigation-menu {
+	height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: $font2;
+  @media (min-width: 1200px) {
+    padding: 0 100px;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    padding: 0 50px;
+  }
+
+  &__menu a {
+    text-decoration: none;
+    color:$col2;
+    margin: 0px 20px;
+  }
+}

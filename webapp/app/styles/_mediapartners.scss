@@ -1,0 +1,25 @@
+.mediapartners {
+  text-align: left;
+  margin-top: 95px;
+  color: $col4;
+  font-family: $font2;
+  font-size: 18px;
+  @media (min-width: 1550px) {
+      margin-left: 222px;
+  }
+  @media (min-width: 1200px) and (max-width: 1549px) {
+    margin-left: 12%;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    margin-left: 12%;
+  }
+  @media (max-width: 874px) {
+    margin-left: 12%;
+  }
+}
+
+.mediapartners a {
+  margin-left: 40%;
+  text-decoration: none;
+  color: $col3;
+}
