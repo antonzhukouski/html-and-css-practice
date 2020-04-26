@@ -1,4 +1,5 @@
 {
-    "files.eol": "\n",
-    "css.completion.completePropertyWithSemicolon": false
+    "css.completion.completePropertyWithSemicolon": false,
+    "files.trimFinalNewlines": true,
+    "scss.completion.completePropertyWithSemicolon": false
 }
