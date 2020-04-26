@@ -3,5 +3,6 @@
     "files.trimFinalNewlines": true,
     "scss.completion.completePropertyWithSemicolon": false,
     "files.eol": "\n",
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false
 }
