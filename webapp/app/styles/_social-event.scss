@@ -1,0 +1,39 @@
+.social-event {
+  font-family: $font2;
+  display: flex;
+  justify-content: space-between;
+  font-family: $font2;
+  @media (min-width: 1550px) {
+    writing-mode: vertical-lr;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: 100px;
+    height: 300px;
+  }
+  @media (min-width:1200px) and (max-width: 1549px) {
+    writing-mode: vertical-lr;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: 100px;
+    height: 300px;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    writing-mode: vertical-lr;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: 100px;
+    height: 300px;
+  }
+  @media (max-width: 874px) {
+    width: 300px;
+  }
+}
+
+.social-event a {
+  text-decoration: none;
+  color: $col3;
+  margin: 0px 20px;
+}
