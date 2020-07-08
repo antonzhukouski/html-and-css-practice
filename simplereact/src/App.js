@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Tabs from './Tabs'
-import TabNavigation from './TabNavigation'
-import TabContent from './TabContent'
+import Tabs from '../src/Tabs'
+import TabNavigation from '../src/TabNavigation'
+import TabContent from '../src/TabContent'
 
 class App extends React.Component {
   constructor(props) {
