@@ -1,12 +1,27 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Tabs from '../src/Tabs';
-import './index.css';
-import App from '../src/App'
+import Speakers from './Speakers'
+import Photos from './Photos'
+import Videos from './Videos'
+import { render } from "react-dom";
+import Tabs from './Tabs';
 
+require('./styles.css');
 
-ReactDOM.render(
-  <Tabs />,
-  <App />,
-  document.getElementById('root')
-);
+function App() {
+  return (
+    <Tabs>
+      <div label="Speakers">
+        <Speakers />
+      </div>
+      <div label="Photos">
+        <Photos />
+      </div>
+      <div label="Videos">
+        <Videos />
+      </div>
+    </Tabs>
+  );
+}
+
+const container = document.getElementById('root');
+render(<App />, container);
