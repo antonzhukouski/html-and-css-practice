@@ -1,0 +1,12 @@
+font-face {
+    font-family: roboto;
+    src: url("../../src/styles/Roboto/Roboto-Black.ttf");
+}
+
+font-face {
+    font-family: space-mono;
+    src: url('../../src/styles/Roboto/Roboto-Medium.ttf');
+}
+
+$font1: roboto;
+$font2: space-mono;

@@ -1,0 +1,12 @@
+html {
+  text-align: center;
+}
+
+@import './colors.scss';
+@import '../styles/font.scss';
+@import './body.scss';
+@import './tabs.scss';
+@import './navigation-menu';
+@import './social-event';
+@import './description';
+@import './tagline';
