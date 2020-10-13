@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 class Videos extends React.Component {
   render () {
@@ -10,19 +10,4 @@ class Videos extends React.Component {
   }
 }
 
-/*ReactDOM.render(
-  <TabContent speakerPhoto="asdsad" speakerName="serg"/>,
-  document.getElementById('TabContent')
-);*/
-
 export default Videos;
-
-/*<div className='TabContentItem'>
-          <Speakers />
-        </div>
-        <div className='TabContentItem'>
-          <Photos />
-        </div>
-        <div className='TabContentItem'>
-          <Videos />
-        </div>*/

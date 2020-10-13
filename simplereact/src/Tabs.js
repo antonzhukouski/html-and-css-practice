@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-
-import TabLinks from './TabLinks';
+import React, { Component } from 'react'
+import TabLinks from './TabLinks'
 
 class Tabs extends Component {
 

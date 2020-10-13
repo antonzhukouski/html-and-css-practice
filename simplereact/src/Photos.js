@@ -8,12 +8,12 @@ class Photos extends React.Component {
   render () {
     return (
       <div className='Photos' id="1">
-        <img alt='' src={EventPhoto1} />
-        <img alt='' src={EventPhoto2} />
-        <img alt='' src={EventPhoto3} />
-        <img alt='' src={EventPhoto1} />
-        <img alt='' src={EventPhoto2} />
-        <img alt='' src={EventPhoto3} />
+        <img alt = '' src = {EventPhoto1} />
+        <img alt = '' src = {EventPhoto2} />
+        <img alt = '' src = {EventPhoto3} />
+        <img alt = '' src = {EventPhoto1} />
+        <img alt = '' src = {EventPhoto2} />
+        <img alt = '' src = {EventPhoto3} />
       </div>
     )
   }
