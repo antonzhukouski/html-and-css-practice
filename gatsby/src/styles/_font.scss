@@ -1,0 +1,12 @@
+@font-face {
+    font-family: roboto;
+    src: local('roboto'), url('../styles/fonts/Roboto-Regular.woff');
+}
+
+@font-face {
+    font-family: space-mono;
+    src: local('space-mono'), url('../styles/fonts/SpaceMono-Regular.woff');
+}
+
+$font1: roboto;
+$font2: space-mono;
