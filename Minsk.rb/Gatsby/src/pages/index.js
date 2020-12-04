@@ -34,7 +34,7 @@ export default function Home({data}) {
     <AboutEvent />
     <div>
     {schedule.map (({time, theme, speaker}) => (
-        <div> 
+        <div key={time}> 
           <div className = 'time'> {time} </div>
           <div className = 'theme'> {theme} </div>
           <div className = 'speaker'> {speaker} </div>
