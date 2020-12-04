@@ -1,27 +1,46 @@
-import React from "react"
-import Head from "../components/Head"
-import EventDescription from '../components/EventDescription'
-import Speakers from '../components/Speakers'
-import Photos from '../components/Photos'
-import Videos from '../components/Videos'
-import Tabs from '../components/Tabs'
-import Tagline from '../components/Tagline'
+import React from 'react'
+import Head from '../components/Head'
+import Announce from '../components/Announce'
+import AboutEvent from '../components/AboutEvent'
+import Share from '../components/Share'
 
-export default function Home() {
+export const query = graphql`
+  {
+    allTimetableJson {
+      edges {
+        node {
+          time
+          theme
+          speaker
+        }
+      }
+    }
+  }
+`
+
+export default function Home({data}) {
+  const schedule = data.allTimetableJson.edges.map(({ node }) => {
+    const { time, theme, speaker} = node;
+    return {
+      time,
+      theme,
+      speaker
+    };
+  });
+    
   return <div>
     <Head />
-    <EventDescription />
-    <Tabs>
-      <div label="Speakers">
-        <Speakers />
-      </div>
-      <div label="Photos">
-        <Photos />
-      </div>
-      <div label="Videos">
-        <Videos />
-      </div>
-    </Tabs>
-    <Tagline />
+    <Announce />
+    <AboutEvent />
+    <div>
+    {schedule.map (({time, theme, speaker}) => (
+        <div> 
+          <div className = 'time'> {time} </div>
+          <div className = 'theme'> {theme} </div>
+          <div className = 'speaker'> {speaker} </div>
+        </div>
+      ))}
+    </div>
+    <Share />
   </div>
 }

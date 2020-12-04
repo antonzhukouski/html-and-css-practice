@@ -7,12 +7,12 @@ class Head extends React.Component {
       <div className = 'head'>
         <div className = 'navigation-menu'>
           <div className = 'navigation-menu__logo'>
-            <a href = 'minsk.rb'>
+            <a href = '/'>
               <img src = {Logo} vspace = '5' hspace = '5' alt = ''></img>
             </a>
           </div>
           <div className = 'navigation-menu__menu'>
-            <a href = 'Minsk.rb/Events'> Events </a>
+            <a href = '/individual_event'> Events </a>
             <a href = 'Minsk.rb/Friends'> Friends </a>
             <a href = 'Minsk.rb/About'> About </a>
             <a href = 'Minsk.rb/Contact Us'> Contact Us </a>
