@@ -21,7 +21,7 @@ export default function Announce() {
       </div>
       <div className = 'registration'>
         <div className = 'registration__registration'>
-          <a href = 'minsk.rb/register'><button>Register</button></a>
+          <a href = 'minsk.rb/register'>Register</a>
         </div>
         <div className = 'registration__details'>
           <a href = 'minsk.rb/viewdetails'> View Details </a>

@@ -1,5 +1,4 @@
 import React from 'react'
-
 export default function AboutEvent() {
   return (
     <div className = 'about-event'>
@@ -12,4 +11,4 @@ export default function AboutEvent() {
       </div>
     </div>
   )
-}
+  }

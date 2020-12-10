@@ -32,12 +32,13 @@ export default function Home({data}) {
     <Head />
     <Announce />
     <AboutEvent />
-    <div>
-    {schedule.map (({time, theme, speaker}) => (
-        <div key={time}> 
-          <div className = 'time'> {time} </div>
-          <div className = 'theme'> {theme} </div>
-          <div className = 'speaker'> {speaker} </div>
+    <div className='schedule'>
+      SCHEDULE_
+      {schedule.map (({time, theme, speaker}) => (
+        <div className='schedule__block' key={time}>
+          <div className = 'schedule__block-time'> {time} </div>
+          <div className = 'schedule__block-event'> {theme} </div>
+          <div className = 'schedule__block-speaker'> {speaker} </div>
         </div>
       ))}
     </div>

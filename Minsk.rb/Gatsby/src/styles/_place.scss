@@ -1,0 +1,56 @@
+.place {
+
+  @media (min-width: 1550px) {
+    margin-top: 2%;
+    margin-left: 172px;
+    height: 38px;
+  }
+  @media (min-width: 1200px) and (max-width: 1549px) {
+    margin-top: 2%;
+    margin-left: 9%;
+    height: 38px;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    margin-top: 2%;
+    margin-left: 9%;
+    height: 38px;
+  }
+  @media (max-width: 874px) {
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 20px;
+  }
+
+  &__link {
+    width: 190px;
+    height: 20px;;
+  }
+
+  &__link a {
+    text-decoration: none;
+    color: $col2;
+    font-family: $font1;
+    font-size: 24px;
+  }
+
+  &__link img {
+    height: 25px;
+  }
+
+  &__adress {
+    color: $col2;
+    font-family: $font1;
+    @media (min-width: 1550px) {
+      font-size: 22px;
+    }
+    @media (min-width: 1200px) and (max-width: 1549px) {
+      font-size: 22px;
+    }
+    @media (min-width: 875px) and (max-width: 1199px) {
+      font-size: 22px;
+    }
+    @media (max-width: 874px) {
+      font-size: 18px;
+    }
+  }
+}
