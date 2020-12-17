@@ -1,0 +1,22 @@
+[
+  {
+    "photo": "./image/Sergey Sergyenko.png",
+    "speaker": "Sergey Sergyenko",
+    "theme": "When the whole world is your database"
+  },
+  {
+    "photo": "./image/Alexandra Smirnova.png",
+    "speaker": "Alexandra Smirnova",
+    "theme": "Real-Time Error Alerting & Debugging Tools: Rollbar"
+  },
+  {
+    "photo": "./image/Kirill Suhodolov.png",
+    "speaker": "Kirill Suhodolov",
+    "theme": "We build bots. For real"
+  },
+  {
+    "photo": "./image/Aliaksandr Lomau.png",
+    "speaker": "Aliaksandr Lomau",
+    "theme": "Contract programming in Ruby"
+  }
+]

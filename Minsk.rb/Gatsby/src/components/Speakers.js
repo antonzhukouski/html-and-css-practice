@@ -5,8 +5,8 @@ import Suhodolov from '../images/Kirill Suhodolov.png'
 import Lomau from '../images/Aliaksandr Lomau.png'
 import Speaker from '../components/Speaker.js'
 
-class Speakers extends React.Component {
 
+class Speakers extends React.Component {
   render() {
     return (
       <div className = 'speakers' id='0'>
