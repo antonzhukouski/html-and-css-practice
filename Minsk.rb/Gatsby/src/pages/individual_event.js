@@ -60,7 +60,6 @@ export default function Events ({data}) {
   return <div>
     <Head />
     <EventDescription />
-    <Tagline />
     <Tabs>
     <div label="Speakers">
       {speakers.map (({photo, speaker, theme}) => (
@@ -88,5 +87,6 @@ export default function Events ({data}) {
     ))}
     </div>
     </Tabs>
+    <Tagline />
   </div>
 }

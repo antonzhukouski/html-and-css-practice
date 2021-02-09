@@ -1,28 +1,30 @@
-.share {
+.facebook-link {
   text-align: left;
-  margin-top: 55px;
-  margin-bottom: 100px;
-  font-family: $font1;
-  font-size: 14px;
-  color: $col4;
+  font-weight: bold;
+  font-family: $font2;
   @media (min-width: 1550px) {
+    margin-top: 110px;
     margin-left: 222px;
+    font-size: 28px;
   }
   @media (min-width: 1200px) and (max-width: 1549px) {
+    margin-top: 110px;
     margin-left: 12%;
+    font-size: 28px;
   }
   @media (min-width: 875px) and (max-width: 1199px) {
+    margin-top: 110px;
     margin-left: 12%;
+    font-size: 28px;
   }
   @media (max-width: 874px) {
-    margin-left: 12%;
+    margin-top: 60px;
+    margin-left: 1%;
+    font-size: 20px;
   }
 }
 
-.share a {
+.facebook-link a {
   text-decoration: none;
-  margin-left: 20px;
   color: $col3;
-  font-family: $font2;
-  font-size: 14px;
 }

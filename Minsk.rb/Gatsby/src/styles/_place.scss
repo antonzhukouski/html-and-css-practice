@@ -1,9 +1,10 @@
 .place {
-
-  @media (min-width: 1550px) {
+  display: flex;
+    @media (min-width: 1550px) {
     margin-top: 2%;
     margin-left: 172px;
     height: 38px;
+    
   }
   @media (min-width: 1200px) and (max-width: 1549px) {
     margin-top: 2%;
@@ -37,9 +38,10 @@
     height: 25px;
   }
 
-  &__adress {
+  &__address {
     color: $col2;
     font-family: $font1;
+    margin-left: 40px;
     @media (min-width: 1550px) {
       font-size: 22px;
     }
