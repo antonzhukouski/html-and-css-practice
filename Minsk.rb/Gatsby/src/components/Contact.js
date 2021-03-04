@@ -8,7 +8,7 @@ class Contact extends React.Component {
   }
 
   handleSubmit() {
-    alert(this.input.current.value);
+    alert('You sent message "' + this.input.current.value + '"');
   }
 
   render() {
@@ -17,13 +17,13 @@ class Contact extends React.Component {
         Contuct Us
         <form onSubmit={this.handleSubmit}>
           <div className = 'contact__form-input-name'>
-            <input type="text" ref={this.input} defaultValue = "Name" id = 'input'/>
+            <input type="text" ref={this.input} placeholder = "Name" id = 'input'/>
           </div>
           <div className = 'contact__form-input-e-mail'>
-            <input type="text" ref={this.input} defaultValue = "e-mail" id = 'input'/>
+            <input type="text" ref={this.input} placeholder = "e-mail" id = 'input'/>
           </div>
           <div className = 'contact__form-input-message'>
-            <input type="text" ref={this.input} defaultValue = "Type your message here" id = 'message'/>
+            <input type="text" ref={this.input} placeholder = "Type your message here" id = 'message'/>
           </div>
           <div className = 'contact__form-input-button'>
           <button  type="submit" value="Submit">
@@ -37,28 +37,3 @@ class Contact extends React.Component {
 }
 
 export default Contact
-
-// export default function Contact() {
-//   return (
-//     <div>
-//       <div className = 'contact'>
-//         Contact Us
-//         <div className = 'contact__form-input'>
-//           <div className = 'contact__form-input-name'>
-//             <textarea placeholder = "Name"> Name2 </textarea>
-//           </div>
-//           <div className = 'contact__form-input-e-mail'>
-//             <textarea placeholder="e-mail *"></textarea>
-//           </div>
-//           <div className = 'contact__form-input-message'>
-//             <textarea placeholder="Type your message here *"></textarea>
-//           </div>
-//           {/* <input defaultValue = ' def'> </input> */}
-//           <div id="contact__form-input-button">
-//             <button>SEND MESSAGE</button>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }

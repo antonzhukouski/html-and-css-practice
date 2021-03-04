@@ -1,24 +1,52 @@
 .speakers {
   margin-top: 154px;
   color: $col2;
-  @media (min-width: 1550px) {
-    margin-left: 222px;
-    width: 920px;
-  }
-  @media (min-width: 1200px) and (max-width: 1549px) {
-    margin-left: 12%;
-    width: 920px;
-  }
-  @media (min-width: 875px) and (max-width: 1199px) {
-    margin-left: 12%;
-    width: 700px;
-  }
-  @media (max-width: 874px) {
-    margin-left: 1%;
-    width: auto;
-  }
+  margin-left: 9%;
 
-  &__heading {
+  &__head {
+    font-family: $font2;
+    font-size: 36px;
+    text-align: left;
+    font-weight: bold;
+  }
+  // @media (min-width: 1550px) {
+  //   margin-left: 222px;
+  //   width: 920px;
+  // }
+  // @media (min-width: 1200px) and (max-width: 1549px) {
+  //   margin-left: 12%;
+  //   width: 920px;
+  // }
+  // @media (min-width: 875px) and (max-width: 1199px) {
+  //   margin-left: 12%;
+  //   width: 700px;
+  // }
+  // @media (max-width: 874px) {
+  //   margin-left: 1%;
+  //   width: auto;
+  // }
+  &__list {
+    display: flex;
+    margin-top: 50px;
+    font-family: $font2;
+    font-size: 18px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.speakers
+
+.speaker {
+  display: block;
+
+  // &-photo {
+  //   margin-left: 35px;
+  // }
+}
+
+.lip {
+&__heading {
     font-family: $font2;
     font-size: 36px;
     text-align: left;

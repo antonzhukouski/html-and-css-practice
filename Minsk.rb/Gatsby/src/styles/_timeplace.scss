@@ -1,5 +1,10 @@
-.time {
+.time-place {
   margin-top: 160px;
+  display: flex;
+}
+
+.time {
+  
   text-align: left;
   color: $col4;
   @media (min-width: 1550px) {
@@ -124,28 +129,29 @@
       font-size: 20px;
     }
   }
+}
 
-  &__map {
-    @media (min-width: 1550px) {
-      margin-left: 160px;
-    }
-    @media (min-width: 1200px) and (max-width: 1549px) {
-      margin-left: 160px;
-    }
-    @media (min-width: 875px) and (max-width: 1199px) {
-      margin-left: 120px;
-    }
-    @media (max-width: 874px) {
-      margin-left: 120px;
-    }
+.place-map {
+  @media (min-width: 1550px) {
+    margin-left: 160px;
   }
-
-  &__map img{
-    @media (min-width: 875px) and (max-width: 1199px) {
-      width: 100%;
-    }
-    @media (max-width: 874px) {
-      width: 100%;
-    }
+  @media (min-width: 1200px) and (max-width: 1549px) {
+    margin-left: 160px;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    margin-left: 50px;
+  }
+  @media (max-width: 874px) {
+    margin-left: 10px;
+  }
+  
+  img {
+    margin-left: 100px;
+  @media (min-width: 875px) and (max-width: 1199px) {
+    width: 60%;
+  }
+  @media (max-width: 874px) {
+    width: 50%;
+  }
   }
 }
