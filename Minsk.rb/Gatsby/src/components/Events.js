@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {StaticQuery} from 'gatsby'
 import Announce from './Announce'
+import mapPin from '../images/map-pin.svg'
 
 class Event extends Component {
   constructor(props) {
@@ -17,6 +18,7 @@ class Event extends Component {
           </div>
           <div className = 'place'>
             <div className = 'place__link'>
+              <img src = {mapPin} />
               <a href = {this.props.eventPlaceUrl}> 
                 {this.props.eventPlaceUrl}
               </a>

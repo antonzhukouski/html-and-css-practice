@@ -41,7 +41,7 @@ class Tabs extends Component {
             );
           })}
         </div>
-        <div className='tab-content'>
+        <div className='tab-content' >
           {children.map((child) => {
             if (child.props.label !== activeTab) return undefined;
             return child.props.children;

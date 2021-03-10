@@ -1,20 +1,7 @@
 import React from 'react'
 import Logo from '../images/logo.svg'
-import { useStaticQuery, StaticQuery } from 'gatsby'
 
 export default function Head() {
-  const data = useStaticQuery(graphql`
-    query EventSpeakersQuery { 
-      allEventSpeakersJson {
-        edges {
-          node {
-            speaker
-            theme
-          }
-        }
-      }
-    }
-  `)
   return(
       <div className = 'head'>
         <div className = 'navigation-menu'>
