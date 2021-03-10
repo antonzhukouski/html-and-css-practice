@@ -8,7 +8,6 @@ class SpeakersPhotoStructure extends Component {
         <div className = 'speaker-photo'>
           <img src = {this.props.photo} alt = ''/>
         </div>
-        
         <div className = 'speaker-name'>
           {this.props.speaker}
         </div>
