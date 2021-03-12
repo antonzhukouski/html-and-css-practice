@@ -18,7 +18,7 @@ class Event extends Component {
           </div>
           <div className = 'place'>
             <div className = 'place__link'>
-              <img src = {mapPin} />
+              <img src = {mapPin} alt =''/>
               <a href = {this.props.eventPlaceUrl}> 
                 {this.props.eventPlaceUrl}
               </a>

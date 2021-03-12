@@ -1,0 +1,25 @@
+[
+  {
+    "speakerTheme": "Anti-IF Missing Pattern",
+    "speaker": "Sergey Sergyenko",
+    "photo": "./images/Sergey Sergyenko.png"
+  },
+  
+  {
+    "speakerTheme": "How I Learned to Stop Worrying and Love the Command Pattern",
+    "speaker": "Kirill Suhodolov",
+    "photo": "./images/Kirill Suhodolov.png"
+  },
+
+  {
+    "speakerTheme": "Rupher = Ruby+Gopher",
+    "speaker": "Aleksandra Smirnova",
+    "photo": "./images/Alexandra Smirnova.png"
+  },
+
+  {
+    "speakerTheme": "Anthology of Deploy",
+    "speaker": "Aliaksandr Lomau",
+    "photo": "./images/Aliaksandr Lomau.png"
+  }
+]
