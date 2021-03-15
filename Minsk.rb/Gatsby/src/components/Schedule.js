@@ -3,11 +3,11 @@ import {StaticQuery} from 'gatsby'
 
 class ScheduleStructure extends Component {
   constructor(props) {
-    super(props)
+    super()
   }
   render() {
     return (
-        <div className = 'schedule'>
+        <div className = 'schedule' >
           <div className = 'schedule__block'>
             <div className = 'schedule__block-time'>
               {this.props.time}

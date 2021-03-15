@@ -8,7 +8,7 @@ import Contact from '../components/Contact'
 import TimePlace from '../components/TimePlace'
 import Events from '../components/Events'
 import Schedule from '../components/Schedule'
-import SpeakersPhoto2 from '../components/Speaker'
+import SpeakersPhoto from '../components/Speaker'
 import Tagline from '../components/Tagline'
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
     <Events />
     <Share />
     <Schedule />
-    <SpeakersPhoto2 />
+    <SpeakersPhoto />
     <Mediapartners />
     <TimePlace />
     <Count />

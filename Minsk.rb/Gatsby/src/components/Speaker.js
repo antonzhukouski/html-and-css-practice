@@ -18,7 +18,7 @@ class SpeakersPhotoStructure extends Component {
 
 function getSpeakersPhoto(data) {
   const speakersPhotoArray = []
-  data.allBeerUpScheduleJson.edges.forEach (item =>
+  data.allBeerUpSpeakersTabJson.edges.forEach (item =>
     speakersPhotoArray.push(
       <SpeakersPhotoStructure 
         photo = {item.node.photo}
@@ -29,11 +29,11 @@ function getSpeakersPhoto(data) {
   return speakersPhotoArray
 }
 
-const SpeakersPhoto = () => (
+const SpeakersPhotoData = () => (
   <StaticQuery
     query={graphql`
       {
-        allBeerUpScheduleJson {
+        allBeerUpSpeakersTabJson {
           edges {
             node {
               speaker
@@ -47,17 +47,17 @@ const SpeakersPhoto = () => (
   ></StaticQuery>
 );
 
-class SpeakersPhoto2 extends Component {
+class SpeakersPhoto extends Component {
   render() {
   return <div className = 'speakers'>
     <div className = 'speakers__head'>
       Speakers _
     </div>
     <div className = 'speakers__list'>
-      <SpeakersPhoto />
+      <SpeakersPhotoData />
     </div>
   </div>
 }
 }
 
-export default SpeakersPhoto2
+export default SpeakersPhoto

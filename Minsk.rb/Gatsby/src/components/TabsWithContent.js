@@ -2,17 +2,29 @@ import React from 'react'
 import {useStaticQuery} from 'gatsby'
 import Tabs from './Tabs';
 
-export default function TabsWihtContent() {
+export default function TabsWithContent() {
   const data = useStaticQuery(graphql`
-    query BeerUpTabs { 
-      allBeerUpScheduleJson {
+    query BeerUpTabs2 { 
+      allBeerUpSpeakersTabJson {
         edges {
           node {
-            speaker
             photo
+            speaker
             speakerTheme
+          }
+        }
+      }
+      allBeerUpPhotosTabJson {
+        edges {
+          node {
             photoLittle
             photoBig
+          }
+        }
+      }
+      allBeerUpVideosTabJson {
+        edges {
+          node {
             video
           }
         }
@@ -20,7 +32,7 @@ export default function TabsWihtContent() {
     }
   `)
 
-  const speakers = data.allBeerUpScheduleJson.edges.map (({node}) => {
+  const speakers = data.allBeerUpSpeakersTabJson.edges.map (({node}) => {
     const {speaker, speakerTheme, photo} = node;
     return {
       speaker,
@@ -29,7 +41,7 @@ export default function TabsWihtContent() {
     }
   })
 
-  const photos = data.allBeerUpScheduleJson.edges.map (({node}) => {
+  const photos = data.allBeerUpPhotosTabJson.edges.map (({node}) => {
     const {photoLittle, photoBig} = node;
     return {
       photoLittle,
@@ -37,7 +49,7 @@ export default function TabsWihtContent() {
     }
   })
 
-  const videos = data.allBeerUpScheduleJson.edges.map (({node}) => {
+  const videos = data.allBeerUpVideosTabJson.edges.map (({node}) => {
     const { video } = node;
     return {
       video
@@ -75,7 +87,7 @@ export default function TabsWihtContent() {
       <div label = "Videos" className = 'Videos'>
       {videos.map (({ video }) =>
         <div className = 'video' key = {videos}>
-          <iframe width="187" height="105" src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe title = "Title of iframe" width="187" height="105" src={video} allow="autoplay; encrypted-media" ></iframe>
         </div>
       )}
       </div>

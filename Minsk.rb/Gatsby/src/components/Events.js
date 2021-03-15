@@ -5,7 +5,7 @@ import mapPin from '../images/map-pin.svg'
 
 class Event extends Component {
   constructor(props) {
-    super(props)
+    super()
   }
   render() {
     return (
@@ -53,6 +53,7 @@ function getEventsList(data) {
         eventPlace = {item.node.eventPlace}
         aboutEventName = {item.node.aboutEventName}
         aboutEvent = {item.node.aboutEvent}
+        key = {item.node.eventDate}
       />
     )
   )

@@ -1,14 +1,14 @@
 [
   {
-    "photoLittle": "./images/Event photo.png",
+    "photoLittle": "./images/Event photo little 1.png",
     "photoBig": "./images/Event photo big 1.png"    
   },
   {
-    "photoLittle": "./images/Event photo.png",
+    "photoLittle": "./images/Event photo little 2.png",
     "photoBig": "./images/Event photo big 2.png"
   },
   {
-    "photoLittle": "./images/Event photo.png",
+    "photoLittle": "./images/Event photo little 3.png",
     "photoBig": "./images/Event photo big 3.png"
   }
 ]

@@ -3,7 +3,7 @@ import {StaticQuery} from 'gatsby'
 
 class TimePlaceStructure extends Component {
   constructor(props) {
-    super(props)
+    super()
   }
   render() {
     return (
