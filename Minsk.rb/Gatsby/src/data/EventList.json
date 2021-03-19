@@ -1,0 +1,127 @@
+[ 
+  { "eventName": "BeerUp",
+    "eventDate": "26 Oct 19-00",
+    "eventPlace": "Octyabrskaya str.16a, Minsk",
+    "eventPlaceUrl": "EventSpace.by",
+    "eventPlaceMap": "./images/map.png",
+    "aboutEventName": "About Beer Up! _",
+    "aboutEvent": "Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts jean shorts Shoreditch farm-to-table Austin lo-fi Odd Future occupy. Chia semiotics skateboard, Schlitz messenger bag master cleanse High Life <u>occupy vegan polaroid</u> tote bag leggings. Single-origin coffee mumblecore deep v salvia mlkshk. Organic photo booth cray tofu, vegan fixie bitters sriracha. Blog Austin Wes Anderson. Deep v pour-over trust fund vinyl <b>mlkshk +1</b>.</p>",
+    "schedule": [
+      { "time": "11.00",
+        "theme": "Registration and Welcome Coffee"},
+
+      { "time": "11.30",
+        "theme": "Anti-IF Missing Pattern",
+        "speaker": "Sergey Sergyenko",
+        "speakerPhoto": "./images/Sergey Sergyenko.png"},
+
+      { "time": "12.15",
+        "theme": "Coffee Break"},
+
+      { "time": "12.30",
+        "theme": "How I Learned to Stop Worrying and Love the Command Pattern",
+        "speaker": "Kirill Suhodolov",
+        "speakerPhoto": "./images/Kirill Suhodolov.png"},
+
+      { "time": "13.15",
+        "theme": "Lunch"},
+
+      { "time": "14.15",
+        "theme": "Rupher = Ruby+Gopher",
+        "speaker": "Aleksandra Smirnova",
+        "speakerPhoto": "./images/Alexandra Smirnova.png"},
+
+      { "time": "15.00",
+        "theme": "Coffee Break"},
+
+      { "time": "15.15",
+        "theme": "Anthology of Deploy",
+        "speaker": "Aliaksandr Lomau",
+        "speakerPhoto": "./images/Aliaksandr Lomau.png"},
+
+      { "time": "16.00",
+        "theme": "Coffee Break"},
+
+      { "time": "16.15",
+        "theme": "Lightning Talks"}
+    ],
+
+    "photos": [
+      { "photoLittle": "./images/Event photo.png",
+        "photoBig": "./images/Event photo big 1.png"},
+
+      { "photoLittle": "./images/Event photo.png",
+        "photoBig": "./images/Event photo big 2.png"},
+
+      { "photoLittle": "./images/Event photo.png",
+        "photoBig": "./images/Event photo big 3.png"}
+    ],
+    
+    "videos": [
+      { "vieo": "https://www.youtube.com/channel/UCHox44pFWA_btSnU_-PvaiQ"}
+    ]
+  },
+  
+  { "eventName": "2",
+    "eventDate": "26 Oct 19-00",
+    "eventPlace": "Octyabrskaya str.16a, Minsk",
+    "eventPlaceUrl": "EventSpace.by",
+    "eventPlaceMap": "./images/map.png",
+    "aboutEventName": "About Beer Up! _",
+    "aboutEvent": "Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts jean shorts Shoreditch farm-to-table Austin lo-fi Odd Future occupy. Chia semiotics skateboard, Schlitz messenger bag master cleanse High Life <u>occupy vegan polaroid</u> tote bag leggings. Single-origin coffee mumblecore deep v salvia mlkshk. Organic photo booth cray tofu, vegan fixie bitters sriracha. Blog Austin Wes Anderson. Deep v pour-over trust fund vinyl <b>mlkshk +1</b>.</p>",
+    "schedule": [
+      { "time": "11.00",
+        "theme": "Registration and Welcome Coffee"},
+
+      { "time": "11.30",
+        "theme": "Anti-IF Missing Pattern",
+        "speaker": "Sergey Sergyenko",
+        "speakerPhoto": "./images/Sergey Sergyenko.png"},
+
+      { "time": "12.15",
+        "theme": "Coffee Break"},
+
+      { "time": "12.30",
+        "theme": "How I Learned to Stop Worrying and Love the Command Pattern",
+        "speaker": "Kirill Suhodolov",
+        "speakerPhoto": "./images/Kirill Suhodolov.png"},
+
+      { "time": "13.15",
+        "theme": "Lunch"},
+
+      { "time": "14.15",
+        "theme": "Rupher = Ruby+Gopher",
+        "speaker": "Aleksandra Smirnova",
+        "speakerPhoto": "./images/Alexandra Smirnova.png"},
+
+      { "time": "15.00",
+        "theme": "Coffee Break"},
+
+      { "time": "15.15",
+        "theme": "Anthology of Deploy",
+        "speaker": "Aliaksandr Lomau",
+        "speakerPhoto": "./images/Aliaksandr Lomau.png"},
+
+      { "time": "16.00",
+        "theme": "Coffee Break"},
+
+      { "time": "16.15",
+        "theme": "Lightning Talks"}
+    ],
+
+    "photos": [
+      { "photoLittle": "./images/Event photo.png",
+        "photoBig": "./images/Event photo big 1.png"},
+
+      { "photoLittle": "./images/Event photo.png",
+        "photoBig": "./images/Event photo big 2.png"},
+
+      { "photoLittle": "./images/Event photo.png",
+        "photoBig": "./images/Event photo big 3.png"}
+    ],
+    
+    "videos": [
+      { "vieo": "https://www.youtube.com/channel/UCHox44pFWA_btSnU_-PvaiQ"}
+    ]
+  }
+]
