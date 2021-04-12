@@ -21,6 +21,7 @@ function getSpeakersPhoto(data) {
   data.allBeerUpSpeakersTabJson.edges.forEach (item =>
     speakersPhotoArray.push(
       <SpeakersPhotoStructure 
+        key = {item.node.speaker}
         photo = {item.node.photo}
         speaker = {item.node.speaker}
       />

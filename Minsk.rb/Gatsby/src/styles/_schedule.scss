@@ -23,6 +23,7 @@
       font-family: $font2;
       font-size: 17px;
       color: $col4;
+      margin-left: 20px;
     }
 
     &-event {
@@ -48,9 +49,8 @@
     }
 
     &-speaker {
-      margin-left: 26px;
+      padding-left: 26px;
       font-family: $font1;
-      color: $col4;
       @media (min-width: 1550px) {
         font-size: 18px;
         line-height: 1.35;

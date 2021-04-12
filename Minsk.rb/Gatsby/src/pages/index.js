@@ -7,9 +7,9 @@ import Friends from '../components/Friends'
 import Contact from '../components/Contact'
 import TimePlace from '../components/TimePlace'
 import Events from '../components/Events'
-import Schedule from '../components/Schedule'
 import SpeakersPhoto from '../components/Speaker'
 import Tagline from '../components/Tagline'
+import Schedule from '../components/Schedule'
 
 export default function Home() {
   return <div>
@@ -17,6 +17,7 @@ export default function Home() {
     <Events />
     <Share />
     <Schedule />
+    <Share />
     <SpeakersPhoto />
     <Mediapartners />
     <TimePlace />

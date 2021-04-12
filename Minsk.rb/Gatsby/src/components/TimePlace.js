@@ -36,9 +36,10 @@ class TimePlaceStructure extends Component {
 
 function getTimePlace(data) {
   const timePlaceArray = []
-  data.allEventsListJson.edges.forEach(item =>
+  data.allEventListJson.edges.forEach(item =>
     timePlaceArray.push(
       <TimePlaceStructure
+        key = {item.node.eventDate}
         eventDate = {item.node.eventDate}
         eventPlaceUrl = {item.node.eventPlaceUrl}
         eventPlace = {item.node.eventPlace}
@@ -52,7 +53,7 @@ function getTimePlace(data) {
 const TimePlace = () => (
   <StaticQuery
     query={graphql`
-      { allEventsListJson {
+      { allEventListJson {
           edges {
             node {
               eventDate
