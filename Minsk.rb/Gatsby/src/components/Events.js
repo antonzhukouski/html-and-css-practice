@@ -1,84 +1,57 @@
-import React, {Component} from 'react'
-import {StaticQuery, graphql} from 'gatsby'
+import React from 'react'
+import { graphql, useStaticQuery} from 'gatsby'
 import Announce from './Announce'
 import mapPin from '../images/map-pin.svg'
 
-class Event extends Component {
-  constructor(props) {
-    super()
+export default function Event() {
+  const data = useStaticQuery (graphql`
+  {
+    allEventListJson {
+      edges {
+        node {
+          eventName
+          eventDate
+          eventPlaceUrl
+          eventPlace
+          aboutEventName
+          aboutEvent
+        }
+      }
+    }
   }
-  render() {
+  `)
+
+  return data.allEventListJson.edges.map(({node}) => {
+    const {eventName, eventDate, eventPlaceUrl, eventPlace, aboutEventName, aboutEvent} = node;
     return (
-      <div className='Event'>
+      <div className='Event' key = {eventName}>
         <div className = 'date'>
-          {this.props.eventDate}
+          {eventDate}
         </div>
         <div className = 'eventName'>
-          {this.props.eventName}
+          {eventName}
         </div>
         <div className = 'place'>
           <div className = 'place__link'>
             <img src = {mapPin} alt =''/>
-            <a href = {this.props.eventPlaceUrl}> 
-              {this.props.eventPlaceUrl}
+            <a href = {eventPlaceUrl}> 
+              {eventPlaceUrl}
             </a>
           </div>
           <div className = 'place__address'>
-            {this.props.eventPlace}
+            {eventPlace}
           </div>
         </div>
         <Announce />
           <div className = 'about-event'>
             <div className = 'about-event__heading'>
-              {this.props.aboutEventName}
+              {aboutEventName}
             </div>
             <div className = 'about-event__text'>
-              {this.props.aboutEvent}
+              {aboutEvent}
             </div>
           </div>
         </div>    
     )
-  }
+  })
 }
-
-const Events = () => (
-  <StaticQuery
-    query={graphql`
-      {
-        allEventListJson {
-          edges {
-            node {
-              eventName
-              eventDate
-              eventPlaceUrl
-              eventPlace
-              aboutEventName
-              aboutEvent
-            }
-          }
-        }
-      }
-    `}
-    render={data => getEventList(data)}
-  ></StaticQuery>
-)
-
-function getEventList(data) {
-    const EventsArray = []
-    data.allEventListJson.edges.forEach(item =>
-      EventsArray.push(
-        <Event
-          eventDate = {item.node.eventDate}
-          eventName = {item.node.eventName}
-          eventPlaceUrl = {item.node.eventPlaceUrl}
-          eventPlace = {item.node.eventPlace}
-          aboutEventName = {item.node.aboutEventName}
-          aboutEvent = {item.node.aboutEvent}
-          key = {item.node.eventName}
-        />
-      )
-    )
-    return EventsArray
-  }
-
-export default Events

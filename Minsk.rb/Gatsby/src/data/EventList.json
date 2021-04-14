@@ -6,38 +6,42 @@
     "eventPlaceMap": "./images/map.png",
     "aboutEventName": "About Beer Up! _",
     "aboutEvent": "Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts jean shorts Shoreditch farm-to-table Austin lo-fi Odd Future occupy. Chia semiotics skateboard, Schlitz messenger bag master cleanse High Life <u>occupy vegan polaroid</u> tote bag leggings. Single-origin coffee mumblecore deep v salvia mlkshk. Organic photo booth cray tofu, vegan fixie bitters sriracha. Blog Austin Wes Anderson. Deep v pour-over trust fund vinyl <b>mlkshk +1</b>.</p>",
+    "description": "Synth polaroid bitters chillwave pickled. Vegan disrupt tousled. Portland keffiyeh aesthetic food sriracha cornhole single-origin coffee church-key roof party. Leggings McSweeney's, normcore you probably haven't heard of them Marfa organic squid. Slow-carb 90's ennui Gobard pug asymmetrical, narwhal VHS Tonx High Life. Retro synth Gobard picked Elsy jean shorts beard, pour-over fanny pack mumblecore.",
+    "mediaPartners": [
+      {"name": "Rubyroid Labs",
+       "href": "https://rubyroidlabs.com"},
+       
+      {"name": "datarockets",
+       "href": "https://datarockets.com"}
+    ],
     "schedule": [
       { "time": "11.00",
         "theme": "Registration and Welcome Coffee"},
 
       { "time": "11.30",
         "theme": "Anti-IF Missing Pattern",
-        "speaker": "Sergey Sergyenko",
-        "speakerPhoto": "./images/Sergey Sergyenko.png"},
+        "speaker": "Sergey Sergyenko"},
 
       { "time": "12.15",
         "theme": "Coffee Break"},
 
       { "time": "12.30",
         "theme": "How I Learned to Stop Worrying and Love the Command Pattern",
-        "speaker": "Kirill Suhodolov",
-        "speakerPhoto": "./images/Kirill Suhodolov.png"},
+        "speaker": "Kirill Suhodolov"},
 
       { "time": "13.15",
         "theme": "Lunch"},
 
       { "time": "14.15",
         "theme": "Rupher = Ruby+Gopher",
-        "speaker": "Aleksandra Smirnova",
-        "speakerPhoto": "./images/Alexandra Smirnova.png"},
+        "speaker": "Aleksandra Smirnova"},
 
       { "time": "15.00",
         "theme": "Coffee Break"},
 
       { "time": "15.15",
         "theme": "Anthology of Deploy",
-        "speaker": "Aliaksandr Lomau",
-        "speakerPhoto": "./images/Aliaksandr Lomau.png"},
+        "speaker": "Aliaksandr Lomau"},
 
       { "time": "16.00",
         "theme": "Coffee Break"},
@@ -65,18 +69,18 @@
     ],
 
     "photos": [
-      { "photoLittle": "./images/Event photo.png",
+      { "photoLittle": "./images/Event photo little 1.png",
         "photoBig": "./images/Event photo big 1.png"},
 
-      { "photoLittle": "./images/Event photo.png",
+      { "photoLittle": "./images/Event photo little 2.png",
         "photoBig": "./images/Event photo big 2.png"},
 
-      { "photoLittle": "./images/Event photo.png",
+      { "photoLittle": "./images/Event photo little 3.png",
         "photoBig": "./images/Event photo big 3.png"}
     ],
     
     "videos": [
-      { "video": "https://www.youtube.com/channel/UCHox44pFWA_btSnU_-PvaiQ"}
+      { "video": "https://www.youtube.com/embed/Cz5q05Hl5gs"}
     ]
   }
 ]

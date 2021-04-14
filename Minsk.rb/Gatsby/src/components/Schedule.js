@@ -21,20 +21,19 @@ export default function Schedule() {
 
   return data.allEventListJson.edges.map(({node}) => {
     const {schedule} = node;
-    return <div>
-      {schedule.map(item=> <div className = 'schedule'>
-        <div className = 'schedule__block'>
-          <div key={item.time} className = 'schedule__block-time'>
+    return <div key = {schedule}>
+      {schedule.map (item =>  <div className = 'schedule__block' key = {item.time}>
+          <div className = 'schedule__block-time'>
             {item.time} 
           </div>
-          <div key = {item.theme} className = 'schedule__block-time'>
+          <div className = 'schedule__block-time'>
             {item.theme}
           </div>
-          <div key = {item.speaker} className = 'schedule__block-speaker'>
+          <div className = 'schedule__block-speaker'>
             {item.speaker}
           </div>
         </div>  
-      </div>)}
+      )}
     </div>
   })
 }

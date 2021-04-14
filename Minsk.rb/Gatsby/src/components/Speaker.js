@@ -1,64 +1,34 @@
-import React, {Component} from 'react'
-import {StaticQuery} from 'gatsby'
+import React from 'react'
+import {graphql, useStaticQuery} from 'gatsby'
 
-class SpeakersPhotoStructure extends Component {
-  render() {
-    return (
-      <div className = 'speaker'>
-        <div className = 'speaker-photo'>
-          <img src = {this.props.photo} alt = ''/>
-        </div>
-        <div className = 'speaker-name'>
-          {this.props.speaker}
-        </div>
-      </div>
-    )
-  }
-}
-
-function getSpeakersPhoto(data) {
-  const speakersPhotoArray = []
-  data.allBeerUpSpeakersTabJson.edges.forEach (item =>
-    speakersPhotoArray.push(
-      <SpeakersPhotoStructure 
-        key = {item.node.speaker}
-        photo = {item.node.photo}
-        speaker = {item.node.speaker}
-      />
-    )
-  )
-  return speakersPhotoArray
-}
-
-const SpeakersPhotoData = () => (
-  <StaticQuery
-    query={graphql`
-      {
-        allBeerUpSpeakersTabJson {
-          edges {
-            node {
-              speaker
-              photo
-            }
+export default function SpeakersPhoto() {
+  const data = useStaticQuery(graphql`
+  {
+    allEventListJson {
+      edges {
+        node {
+          speakers{
+            speaker
+            speakerPhoto
           }
         }
       }
-    `}
-    render={data => getSpeakersPhoto(data)}
-  ></StaticQuery>
-);
+    }
+  }
+  `)
 
-class SpeakersPhoto extends Component {
-  render() {
-  return <div className = 'speakers'>
-    <div className = 'speakers__head'>
-      Speakers _
+  return data.allEventListJson.edges.map(({node}) => {
+    const {speakers} = node;
+    return <div className = 'speakers-block' key = {speakers}>
+      {speakers.map (item => <div className='speaker-block' key = {item.speaker}>
+        <div className = 'speaker-block__photo'>
+          <img src = {item.speakerPhoto} alt = ''/>
+        </div>
+        <div className = 'speaker-block__name'>
+          {item.speaker}
+        </div>
+      </div>)}
     </div>
-    <div className = 'speakers__list'>
-      <SpeakersPhotoData />
-    </div>
-  </div>
+  })
+  
 }
-}
-
-export default SpeakersPhoto

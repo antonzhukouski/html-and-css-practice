@@ -8,7 +8,7 @@ export default function TabsWithContent() {
     allEventListJson {
       edges {
         node {
-          schedule {
+          speakers {
             speaker
             speakerPhoto
             theme
@@ -28,11 +28,11 @@ export default function TabsWithContent() {
 
   
   return data.allEventListJson.edges.map(({node}) => {
-    const {schedule, photos, videos} = node;
-    return <div>
+    const {speakers, photos, videos} = node;
+    return <div key = {speakers}>
       <Tabs>
         <div label = 'Speakers'>
-          {schedule.map (({speaker, theme, speakerPhoto}) =>
+          {speakers.map (({speaker, theme, speakerPhoto}) =>
             <div className = 'speaker' key = {speaker}>
               <div className = 'speaker__photo'>
                 <img src = {speakerPhoto} alt =''/>
@@ -59,8 +59,8 @@ export default function TabsWithContent() {
         </div>
         <div label = "Videos" className = 'Videos'>
         {videos.map (({ video }) =>
-          <div className = 'video' key = {video}>
-            <iframe title = "Title of iframe" width="187" height="105" src={video} allow="autoplay; encrypted-media" ></iframe>
+          <div className = 'video' key = "video">
+            <iframe width="560" height="315" src={video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
         )}
         </div>
