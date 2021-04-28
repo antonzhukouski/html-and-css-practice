@@ -1,11 +1,4 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
   plugins: [
     `gatsby-plugin-sass`,
     {
@@ -16,15 +9,23 @@ module.exports = {
           urls: ['/fonts/fonts.scss']
         }
       }
-    }
-    /*{
-      'gatsby-plugin-web-font-loader' ,
+    },
+
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
       options: {
-        custom: {
-          families: ['Roboto', 'Space-mono'],
-          urls: ["../fonts/fonts.scss"]
-        }
-      }
-    },*/
+        name: `data`,
+        path: `${__dirname}/src/data`,
+      },
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+    name: `images`,
+    path: `${__dirname}/src/images`,
+  },}
   ],
 }

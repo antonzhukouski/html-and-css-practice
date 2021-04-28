@@ -1,0 +1,52 @@
+.speakers-block {
+  margin-top: 154px;
+  color: $col2;
+  margin-left: 9%;
+  margin-right: 9%;
+  display: flex;
+  font-family: $font2;
+  justify-content: space-between;
+  @media (max-width: 850px) {
+    display: inline-block;
+  }
+  .speaker-block {
+    &__photo {
+      text-align: center;
+      @media (min-width: 1550px) {
+        width: 200px;
+      }
+      @media (min-width: 1200px) and (max-width: 1549px) {
+        width: 200px;
+      }
+      @media (min-width: 875px) and (max-width: 1199px) {
+        width: 170px;
+        height: 170px;
+      }
+      @media (max-width: 874px) {
+        width: auto;
+        height: auto;
+      }
+    }
+  
+
+  &__photo img {
+    @media (min-width: 875px) and (max-width: 1199px) {
+      width: 100%;
+      height: 100%;
+    }
+    @media (max-width: 874px) {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  &__name {
+    width: 100%;
+    text-align: center;
+    @media (min-width: 1550px) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+}

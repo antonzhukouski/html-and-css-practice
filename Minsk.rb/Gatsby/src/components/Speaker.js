@@ -1,17 +1,34 @@
 import React from 'react'
+import {graphql, useStaticQuery} from 'gatsby'
 
-class Speaker extends React.Component {
-  render () {
-    return (
-      <div className = 'speaker'>
-        <div className = 'speaker__photo'> {this.props.photo} </div>
-        <div className = 'speaker__text'>
-          <div className = 'speaker__text-name'> {this.props.name} </div>
-          <div className = 'speaker__text-theme'> {this.props.theme} </div>
-        </div>
-      </div>
-    )
+export default function SpeakersPhoto() {
+  const data = useStaticQuery(graphql`
+  {
+    allEventListJson {
+      edges {
+        node {
+          speakers{
+            speaker
+            speakerPhoto
+          }
+        }
+      }
+    }
   }
-}
+  `)
 
-export default Speaker;
+  return data.allEventListJson.edges.map(({node}) => {
+    const {speakers} = node;
+    return <div className = 'speakers-block' key = {speakers}>
+      {speakers.map (item => <div className='speaker-block' key = {item.speaker}>
+        <div className = 'speaker-block__photo'>
+          <img src = {item.speakerPhoto} alt = ''/>
+        </div>
+        <div className = 'speaker-block__name'>
+          {item.speaker}
+        </div>
+      </div>)}
+    </div>
+  })
+  
+}

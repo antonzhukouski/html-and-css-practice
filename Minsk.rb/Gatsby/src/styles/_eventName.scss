@@ -1,0 +1,23 @@
+.eventName {
+  font-family: $font2;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 145px;
+  color: $col2;
+  @media (min-width: 1550px) {
+    font-size: 100px;
+    margin-left: 172px;
+  }
+  @media (min-width: 1200px) and (max-width: 1549px) {
+    font-size: 100px;
+    margin-left: 9%;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    font-size: 70px;
+    margin-left: 9%;
+  }
+  @media (max-width: 874px) {
+    font-size: 50px;
+    margin-left: 1%;
+  }
+}

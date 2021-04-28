@@ -24,8 +24,8 @@ class TabLinks extends Component {
 
     return (
       <div
-        role = 'button' // for 'Visible, non-interactive elements with click handlers must have at least one keyboard listener.'
-        tabindex = '0' //Static HTML elements with event handlers require a role
+        role = 'button'
+        tabIndex = '0'
         className={className}
         onClick={onClick}
         onKeyDown={this.handleKeyDown}

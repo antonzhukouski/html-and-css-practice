@@ -1,0 +1,73 @@
+.schedule {
+  color: $col4;
+  font-family: $font2;
+  @media (min-width: 1550px) {
+    margin-left: 222px;
+  }
+  @media (min-width: 1200px) and (max-width: 1549px) {
+    margin-left: 12%;
+  }
+  @media (min-width: 875px) and (max-width: 1199px) {
+    margin-left: 12%;
+  }
+  @media (max-width: 874px) {
+    margin-left: 12%;
+  }
+  &__block {
+    text-align: left;
+    display: flex;
+    margin-top: 30px;
+    
+
+    &-time {
+      font-family: $font2;
+      font-size: 17px;
+      color: $col4;
+      margin-left: 20px;
+    }
+
+    &-event {
+      margin-left: 26px;
+      font-family: $font1;
+      color: $col4;
+      @media (min-width: 1550px) {
+        font-size: 18px;
+        line-height: 1.35;
+      }
+      @media (min-width: 1200px) and (max-width: 1549px) {
+        font-size: 18px;
+        line-height: 1.35;
+      }
+      @media (min-width: 875px) and (max-width: 1199px) {
+        font-size: 18px;
+        line-height: 1.35;
+      }
+      @media (max-width: 874px) {
+        font-size: 17px;
+        line-height: 1.3;
+      }
+    }
+
+    &-speaker {
+      color: $col4;
+      padding-left: 26px;
+      font-family: $font1;
+      @media (min-width: 1550px) {
+        font-size: 18px;
+        line-height: 1.35;
+      }
+      @media (min-width: 1200px) and (max-width: 1549px) {
+        font-size: 18px;
+        line-height: 1.35;
+      }
+      @media (min-width: 875px) and (max-width: 1199px) {
+        font-size: 18px;
+        line-height: 1.35;
+      }
+      @media (max-width: 874px) {
+        font-size: 17px;
+        line-height: 1.3;
+      }
+    }
+  }
+}
