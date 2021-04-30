@@ -1,14 +1,14 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import Index_Content from '../components/Index_Content'
 import Menu from '../components/Menu'
+import Posts_Content from '../components/Posts_Content'
 
 export default function Index() {
   return <div>
     <Header />
     <Menu />
-    <Index_Content />
+    <Posts_Content />
     <Footer />
   </div>
 }
